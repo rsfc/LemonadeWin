@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SystemConfig>
+  <!--街景电影文件的根目录-->
+  <MovieStoreDictionary>H:\DataCenter\数据\exgis\给娄总测试数据\MOVIE\Movie\</MovieStoreDictionary>
+  <!--街景行驶路线图层的别名-->
+  <MoviePathLayerCaption>街景行驶路线_L@ExGIS_210203</MoviePathLayerCaption>
+  <LayerCaption_BXST>标面_EDIT@ExGIS_210203</LayerCaption_BXST>
+  <LayerCaption_BZST>标志线@Traffic</LayerCaption_BZST>
+  <LayerCaption_HLDD>红绿灯点@Traffic</LayerCaption_HLDD>
+  <LayerCaption_HLDX>红绿灯线@Traffic</LayerCaption_HLDX>
+  <LayerCaption_JKX>监控线@Traffic</LayerCaption_JKX>
+  <LayerCaption_BUSStation>公交站点@Traffic</LayerCaption_BUSStation>
+  <LayerCaption_BUSLine>公交线路@Traffic</LayerCaption_BUSLine>
+  <LayerCaption_LDM>路段面@Traffic</LayerCaption_LDM>
+  <LayerCaption_LKM>路口面@Traffic</LayerCaption_LKM>
+  <LayerCaption_XZQH>行政区划@Traffic</LayerCaption_XZQH>
+  <LayerCaption_JJXQ>交警辖区@Traffic</LayerCaption_JJXQ>
+  <LayerCaption_RoadEdge>路网_Net@ExGIS_210203</LayerCaption_RoadEdge>
+  <LayerCaption_RoadNode>路网_Net_Node@ExGIS_210203</LayerCaption_RoadNode>
+  <LayerCaption_TimeWarning>预警专题图</LayerCaption_TimeWarning>
+  <LayerCaption_POI>POI_P@Traffic</LayerCaption_POI>
+  <WorkSpacePath>D:\大连交警\应用系统\TPSystemv0.1\exgis.smwu</WorkSpacePath>
+  <MainMapName>地图</MainMapName>
+</SystemConfig>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LayoutSplitBConfig>
+  <LayoutRegion>
+      <SplitRegion>
+          <FormClassName>
+            <string>Lemonade.Samples.NewModuleMutual.FrmStyleTest1</string>
+            <string>Lemonade.Samples.NewModuleMutual.FrmStyleTest11</string>
+          </FormClassName>
+          <SplitPanelIndex>1</SplitPanelIndex>
+          <Width>900</Width>
+          <Height>500</Height> 
+      </SplitRegion>
+      <SplitRegion>
+          <FormClassName>
+            <string>Lemonade.Samples.NewModuleMutual.FrmStyleTest2</string>
+          </FormClassName>
+          <SplitPanelIndex>2</SplitPanelIndex>
+          <Width>900</Width>
+          <Height>500</Height>
+      </SplitRegion>
+      <SplitRegion>
+          <FormClassName>
+            <string>Lemonade.Samples.NewModuleMutual.FrmStyleTest3</string>
+          </FormClassName>
+          <SplitPanelIndex>3</SplitPanelIndex>
+          <Width>300</Width>
+          <Height>300</Height>
+      </SplitRegion>
+      <SplitRegion>
+          <FormClassName>
+            <string>Lemonade.Samples.NewModuleMutual.FrmStyleTest4</string>
+          </FormClassName>
+          <SplitPanelIndex>4</SplitPanelIndex>
+          <Width>300</Width>
+          <Height>300</Height> 
+      </SplitRegion>
+ </LayoutRegion>
+</LayoutSplitBConfig>

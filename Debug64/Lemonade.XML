@@ -1,0 +1,650 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Daemon.FrmMain">
+            <summary>
+            主窗体
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain.loadMsgerTable">
+            <summary>
+            加载模块消息处理对象表
+            </summary>
+        </member>
+        <member name="E:Lemonade.Daemon.FrmMain.Prepose">
+            <summary>
+            前置处理事件
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain.waitingobj">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            这里需要释放所有对象
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_Shown(System.Object,System.EventArgs)">
+            <summary>
+            窗体打开后
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.SetActive">
+            <summary>
+            设置前置后置动作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.LoadToolStrip">
+            <summary>
+            添加工具栏   
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.LoadMenu">
+            <summary>
+            加载菜单
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.AddMenuControl(Lemonade.Frame.Menu.MenuFactory)">
+            <summary>
+            菜单添加到窗体
+            </summary>
+            <param name="Fac"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.BeginModule">
+            <summary>
+            开始的模块
+            这里需要重写
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.SkinManager">
+            <summary>
+            皮肤管理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.AddToolStrip(System.Windows.Forms.ToolStrip)">
+            <summary>
+            
+            </summary>
+            <param name="NewToolStrip"></param>
+        </member>
+        <member name="P:Lemonade.Daemon.FrmMain.Envir">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.FrmMain.WatingProgram">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.StartProcess">
+            <summary>
+            开始处理程序
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Finish">
+            <summary>
+            完成加载
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Notify(System.Object)">
+            <summary>
+            通知对象
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.Frm_Welcome">
+            <summary>
+            欢迎界面
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.Frm_Welcome.starup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.Frm_Welcome.IsSsable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.Notify(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.Complete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.ShowMainActive">
+            <summary>
+            显示主窗体动作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.CloseActive">
+            <summary>
+            关闭欢迎窗体动作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.#ctor(Lemonade.Daemon.Turbo.IStartUp)">
+            <summary>
+            
+            </summary>
+            <param name="StartUpObj"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.Frm_Welcome_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Lemonade.Daemon.Frm_Welcome.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.RoundOff">
+            <summary>
+            扫尾操作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.#ctor(Lemonade.Frame.IMainForm)">
+            <summary>
+            当前主窗体的扫尾接口
+            </summary>
+            <param name="MainForm"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.SetCloseing">
+            <summary>
+            设置关闭系统功能
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.mf_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.RunningOpration">
+            <summary>
+            运行操作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.AddOpration(Lemonade.Frame.Running.RoundOpration)">
+            <summary>
+            添加操作
+            </summary>
+            <param name="Opration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Daemon.RoundOff.SystemExit">
+            <summary>
+            退出系统
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.MsgBuss.FrmMessagePanel">
+            <summary>
+            消息窗口
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.#ctor">
+            <summary>
+            消息窗口
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.DisplayChars(System.String)">
+            <summary>
+            添加
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.ClearChars(System.String)">
+            <summary>
+            清空
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.Initialize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.RunCache">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.MsgBuss.FrmMessagePanel.MainForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.AddSwapping">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.MsgBuss.FrmMessagePanel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.FrmMessagePanel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.MsgBuss.ProcessorCloseWaitWindow">
+            <summary>
+             Lemonade消息总线的消息处理器--当出现错误异常消息时关闭等待界面
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorCloseWaitWindow.#ctor(Lemonade.Frame.IMainForm)">
+            <summary>
+             Lemon消息总线的消息处理器--当出现错误异常消息时关闭等待界面
+            </summary> 
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorCloseWaitWindow.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Lemonade.Daemon.MsgBuss.ProcessorShow">
+            <summary>
+             Lemonade消息总线的消息处理器--当出现错误异常消息是显示提示框
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorShow.#ctor">
+            <summary>
+            Lemon消息总线的消息处理器--当出现错误异常消息是显示提示框
+            </summary> 
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorShow.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Lemonade.Daemon.MsgBuss.ProcessorWelcome">
+            <summary>
+             Lemonade消息总线的消息处理器--欢迎界面的消息提示仅提示pt框架级别类型的提示
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorWelcome.#ctor(Lemonade.Frame.IMainForm)">
+            <summary>
+            Lemon消息总线的消息处理器--欢迎界面的消息提示仅提示pt框架级别类型的提示
+            </summary> 
+        </member>
+        <member name="M:Lemonade.Daemon.MsgBuss.ProcessorWelcome.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Lemonade.Daemon.Skins.Skin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Skins.Skin.#ctor(Lemonade.Daemon.FrmMain)">
+            <summary>
+            
+            </summary>
+            <param name="FrmMain"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Skins.Skin.SkinCount">
+            <summary>
+            皮肤数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Daemon.Skins.Skin.SetSkin(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Index"></param>
+        </member>
+        <member name="T:Lemonade.Daemon.Turbo.IStartUp">
+            <summary>
+             系统启动接口
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.IStartUp.DisplayFrm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.IStartUp.Regedit">
+            <summary>
+            实例化并注册对象
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.IStartUp.ShowDisplay">
+            <summary>
+            显示展示窗体
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.IStartUp.Processing">
+            <summary>
+            处理过程
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.Turbo.ToolStripBoot">
+            <summary>
+            工具栏处理程序 未完成
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.ToolStripBoot.Startup">
+            <summary>
+            系统启动处理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.ToolStripBoot.SetPreEvent(Lemonade.Frame.Running.IExtendApp)">
+            <summary>
+            
+            </summary>
+            <param name="Papp"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.ToolStripBoot.SetSwap(Lemonade.Frame.Running.IExtendApp)">
+            <summary>
+            设置模块功能
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.Turbo.PreposeBoot">
+            <summary>
+            前置处理程序
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.PreposeBoot.Startup">
+            <summary>
+            系统启动处理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.PreposeBoot.#ctor(Lemonade.Daemon.Turbo.IStartUp)">
+            <summary>
+            
+            </summary>
+            <param name="StartUpObj"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.PreposeBoot.Configure">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.Turbo.StartUp">
+            <summary>
+            系统启动入口,该类应该在Frame中，自动创建相关对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.StartUp.SysConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.ShowDisplay">
+            <summary>
+            显示
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.Regedit">
+            <summary>
+            实例化并注册对象
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.Processing">
+            <summary>
+            处理过程 
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.AddMessageBus">
+            <summary>
+            设置框架内置消息总线，目前暂时不分离出去
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.RemoveMessageBus">
+            <summary>
+            设置框架内置消息总线，目前暂时不分离出去
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.DeployConfig">
+            <summary>
+            创建系统配置
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.Prepose">
+            <summary>
+            前置处理
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Turbo.StartUp.ThreadLoad">
+            <summary>
+            加载过程
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.ActiveWaiting">
+            <summary>
+            等待动作
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.ActiveWaitingClose">
+            <summary>
+            
+            </summary>
+            <param name="Form"></param>
+        </member>
+        <member name="T:Lemonade.Daemon.FrmWaiting">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.SetContent(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.ThisClose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.CloseObj">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.OpenObj(Lemonade.Daemon.FrmWaiting)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.ThisOpen">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmWaiting.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmWaiting.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.WaitingProgram">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.WaitingProgram.content">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.WaitingProgram.waitingForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.WaitingProgram.MainForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.WaitingProgram.mainThread">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.WaitingProgram.newThrd">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.#ctor(Lemonade.Frame.IMainForm)">
+            <summary>
+            
+            </summary>
+            <param name="MainForm"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.SetContent(System.String)">
+            <summary>
+            设置内容
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.ShowDialog">
+            <summary>
+            显示
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.CloseDialog">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.SetForm(Lemonade.Frame.UI.IWaitionForm)">
+            <summary>
+            设置窗体
+            </summary>
+            <param name="WaitingForm"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.CreateForm">
+            <summary>
+            创建等待窗体
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.Show">
+            <summary>
+            显示处理方法
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.ShowProcess">
+            <summary>
+            显示处理过程
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.WaitingProgram.SetChild">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.Daemon.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

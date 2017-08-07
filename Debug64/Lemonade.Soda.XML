@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Soda</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Action.Action">
+            <summary>
+            动作实现
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.Action.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.Action.processor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.Action.performer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.Action.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.Action.invokobject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.Action.#ctor(System.Object,System.String,Lemonade.Frame.Running.ActionType,System.Delegate,Lemonade.Frame.ActionPerformer)">
+            <summary>
+            
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="Name"></param>
+            <param name="Type"></param>
+            <param name="Processor"></param>
+            <param name="Performer"></param>
+        </member>
+        <member name="P:Lemonade.Action.Action.ActionName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.Action.InvokeProcessor">
+            <summary>
+            调用者处理器
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.Action.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.Action.InvokeObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.Action.Performer">
+            <summary>
+            解除处理器
+            </summary>
+        </member>
+        <member name="T:Lemonade.Action.ActionManager">
+            <summary>
+            动作管理器
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.ActionManager.contexttemplates">
+            <summary>
+            上下文模板集合
+            </summary>
+        </member>
+        <member name="F:Lemonade.Action.ActionManager.contexts">
+            <summary>
+            上下文实例集合
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.HasAction(System.String,Lemonade.Frame.Running.ActionType,System.Object,System.Delegate,Lemonade.Frame.ActionPerformer)">
+            <summary>
+            
+            </summary>
+            <param name="ActionName"></param>
+            <param name="Type"></param>
+            <param name="InvokeObject"></param>
+            <param name="InvokeProcessor"></param>
+            <param name="Performer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.GetActionCount(System.Object)">
+            <summary>
+             获取指定调用者的动作数量
+            </summary>
+            <param name="InvokeObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.CreateAction(System.String,Lemonade.Frame.Running.ActionType,System.Object,System.Delegate,Lemonade.Frame.ActionPerformer)">
+            <summary>
+            创建动作
+            </summary>
+            <param name="ActionName">动作名称</param>
+            <param name="Type">动作类型</param>
+            <param name="InvokeObject">调用的对象</param>
+            <param name="InvokeProcessor">对象处理者委托</param>
+            <param name="Performer">注销动作时的回调函数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.MatcherContextTemplate(Lemonade.Frame.Running.IAction)">
+            <summary>
+            从模版中查找匹配的上下文对象实例,创建运行上下文
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.MatcherContext(Lemonade.Frame.Running.IAction)">
+            <summary>
+            从已经运行的上下文中查找匹配的上下文对象实例
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.LoadActionsContext">
+            <summary>
+            加载动作上下文处理器到模板
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.ActionActivate(System.Object)">
+            <summary>
+            激活动作
+            </summary>
+            <param name="InvokeObject"></param>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.RemoveAll(System.Object)">
+            <summary>
+            移除全部动作
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="ActionName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.Remove(System.Object,System.String)">
+            <summary>
+            移除指定名称的所有类型的动作
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="ActionName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.Remove(System.Object,System.String,Lemonade.Frame.Running.ActionType)">
+            <summary>
+            移除指定类型的动作
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="ActionName"></param>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.ActionManager.Remove(System.Object,System.String,System.Delegate)">
+            <summary>
+            
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="ActionName"></param>
+            <param name="InvokeProcessor"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Menus.FramDbInfo">
+             <summary>
+            框架数据库信息
+             </summary>
+        </member>
+        <member name="M:Lemonade.Menus.FramDbInfo.#ctor">
+            <summary>
+            框架数据库信息
+            </summary>
+        </member>
+        <member name="M:Lemonade.Menus.FramDbInfo.GetConnectString">
+            <summary>
+            获取连接字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Menus.MenuItemsForXml">
+            <summary>
+            从xml创建菜单,直接从xml创建菜单
+            (该类直接从固定路径的xml读取菜单，绕过了框架IManager接口的各项操作。
+            现在正常的做法应该是使用MenuItemsForDataBase然后在数据库对象关系映射机制中使用xml作为数据库读取
+            但是该类能够快速的实现无关数据库的菜单存取功能)
+            </summary>
+        </member>
+        <member name="F:Lemonade.Menus.MenuItemsForXml.xmlfilepath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Menus.MenuItemsForXml.items">
+            <summary>
+            菜单项
+            </summary>
+        </member>
+        <member name="P:Lemonade.Menus.MenuItemsForXml.Eventbinder">
+            <summary>
+            事件绑定
+            </summary>
+        </member>
+        <member name="P:Lemonade.Menus.MenuItemsForXml.Mainform">
+            <summary>
+            主窗体
+            </summary>
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.#ctor(Lemonade.Frame.Menu.IEventBinder,Lemonade.Frame.IMainForm)">
+            <summary>
+            从xml创建菜单
+            </summary>
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateMenuItems">
+            <summary>
+            创建菜单项目集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateItem(System.Data.DataRowView)">
+            <summary>
+            创建菜单项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateMenu">
+            <summary>  
+            动态创建菜单  
+            </summary>  
+        </member>
+        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateSubMenu(Lemonade.Frame.Menu.PtMenuItem,System.Data.DataTable)">
+            <summary>  
+            创建子菜单  
+            </summary>  
+        </member>
+        <member name="T:Lemonade.ModuleHandle.ContainerMaintain">
+            <summary>
+            模块集合维持功能
+            </summary>
+        </member>
+        <member name="F:Lemonade.ModuleHandle.ContainerMaintain.mc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ContainerMaintain.#ctor(Lemonade.ModuleHandle.ModuleContainer)">
+            <summary>
+            
+            </summary>
+            <param name="MContainer"></param>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ContainerMaintain.Compressor">
+            <summary>
+            紧缩
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ContainerMaintain.CompressorNull">
+            <summary>
+            释放null对象
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ContainerMaintain.CompressorDisposed">
+            <summary>
+            释放窗口对象已经释放的
+            </summary>
+        </member>
+        <member name="T:Lemonade.ModuleHandle.ModuleContainer">
+            <summary>
+            模块容器 用于存放模块的实例
+            </summary>
+        </member>
+        <member name="F:Lemonade.ModuleHandle.ModuleContainer.infoList">
+            <summary>
+            模块信息容器
+            </summary>
+        </member>
+        <member name="F:Lemonade.ModuleHandle.ModuleContainer.moduleList">
+            <summary>
+            实例存放容器
+            </summary>
+        </member>
+        <member name="P:Lemonade.ModuleHandle.ModuleContainer.ModuleInfos">
+            <summary>
+            当前框架加载的所有插件信息
+            </summary>
+        </member>
+        <member name="P:Lemonade.ModuleHandle.ModuleContainer.RunningModuleCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.RemoveModule(Lemonade.Frame.IModule)">
+            <summary>
+            移除模块
+            </summary>
+        </member>
+        <member name="P:Lemonade.ModuleHandle.ModuleContainer.RunningModuleFullClassName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ModuleHandle.ModuleContainer.getRunningModuleAlias">
+            <summary>
+            获取运行的模块别名
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.#ctor">
+            <summary>
+            模块容器
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.GetRunningModule(System.String)">
+            <summary>
+            获取运行的模块，如果没有返回null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.GetModuleInfo(System.String)">
+            <summary>
+            获取模块信息，如果不存在返回null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.CheckinInfo(System.String,System.String)">
+            <summary>
+            登记模块信息，先查找是否已经存在模块信息，如果不存在则创建新的模块信息
+            </summary>
+            <param name="AssemblyPath"></param>
+            <param name="FullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.SearchAllModuleAssembly">
+            <summary>
+            搜索所有模块程序集
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.CheckinModule(Lemonade.Frame.Module.ModuleInfo,System.Object[])">
+            <summary>
+            登记模块，创建新的模块实例
+            </summary>
+            <param name="Info"></param>
+            <param name="Parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleContainer.CheckoutModule(Lemonade.Frame.Module.ModuleInfo)">
+            <summary>
+            移除模块实例登记记录
+            </summary>
+            <param name="Info"></param>
+        </member>
+        <member name="T:Lemonade.ModuleHandle.ModuleManager">
+            <summary>
+            模块管理器实现
+            </summary>
+        </member>
+        <member name="F:Lemonade.ModuleHandle.ModuleManager.Container">
+            <summary>
+            容器
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.FindRunningModule(System.String)">
+            <summary>
+             查找正在运行的模块
+            </summary>
+            <param name="FullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.LaunchModule(System.String,System.Object[])">
+            <summary>
+            运行模块
+            </summary> 
+            <param name="FullClassName"></param>
+            <param name="Parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.RunningModuleCount">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.RunningModuleFullClassName">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ModuleHandle.ModuleManager.TurnOffModule(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="FullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Lemonade.ModuleHandle.ModuleManager.ModuleInfos">
+            <summary>
+            所有的插件信息
+            </summary>
+        </member>
+        <member name="T:Lemonade.Skills.CheckSkill">
+            <summary>
+            检查技能功能
+            </summary>
+        </member>
+        <member name="P:Lemonade.Skills.CheckSkill.Skill">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Skills.CheckSkill.timer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Skills.CheckSkill.GetTimer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Skills.CheckSkill.#ctor(Lemonade.Frame.Solon.INazgulSkill)">
+            <summary>
+            
+            </summary>
+            <param name="Skill"></param>
+        </member>
+        <member name="M:Lemonade.Skills.CheckSkill.Pass(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Lemonade.Nazgul.Nzagul">
+            <summary>
+            戒灵
+            </summary>
+        </member>
+        <member name="F:Lemonade.Nazgul.Nzagul.timers">
+            <summary>
+            时钟列表
+            </summary>
+        </member>
+        <member name="F:Lemonade.Nazgul.Nzagul.skills">
+            <summary>
+            技能列表
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.LoadNazgulSkill">
+            <summary>
+            加载戒灵技能
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.Nzagul.SkillCount">
+            <summary>
+            技能数量
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.UseAllSkill">
+            <summary>
+            使用技能
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.Scream(Lemonade.Frame.Solon.INazgulSkill)">
+            <summary>
+            尖啸
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.Nzagul.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.ShutDown(System.Int32)">
+            <summary>
+            停止
+            </summary>
+            <param name="Index"></param>
+        </member>
+        <member name="M:Lemonade.Nazgul.Nzagul.StartUp(System.Int32)">
+            <summary>
+            开启
+            </summary>
+            <param name="Index"></param>
+        </member>
+        <member name="T:Lemonade.Nazgul.Summon">
+            <summary>
+            召唤
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.Summon.RingtoWear">
+            <summary>
+            戴上戒指
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Running.Rules">
+            <summary>
+            规则实现
+            </summary>
+        </member>
+        <member name="M:Lemonade.Running.Rules.IsEnabledModule(Lemonade.Frame.IModule)">
+            <summary>
+            
+            </summary>
+            <param name="Module"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Running.Rules.IsVisibleMenuItem(Lemonade.Frame.Menu.IMenuItem)">
+            <summary>
+            
+            </summary>
+            <param name="Item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Running.Rules.IsVisibleToolButton(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Running.Rules.IsVisibleToolbar(Lemonade.Frame.Tools.IToolsBar)">
+            <summary>
+            
+            </summary>
+            <param name="Bar"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Styles.LayoutManager">
+            <summary>
+            ui管理器
+            </summary>
+        </member>
+        <member name="F:Lemonade.Styles.LayoutManager.currentLayoutName">
+            <summary>
+            当前布局名称
+            </summary>
+        </member>
+        <member name="F:Lemonade.Styles.LayoutManager.layouts">
+            <summary>
+            布局集合
+            </summary>
+        </member>
+        <member name="F:Lemonade.Styles.LayoutManager.winstyles">
+            <summary>
+            窗体样式设置器，这是设置器不是具体样式
+            </summary>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.#ctor">
+            <summary>
+             ui管理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.GetLayout(System.String)">
+            <summary>
+             获取指定名称的布局
+            </summary>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.LocaStyle">
+            <summary>
+            搜索所有模块程序集
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Lemonade.Styles.LayoutManager.LayoutDesignCount">
+            <summary>
+            获取布局设计数量
+            </summary>
+        </member>
+        <member name="P:Lemonade.Styles.LayoutManager.WindowStyleCount">
+            <summary>
+            获取窗体设计数量
+            </summary>
+        </member>
+        <member name="P:Lemonade.Styles.LayoutManager.LayoutNames">
+            <summary>
+            获取布局设计器名称列表
+            </summary>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.SetLayout(System.String)">
+            <summary>
+            设置布局
+            </summary>
+            <param name="LayoutName"></param>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.SetWinStyle(System.Windows.Forms.Form)">
+            <summary>
+            设置窗体样式
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.SetLayoutWindow(System.Windows.Forms.Form)">
+            <summary>
+            设置窗体样式,对参数传递的窗体是用所有的窗体设置器进行设置
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.GetStyleParameter(System.String)">
+            <summary>
+            获取样式参数
+            </summary>
+            <param name="WindowClassFullName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Lemonade.Styles.LayoutManager.CurrentLayoutName">
+            <summary>
+            当前界面布局名称
+            </summary>
+        </member>
+        <member name="M:Lemonade.Styles.LayoutManager.CancelLayout">
+            <summary>
+            取消当前布局
+            </summary>
+        </member>
+        <member name="P:Lemonade.Styles.LayoutManager.GetControlleds">
+            <summary>
+            获取当前布局所有受控窗体的名称
+            </summary>
+        </member>
+        <member name="T:Lemonade.Swap.Pool">
+            <summary>
+            池对象实现
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.#ctor">
+            <summary>
+            池对象
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.CurrentMaxIndex">
+            <summary>
+            当前最大索引
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.AddSwapping(Lemonade.Frame.Swapping.ISwap)">
+            <summary>
+            添加交换对象
+            </summary> 
+            <param name="Swap"></param>
+        </member>
+        <member name="P:Lemonade.Swap.Pool.SwappingCount">
+            <summary>
+            数据交换对象总数
+            </summary>
+        </member>
+        <member name="P:Lemonade.Swap.Pool.Item(System.Int32)">
+            <summary>
+            获取指定索引的交换对象
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.SwappingKeys(System.Int32)">
+            <summary>
+            获取关键字列表
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.HasSwap(Lemonade.Frame.Swapping.ISwap)">
+            <summary>
+            是否包含
+            </summary>
+            <param name="Swap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwap(Lemonade.Frame.Swapping.ISwapMatch)">
+            <summary>
+            查找数据交换对象
+            </summary>
+            <param name="Match"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwaps(Lemonade.Frame.Swapping.ISwapMatch)">
+            <summary>
+            查找数据交换对象多个
+            </summary>
+            <param name="Match"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwap(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="ObjectType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwaps(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ObjectFullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwap(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ObjectFullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwap(System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="Keys"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.FindSwaps(System.Collections.Generic.List{System.Object})">
+            <summary>
+            
+            </summary>
+            <param name="Keys"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.CreateSwap(System.Object)">
+            <summary>
+            创建数据交换对象
+            </summary>
+            <param name="Obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.CreateSwap(System.Object,System.Boolean)">
+            <summary>
+            创建数据交换对象
+            </summary>
+            <param name="Obj"></param>
+            <param name="PropertyToKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Swap.Pool.CreateSwap(System.Object,System.Collections.Generic.List{System.Object})">
+            <summary>
+            创建数据交换对象
+            </summary>
+            <param name="Obj"></param>
+            <param name="CustomKey"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Swap.Swap">
+            <summary>
+            交换对象
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.Swap.#ctor(System.Boolean)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Swap.Swap.CustomKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Swap.Swap.Index">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Swap.Swap.PackageObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Swap.Swap.ThisType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.Swap.SwapMatchFullClassName">
+            <summary>
+            类全名匹配器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchFullClassName.#ctor(System.String)">
+            <summary>
+            类型匹配器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchFullClassName.IsSwap(Lemonade.Frame.Swapping.ISwap)">
+            <summary>
+            判断是否是参数输入的交换对象
+            </summary>
+            <param name="Swap"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Swap.SwapMatchKeys">
+            <summary>
+            类型匹配器，匹配关键字
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchKeys.#ctor(System.Collections.Generic.List{System.Object})">
+            <summary>
+            类型匹配器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchKeys.IsSwap(Lemonade.Frame.Swapping.ISwap)">
+            <summary>
+            判断是否是参数输入的交换对象
+            </summary>
+            <param name="Swap"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Swap.SwapMatchType">
+            <summary>
+            类型匹配器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchType.#ctor(System.Type)">
+            <summary>
+            类型匹配器
+            </summary>
+        </member>
+        <member name="M:Lemonade.Swap.SwapMatchType.IsSwap(Lemonade.Frame.Swapping.ISwap)">
+            <summary>
+            判断是否是参数输入的交换对象
+            </summary>
+            <param name="Swap"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.SystemException.AutomaticRecording">
+            <summary>
+            自动记录
+            </summary>
+        </member>
+        <member name="M:Lemonade.SystemException.AutomaticRecording.#ctor(Lemonade.SystemException.ExceptionDefine)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.SystemException.AutomaticRecording.IsUse(Lemonade.Frame.Message.MsgType)">
+            <summary>
+            
+            </summary>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.SystemException.AutomaticRecording.Process(System.Object,System.DateTime)">
+            <summary>
+            记录
+            </summary>
+            <param name="Msg"></param>
+        </member>
+        <member name="M:Lemonade.SystemException.AutomaticRecording.CheckString(System.String)">
+            <summary>
+            检查字符串
+            </summary>
+            <param name="Msg"></param>
+        </member>
+        <member name="T:Lemonade.SystemException.CustomException">
+            <summary>
+            自定义异常数据
+            </summary>
+        </member>
+        <member name="P:Lemonade.SystemException.CustomException.Title">
+            <summary>
+            友好提示
+            </summary>
+        </member>
+        <member name="P:Lemonade.SystemException.CustomException.Value">
+            <summary>
+            异常值，通常使用异常的提示信息
+            </summary>
+        </member>
+        <member name="T:Lemonade.SystemException.ExceptionDefine">
+            <summary>
+            异常定义
+            </summary>
+        </member>
+        <member name="P:Lemonade.SystemException.ExceptionDefine.ExList">
+            <summary>
+            自定义异常列表
+            </summary>
+        </member>
+        <member name="T:Lemonade.SystemException.SystemExceptionDefine">
+            <summary>
+            异常记录
+            </summary>
+        </member>
+        <member name="M:Lemonade.SystemException.SystemExceptionDefine.Initialize">
+            <summary>
+            初始化，加载已经有的自定义异常定义数据列表
+            </summary>
+        </member>
+        <member name="M:Lemonade.SystemException.SystemExceptionDefine.AddProcess">
+            <summary>
+            添加处理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.SystemException.SystemExceptionDefine.GetCustomException(System.String)">
+            <summary>
+            获取
+            </summary>
+            <param name="SourceException"></param>
+        </member>
+        <member name="T:Lemonade.ToolBar.TBar">
+            <summary>
+            工具栏对象数据对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.TBar.ParentFormName">
+            <summary>
+            父窗体名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.TBar.ToolsBarName">
+            <summary>
+            工具栏名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.TBar.ToolsBarCode">
+            <summary>
+            工具栏编码
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Datas.TButton">
+            <summary>
+            工具栏按钮数据对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.ToolsBarCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.GroupName">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.ItemImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.ItemIndex">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.Assembly">
+            <summary>
+            按钮事件程序集路径
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TButton.FullClassName">
+            <summary>
+            按钮事件执行类全名
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Datas.TSeparator">
+            <summary>
+            工具栏分隔符数据对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TSeparator.GroupName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TSeparator.ItemIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TSeparator.ToolsBarCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Datas.TComboBox">
+            <summary>
+            工具栏下拉框数据对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.ToolsBarCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.GroupName">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.ItemIndex">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.Items">
+            <summary>
+            下拉框中的项列表
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.Assembly">
+            <summary>
+            程序集
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBox.FullClassName">
+            <summary>
+            类全名
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Datas.TComboBoxItem">
+            <summary>
+            工具栏下拉框数据对象项
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBoxItem.Assembly">
+            <summary>
+            程序集
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBoxItem.FullClassName">
+            <summary>
+            类全名
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBoxItem.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Datas.TComboBoxItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.GroupButtonEnabled">
+            <summary>
+            分组按钮是否可以使用
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.GroupButtonEnabled.SetButtionCheck(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Btn"></param>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsComboBox">
+            <summary>
+            工具栏下拉框
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsComboBox.Items">
+            <summary>
+            下拉框中的项列表
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsButton">
+            <summary>
+            工具栏按钮
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.ToolsBarCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.GroupName">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.ItemImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.ItemIndex">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.AssemblyPath">
+            <summary>
+            按钮事件程序集路径
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.FullClassName">
+            <summary>
+            按钮事件执行类全名
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.HostObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsButton.UIElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsComboBoxItem">
+            <summary>
+            下拉框项类
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsComboBoxItem.ItemData">
+            <summary>
+            项的数据
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsComboBoxItem.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsItemProcess">
+            <summary>
+            项创建处理器,用于创建微软的控件
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsItemProcess.NextProcess">
+            <summary>
+            设置下一个处理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcess.BuildItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcess.IsType(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="ItemObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcess.CreateItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsItemProcessButton">
+            <summary>
+            按钮项
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessButton.IsType(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessButton.CreateItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+             这里判断是否为ui元素 不是则不予创建
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessButton.BindClickEvent(System.Object,System.EventArgs)">
+            <summary>
+            绑定到单击事件
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessButton.SetButtionCheck(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Btn"></param>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsItemProcessComboBox">
+            <summary>
+            按钮项
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessComboBox.IsType(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="ItemObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessComboBox.CreateItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            创建下拉框
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessComboBox.comboBox1_DropDownClosed(System.Object,System.EventArgs)">
+            <summary>
+            下拉框关闭的时候触发
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsItemProcessSeparator">
+            <summary>
+            分隔符项
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessSeparator.IsType(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+             
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.Items.ToolsItemProcessSeparator.CreateItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.ToolBar.Items.ToolsSeparator">
+            <summary>
+            工具栏分隔符
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.GroupName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.ItemIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.ToolsBarCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.HostObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.Items.ToolsSeparator.UIElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBar">
+            <summary>
+            工具栏对象
+            </summary>
+        </member>
+        <member name="E:Lemonade.ToolBar.ToolsBar.EventAddItem">
+            <summary>
+            添加按钮
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBar.AddItem(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            添加工具栏按钮
+            </summary>
+            <param name="Btn"></param>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.GetGroupName">
+            <summary>
+            获取分组名称
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBar.RemoveAllBtn">
+            <summary>
+            清除按钮
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.ParentFormName">
+            <summary>
+            父窗体名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.ToolsBarName">
+            <summary>
+            工具栏名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.ToolsBarCode">
+            <summary>
+            工具栏编码
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.CollectionCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBar.Item(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ColsName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBar.GetItems">
+            <summary>
+            
+            </summary> 
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarData">
+            <summary>
+            工具栏数据
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarData.Bars">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarData.Buttons">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarData.ComboBoxs">
+            <summary>
+            下拉框
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarData.Separator">
+            <summary>
+            分隔符
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarFactroy">
+            <summary>
+            工具栏工厂，用于处理创建工具栏、工具项、排序分组等逻辑，这里创建的业务上封装的对象
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarFactroy.VarGroup`1">
+            <summary>
+            用于分组的匿名类型的实体便于编码
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarFactroy.VarGroup`1.key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarFactroy.VarGroup`1.lists">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarFactroy.BarSetting">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.#ctor(Lemonade.ToolBar.ToolsBarData)">
+            <summary>
+            
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.DataConvterCtrl(Lemonade.ToolBar.ToolsBarData)">
+            <summary>
+            数据转换到控件
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.BuildToolsButton">
+            <summary>
+            构建按钮
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.SetToolsBarGroup">
+            <summary>
+            对按钮进行分栏分组，便于循环添加到对应的工具栏中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.DismantledSettingToGroup``1(System.Collections.Generic.List{``0})">
+            <summary>
+            插接设置中的每个项列表到分组
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarFactroy.SetAddGroupItems``1(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Lemonade.Frame.Tools.IToolsItem}},System.Collections.Generic.List{Lemonade.ToolBar.ToolsBarFactroy.VarGroup{``0}})">
+            <summary>
+            设置添加分组项
+            </summary>
+            <param name="Dic"></param>
+            <param name="Group"></param>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarManager">
+            <summary>
+            工具栏管理器
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarManager.SetToolsBar">
+            <summary>
+            
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="ToolStrip"></param>
+        </member>
+        <member name="F:Lemonade.ToolBar.ToolsBarManager.barsetting">
+            <summary>
+            工具栏设置
+            </summary>
+        </member>
+        <member name="F:Lemonade.ToolBar.ToolsBarManager.tiemProcess">
+            <summary>
+            工具栏构造器
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.#ctor">
+            <summary>
+            工具栏管理器
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.LoadToolsBar">
+            <summary>
+            加载工具栏
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarManager.ToolsBarCount">
+            <summary>
+            获取工具栏数量
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarManager.ToolsBarNames">
+            <summary>
+            获取工具栏名称集合
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarManager.ParentFormNames">
+            <summary>
+            工具栏所属窗体集合
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarManager.Item(System.Int32)">
+            <summary>
+            获取指定索引的工具栏对象
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.CreateToolsBarToForm(System.Windows.Forms.Form)">
+            <summary>
+            根据窗体名称创建工具栏
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.Strip_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.AddControl(System.Windows.Forms.Form,System.Windows.Forms.ToolStrip)">
+            <summary>
+            添加到窗体中,判断控件的索引
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="Strip"></param>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.CreateToolsBar(System.Windows.Forms.Form)">
+            <summary>
+            创建工具栏   
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.GetGroupItem(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="GroupName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarManager.GetItemAll">
+            <summary>
+            获取工具栏项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsBarSetting">
+            <summary>
+            工具栏设置
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsBarSetting.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarSetting.Bars">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarSetting.Buttons">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarSetting.ComboBoxs">
+            <summary>
+            下拉框
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsBarSetting.Separator">
+            <summary>
+            分隔符
+            </summary>
+        </member>
+        <member name="T:Lemonade.ToolBar.ToolsButtonCollection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.ToolBar.ToolsButtonCollection.AddButton(Lemonade.Frame.Tools.IToolsItem)">
+            <summary>
+            
+            </summary>
+            <param name="Button"></param>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsButtonCollection.ButtonCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsButtonCollection.CollectionName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.ToolBar.ToolsButtonCollection.Item(System.Int32)">
+            <summary>
+            根据索引获取工具栏按钮
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

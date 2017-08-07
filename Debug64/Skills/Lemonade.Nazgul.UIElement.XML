@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Nazgul.UIElement</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Nazgul.UIElement.SetElement">
+            <summary>
+            设置元素
+            </summary>
+        </member>
+        <member name="T:Lemonade.Nazgul.UIElement.SetElement.SetValue">
+            <summary>
+            设置值
+            </summary>
+            <param name="ControlObj"></param>
+            <param name="UIE"></param>
+        </member>
+        <member name="P:Lemonade.Nazgul.UIElement.SetElement.Cooldown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.UIElement.SetElement.IsContinuous">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.UIElement.SetElement.SkillName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.UIElement.SetElement.UseSkill(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Nazgul.UIElement.SetElement.SetToolItems">
+            <summary>
+            设置工具栏项
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.UIElement.SetElement.SetToolStripButtonValue(System.Object,Lemonade.Frame.UI.IUIElement)">
+            <summary>
+            设置工具栏按钮的界面元素值
+            </summary>
+            <param name="Tsb"></param>
+            <param name="UIE"></param>
+        </member>
+        <member name="M:Lemonade.Nazgul.UIElement.SetElement.SetToolStripComboBoxValue(System.Object,Lemonade.Frame.UI.IUIElement)">
+            <summary>
+            设置工具栏按钮的界面元素值
+            </summary>
+            <param name="Tsb"></param>
+            <param name="UIE"></param>
+        </member>
+    </members>
+</doc>

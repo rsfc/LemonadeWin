@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Nazgul.General</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Nazgul.General.GeneralUI">
+            <summary>
+            一个技能，这是技能的实现，在架构上与抽象解耦 
+            </summary>
+        </member>
+        <member name="F:Lemonade.Nazgul.General.GeneralUI.handle">
+            <summary>
+            已经设置过的窗体
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.General.GeneralUI.UseSkill(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.General.GeneralUI.SetWindow">
+            <summary>
+            设置窗体
+            </summary>
+        </member>
+        <member name="M:Lemonade.Nazgul.General.GeneralUI.f_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:Lemonade.Nazgul.General.GeneralUI.Cooldown">
+            <summary>
+            冷却时间
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.General.GeneralUI.IsContinuous">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Nazgul.General.GeneralUI.SkillName">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

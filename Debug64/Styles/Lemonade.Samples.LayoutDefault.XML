@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Samples.LayoutDefault</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Samples.LayoutDefault.LayoutDefault">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutDefault.LayoutDefault.Controlleds">
+            <summary>
+            该布局受控的窗体
+             
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutDefault.LayoutDefault.CreateLayout(Lemonade.Frame.IMainForm)">
+            <summary>
+            创建布局
+            </summary>
+            <param name="MainForm"></param>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutDefault.LayoutDefault.LayoutName">
+            <summary>
+            布局名称
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutDefault.LayoutDefault.SetLayoutForm(System.Windows.Forms.Form)">
+            <summary>
+            设置窗口的布局样式
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+    </members>
+</doc>

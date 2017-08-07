@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.UI.General</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.UI.General.WinMDI">
+            <summary>
+            通用的mid窗口设置  
+            </summary>
+        </member>
+        <member name="M:Lemonade.UI.General.WinMDI.IsUse(System.Windows.Forms.Form)">
+            <summary>
+            是否使用此设置器进行ui管理
+            </summary>
+            <param name="TargetForm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.UI.General.WinMDI.WinStyle(System.Windows.Forms.Form,System.Windows.Forms.Form,Lemonade.Frame.UI.ILayoutManager)">
+            <summary>
+            
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="MainForm"></param>
+        </member>
+        <member name="T:Lemonade.UI.General.WinLocation">
+            <summary>
+            窗体位置
+            </summary>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.#ctor">
+            <summary>
+            窗体位置
+            </summary>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.IsUse(System.Windows.Forms.Form)">
+            <summary>
+            是否使用此设置器进行ui管理
+            </summary>
+            <param name="TargetForm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.WinStyle(System.Windows.Forms.Form,System.Windows.Forms.Form,Lemonade.Frame.UI.ILayoutManager)">
+            <summary>
+            设置位置参数
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="MainForm"></param>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.CreateStyleXML(Lemonade.Frame.UI.StylePar)">
+            <summary>
+            创建样式xml
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.UpdataStyleXML(Lemonade.Frame.UI.StylePar)">
+            <summary>
+            更新样式文件
+            </summary>
+        </member>
+        <member name="M:Lemonade.UI.General.WinLocation.TargetForm_Move(System.Object,System.EventArgs)">
+            <summary>
+            目标窗体移动
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

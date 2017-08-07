@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Samples.LayoutSplitA</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Samples.LayoutSplitA.LayoutSplitA">
+            <summary>
+            框架布局分栏A
+            </summary>
+        </member>
+        <member name="T:Lemonade.Samples.LayoutSplitA.LayoutSplitA.ProcessCallBack">
+            <summary>
+            
+            </summary>
+            <param name="Target"></param>
+        </member>
+        <member name="F:Lemonade.Samples.LayoutSplitA.LayoutSplitA.panels">
+            <summary>
+            容器集合
+            </summary>
+        </member>
+        <member name="F:Lemonade.Samples.LayoutSplitA.LayoutSplitA.splitconts">
+            <summary>
+            分栏集合
+            </summary>
+        </member>
+        <member name="F:Lemonade.Samples.LayoutSplitA.LayoutSplitA.existForm">
+            <summary>
+            存在的窗体
+            </summary>
+        </member>
+        <member name="F:Lemonade.Samples.LayoutSplitA.LayoutSplitA.mainForm">
+            <summary>
+            主界面
+            </summary>
+        </member>
+        <member name="F:Lemonade.Samples.LayoutSplitA.LayoutSplitA.spc">
+            <summary>
+            主分栏
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.LayoutSplitA.UIConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.CreateLayout(Lemonade.Frame.IMainForm)">
+            <summary>
+            创建布局
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.LayoutSplitA_Invalidated(System.Object,System.Windows.Forms.InvalidateEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.LayoutSplitA_Resize(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetSplit1Height">
+            <summary>
+            设置高度
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.VokeSetHeight(System.Windows.Forms.Form)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.Frm_FormClosed1(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.Frm_FormClosed2(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.Frm_FormClosed3(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetChildFormClose(System.Int32,System.Windows.Forms.Form)">
+            <summary>
+            
+            </summary>
+            <param name="SplitPanelIndex"></param>
+            <param name="Frm"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.CreateSplitVertical">
+            <summary>
+            创建分栏 
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.FindOpenForm(System.Windows.Forms.Form)">
+            <summary>
+            查找打开的窗口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetCheckForm(System.Windows.Forms.Form,Lemonade.Samples.LayoutSplitA.SplitRegion,System.Collections.Generic.Dictionary{Lemonade.Samples.LayoutSplitA.SplitRegion,System.Windows.Forms.Form})">
+            <summary>
+            判断指定的窗体集合中是否包含当前参数指定的区域所赋值的窗体名称
+            </summary>
+            <param name="Region"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetLayoutForm(System.Windows.Forms.Form)">
+            <summary>
+            设置布局窗口和调整样式
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.ThePCB(System.Windows.Forms.Form)">
+            <summary>
+            设置布局窗口和调整样式
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetStyle2(Lemonade.Samples.LayoutSplitA.SplitRegion)">
+            <summary>
+            写死设置样式 完全靠配置文件调整宽度和大小
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetPanel(System.Windows.Forms.Form)">
+            <summary>
+            设置当前所有窗口的布局样式
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.frm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SetSplitterDis(System.Windows.Forms.SplitContainer,System.Int32)">
+            <summary>
+            设置分栏距离,确保不会出现异常值
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.IsSetChild(System.Windows.Forms.Panel)">
+            <summary>
+            是否存在非分栏控件的控件对象
+            </summary>
+            <param name="SplitCont"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.LayoutSplitA.LayoutName">
+            <summary>
+            布局名称
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.SaveLayout(Lemonade.Frame.IMainForm)">
+            <summary>
+            保存大小等
+            </summary>
+            <param name="MainForm"></param>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.LayoutSplitA.Controlleds">
+            <summary>
+            当前布局控制的窗体名称集合
+            </summary>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.GetNames(Lemonade.Samples.LayoutSplitA.SplitRegion)">
+            <summary>
+            
+            </summary>
+            <param name="Region"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Samples.LayoutSplitA.LayoutSplitA.CancelLayout">
+            <summary>
+            取消布局
+            </summary>
+        </member>
+        <member name="T:Lemonade.Samples.LayoutSplitA.LayoutSplitAConfig">
+            <summary>
+            编图工具配置
+            </summary>
+        </member>
+        <member name="T:Lemonade.Samples.LayoutSplitA.SplitRegion">
+            <summary>
+            分栏区域设置
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.SplitRegion.FormClassName">
+            <summary>
+            模块类名
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.SplitRegion.SplitPanelIndex">
+            <summary>
+            分栏区域索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.SplitRegion.Width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Samples.LayoutSplitA.SplitRegion.Height">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

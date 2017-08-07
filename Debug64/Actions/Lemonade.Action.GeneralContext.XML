@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lemonade.Action.GeneralContext</name>
+    </assembly>
+    <members>
+        <member name="T:Lemonade.Action.GeneralContext.EventContext">
+            <summary>
+            事件动作上下文
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.GeneralContext.EventContext.ContextProcessType">
+            <summary>
+            当前上下文处理的对象类型
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.Activate">
+            <summary>
+            激活
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.GeneralContext.EventContext.Item(System.Object,System.Int32)">
+            <summary>
+            根据指定参数获取索引指定的动作对象
+            </summary>
+            <param name="InvokeObject"></param>
+            <param name="AcIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.GetActionCount(System.Object)">
+            <summary>
+            获取动作数量
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.GeneralContext.EventContext.GetInvokeObjectCount">
+            <summary>
+            获取调用者数量
+            </summary>
+        </member>
+        <member name="P:Lemonade.Action.GeneralContext.EventContext.Item(System.Int32)">
+            <summary>
+            获取调用者对象
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.FindHandler(System.Object)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.CheckUp(System.Object)">
+            <summary>
+            登记处理者
+            </summary>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.AddAction(Lemonade.Frame.Running.IAction)">
+            <summary>
+            添加动作
+            </summary>
+            <param name="Action"></param>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.GetInvokeObjectIndex(System.Object)">
+            <summary>
+            获取参数指定的上下文的调用者索引
+            </summary>
+            <param name="InvokeObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.FindAction(Lemonade.Frame.Running.IAction)">
+            <summary>
+            查找与参数匹配的动作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.RemoveAction(Lemonade.Frame.Running.IAction)">
+            <summary>
+            移除动作
+            </summary>
+            <param name="Action"></param>
+        </member>
+        <member name="M:Lemonade.Action.GeneralContext.EventContext.IsAdapterAction(Lemonade.Frame.Running.IAction)">
+            <summary>
+            判断是否是指定动作类型的上下文
+            当前是处理事件的上下文所以这个检查是否存在这个上下文
+            </summary>
+            <param name="Action"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
