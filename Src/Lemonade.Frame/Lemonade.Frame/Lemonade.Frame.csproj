@@ -120,7 +120,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Design\CustomPermissionAttribute.cs" />
     <Compile Include="Design\CustomPermission.cs" />
     <Compile Include="GlobalFunction\Module.cs" />
