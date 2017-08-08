@@ -1,7 +1,0 @@
-F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Styles\CSF.UI.General.dll
-F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Styles\CSF.UI.General.pdb
-F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Debug\ResolveAssemblyReference.cache
-F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Debug\CSF.UI.General.dll
-F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Debug\CSF.UI.General.pdb
-F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\CSF.UI.General.dll
-F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\CSF.UI.General.pdb
