@@ -1,9 +1,0 @@
-SCC = This is a Source Code Control file
-
-[CSF.UI.General.csproj]
-SCC_Aux_Path = "F:\SourceSafe\CSF"
-SCC_Project_Name = "$/CSF.Defining.root/CSF.Defining/CSF.UI.General", ELAAAAAA
-
-[Lemonade.UI.General.csproj]
-SCC_Aux_Path = "F:\SourceSafe\Lemonade"
-SCC_Project_Name = "$/Lemonade.Defining.root/Lemonade.Defining/Lemonade.UI.General", WHAAAAAA

@@ -1,9 +1,0 @@
-SCC = This is a Source Code Control file
-
-[CSF.Nazgul.General.csproj]
-SCC_Aux_Path = "F:\SourceSafe\CSF"
-SCC_Project_Name = "$/CSF.Defining.root/CSF.Defining/CSF.Nazgul.General", FKAAAAAA
-
-[Lemonade.Nazgul.General.csproj]
-SCC_Aux_Path = "F:\SourceSafe\Lemonade"
-SCC_Project_Name = "$/Lemonade.Defining.root/Lemonade.Defining/Lemonade.Nazgul.General", WGAAAAAA
