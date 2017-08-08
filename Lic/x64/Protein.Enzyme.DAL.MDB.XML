@@ -1,0 +1,1111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Protein.Enzyme.DAL.MDB</name>
+    </assembly>
+    <members>
+        <member name="T:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase">
+            <summary>
+            语句字段赋值类型处理基类
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase.nextFieldSet">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase.SetNextFieldSetType(Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase)">
+            <summary>
+            设置下一个字段处理方式
+            </summary>
+            <param name="FieldSet"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase.Definition(System.Reflection.PropertyInfo,System.Object)">
+            <summary>
+            定义类型
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            判断处理类型
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeBase.SetVale(System.Object)">
+            <summary>
+            设置值
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeString">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeString.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeNum">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.ClauseType.ClauseTypeNum.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDouble">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDouble.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDouble.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDouble.NullValue(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetByteArray">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetByteArray.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetByteArray.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetByteArray.NullValue(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase">
+            <summary>
+            语句字段赋值类型处理基类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase.SetNextFieldSetType(Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase)">
+            <summary>
+            设置下一个字段处理方式
+            </summary>
+            <param name="FieldSet"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase.Definition(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.IEntityBase,System.String)">
+            <summary>
+            定义类型
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            判断处理类型
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase.SetVale(System.String,System.Object)">
+            <summary>
+            设置值
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetBase.NullValue(System.Object)">
+            <summary>
+            设置空值时的问题
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDateTime.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDateTime.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetDateTime.NullValue(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetInt">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetInt.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetInt.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetInt.NullValue(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetLong">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetLong.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetLong.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetLong.NullValue(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.FieldSetString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetString.SetVale(System.String,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.FieldType.FieldSetString.IsType(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.FieldType.TypeToAccessPar">
+            <summary>
+            实体类类型转换到Access参数类型
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.GroupBy">
+            <summary>
+            分组聚合功能类
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.GroupBy.UseField">
+            <summary>
+            使用的字段
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.GroupBy.SetField(System.String)">
+            <summary>
+            设置字段
+            </summary>
+            <param name="FieldName"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.InClause">
+            <summary>
+            in条件处理
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.InClause.GetClause(System.Reflection.PropertyInfo)">
+            <summary>
+            这里也是职责和策略
+            </summary>
+            <param name="PInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.InClause.GetClauseString(System.Reflection.PropertyInfo)">
+            <summary>
+            获取in条件字符串
+            </summary>
+            <param name="PInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.InClause.ClauseType(System.Reflection.PropertyInfo,System.Object)">
+            <summary>
+            判断类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.MDBHelper">
+            <summary>
+            MDBHelper 的摘要说明 
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Conn"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.init">
+            <summary>
+            建立数据库连接
+            </summary>
+            <returns>返回一个数据库的连接OleDbConnection对象</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.SetCommand(System.Data.OleDb.OleDbCommand,System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            设置OleDbCommand对象
+            </summary>
+            <param name="cmd">OleDbCommand对象</param>
+            <param name="cmdText">命令文本</param>
+            <param name="cmdType">命令类型</param>
+            <param name="cmdParms">参数集合</param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.GetDataSet(System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行带参数的sql语句，返回相应的DataSet对象
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="cmdType"></param>
+            <param name="cmdParms"></param>
+            <returns>返回相应的DataSet对象</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.ExecteNonQuery(System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行带参数sql语句或存储过程，返回所影响的行数
+            </summary>
+            <param name="cmdText">带参数的sql语句和存储过程名</param>
+            <param name="cmdType">命令类型</param>
+            <param name="cmdParms">参数集合</param>
+            <returns>返回所影响的行数</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.ExecuteReader(System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行带参数的sql语句或存储过程，返回一个从数据源读取数据的OleDbDataReader对象
+            </summary>
+            <param name="cmdText">sql语句或存储过程名</param>
+            <param name="cmdType">命令类型</param>
+            <param name="cmdParms">参数集合</param>
+            <returns>返回一个从数据源读取数据的OleDbDataReader对象</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.ExecuteScalar(System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行带参数sql语句或存储过程,返回结果集首行首列的值object
+            </summary>
+            <param name="cmdText">sql语句或存储过程名</param>
+            <param name="cmdType">命令类型</param>
+            <param name="cmdParms">返回结果集首行首列的值object</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.BeginTran">
+            <summary>
+            开始事务
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.ExecuteTran(System.String,System.Data.CommandType,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行事务操作
+            </summary>
+            <param name="cmdText"></param>
+            <param name="cmdType"></param>
+            <param name="cmdParms"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.RollBackTran">
+            <summary>
+            回滚事务
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.MDBHelper.CommitTran">
+            <summary>
+            提交事务
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.CmdType">
+            <summary>
+            命令类型
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Command.CmdType.Select">
+            <summary>
+            Select
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Command.CmdType.Insert">
+            <summary>
+            Insert
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Command.CmdType.Delete">
+            <summary>
+            Delete
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Command.CmdType.Update">
+            <summary>
+            Update
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.DeleteCmd">
+            <summary>
+            删除语句
+            and or 顺加下去
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.DeleteCmd.CreateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建命令
+            </summary>
+            <param name="Table"></param> 
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.InsertCmd">
+            <summary>
+            插入语句配置类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.InsertCmd.CreateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建命令
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.SelectCmd">
+            <summary>
+            查询语句配置类
+            and or 顺加下去
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.CreateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建命令
+            </summary>
+            <param name="Table"></param> 
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.SetEntity(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            设置实体字符串
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.SetFilter(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            设置语句的字段
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.SetGroupBy(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            设置分组字段
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.Oprator(Protein.Enzyme.DAL.IFilter)">
+            <summary>
+            操作符号
+            </summary>
+            <param name="Fl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.SetWhere(Protein.Enzyme.DAL.IDvTable,System.String)">
+            <summary>
+            这个方法应该用职责链或者策略来做 或者适配器
+            </summary>
+            <param name="Table"></param>
+            <param name="Cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.SelectCmd.SetJoinChar(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            设置联立表外键关联字符串
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.StockCmd">
+            <summary>
+            操作元数据配置基类，用于配置SQL操作语句
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Command.StockCmd.Cmd">
+            <summary>
+            sql语句
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Command.StockCmd.pravale">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Command.StockCmd.Parameter">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.AddPar(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            添加参数 根据不同类型设置参数类型
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.AddParWhere(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.IEntityBase,Protein.Enzyme.DAL.Operator)">
+            <summary>
+            条件子语句参数添加方法 Where
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.AddParWhere(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.IEntityBase,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            条件子语句参数添加方法 Where
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.ValueConfirm(Protein.Enzyme.DAL.Operator,System.Object)">
+            <summary>
+            确定值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.ParType(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.IEntityBase,System.String)">
+            <summary>
+            参数类型 这里还没做完 
+            </summary>
+            <param name="Pi"></param>
+            <param name="Entity"></param>
+            <param name="ParKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.NullValue(System.Reflection.PropertyInfo,System.Object)">
+            <summary>
+            处理参数值为null时的取值问题 这里还没做完
+            </summary>
+            <param name="Pi"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.GetCodomain(System.Reflection.PropertyInfo)">
+            <summary>
+            获取值域说明
+            </summary>
+            <param name="Pi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.StockCmd.CreateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建sql命令
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Command.UpdateCmd">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.UpdateCmd.CreateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建命令
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Command.UpdateCmd.UpdateValue(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            设置更新值
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.CreateTable.SetFields">
+            <summary>
+            1、字段名称2、oracle类型3、主键标识
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.CreateTable.FieldTypeName(System.Data.OleDb.OleDbType)">
+            <summary>
+            字段类型名称
+            </summary>
+            <param name="AccType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.CreateTable.FieldTypeLength(System.Data.OleDb.OleDbType)">
+            <summary>
+            字段宽度 这里不完善
+            </summary>
+            <param name="AccType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.DalSql">
+            <summary>
+            数据库操作配置、执行类
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.DalSql.DlgTranStockCmd">
+            <summary>
+            批量命令委托
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.#ctor(Protein.Enzyme.DAL.IDBInfo)">
+            <summary>
+            数据库操作配置、执行类
+            </summary>
+            <param name="Dbh"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.CreateSelectCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建选择命令对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.CreateUpdateCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建更新命令对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.CreateInsertCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建插入命令对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.CreateDeleteCmd(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            创建删除命令对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.SelectSingle(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            查询语句
+            支持多查询条件
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.Insert(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            把表对象的属性都作为字段添加到插入语句中
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.Delete(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            删除表格对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.Update(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            修改数据
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.TranOpration(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean,Protein.Enzyme.DAL.MDB.DalSql.DlgTranStockCmd)">
+            <summary>
+            事务操作
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack"></param>
+            <param name="Dtsc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.InsertTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量插入数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.UpdateTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量更新数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DalSql.DeleteTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量删除数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.DvTable">
+            <summary>
+            数据表基类
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvTable.Join">
+            <summary>
+            联立的实体类包装接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvTable.Entity">
+            <summary>
+            操作的实体对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.CheckField(Protein.Enzyme.DAL.IEntityBase,System.String)">
+            <summary>
+            检查字段是否存在 不存在直接抛出异常
+            </summary>
+            <param name="Entity"></param>
+            <param name="FieldName"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.CreateWhereClause(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            创建语句
+            </summary>
+            <param name="JoinEntity"></param>
+            <param name="FieldName"></param>
+            <param name="OperatorType"></param>
+            <param name="LinkNextOperator"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.WhereClause(System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            创建查询条件子语句
+            </summary>
+            <param name="FieldName"></param>
+            <param name="OperatorType"></param>
+            <param name="LinkNextOperator"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.WhereClause(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            创建条件子语句，指定要作为条件子语句的实体对象
+            </summary>
+            <param name="JoinEntity">在联立的实体对象中查找</param>
+            <param name="FieldName">字段名</param>
+            <param name="OperatorType">运算符</param>
+            <param name="LinkNextOperator">其后的逻辑操作符，当存在多个条件时，确定他们之间的关系</param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Select">
+            <summary>
+            配置select   查询条件子语句的匹配
+            实现单表 多条件查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Select(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.SelectEntity``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Insert">
+            <summary>
+            把表对象的属性都作为字段和值添加到插入语句中
+            生成插入语句
+            </summary>
+            <returns>返回影响行数</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Delete">
+            <summary>
+            删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Update">
+            <summary>
+            
+            更新
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.Update(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.SetGroupBy(System.String)">
+            <summary>
+            设置分组字段
+            </summary>
+            <param name="FieldName"></param>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvTable.Filterlist">
+            <summary>
+            筛选过滤器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.SetFilter(Protein.Enzyme.DAL.Operator,System.String)">
+            <summary>
+            设置字段筛选
+            </summary>
+            <param name="OperatorType"></param>
+            <param name="FieldName"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.GetDescription(System.Object)">
+            <summary>
+            获取枚举变量值的 Description 属性
+            </summary>
+            <param name="obj">枚举变量</param>
+            <returns>如果包含 Description 属性，则返回 Description 属性的值，否则返回枚举变量值的名称</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTable.GetDescription(System.Object,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <param name="isTop"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.DvTableBatch">
+            <summary>
+            表格批量操作
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvTableBatch.DalSql">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTableBatch.CreateDriveTable(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            根据批量操作的IDalSql对象和参数传入的实体对象创建表格操作驱动对象实例
+            </summary>
+            <param name="Entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTableBatch.AddInsert(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            添加插入操作
+            </summary>
+            <param name="Entity"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTableBatch.AddUpdate(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            添加更新操作
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvTableBatch.AddDelete(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            添加删除操作
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.DvWhere">
+            <summary>
+            查询条件，条件子语句的查询条件对象
+            目前like没有封装 需要将条件语句的条件项抽象出来 可能会变化
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvWhere.Usefield">
+            <summary>
+            使用的字段
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvWhere.Clause">
+            <summary>
+            查询条件子句
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvWhere.LinknextOperator">
+            <summary>
+            链接下一个查询条件的操作符号
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.DvWhere.Entity">
+            <summary>
+            实体对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvWhere.ClauseItem(Protein.Enzyme.DAL.IEntityBase,System.Reflection.PropertyInfo,System.String,System.String)">
+            <summary>
+            设置条件项 这里和SelectCmd.SetWhere 合起来考虑 做职责链、策略、适配器 要符合开闭原则
+            </summary>
+            <param name="Entity"></param>
+            <param name="Field"></param>
+            <param name="Operator"></param>
+            <param name="LinkNextOperator"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvWhere.SetItemValueDefault(System.Reflection.PropertyInfo,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.DvWhere.SetItemValueIn(System.Reflection.PropertyInfo,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Entity.EntityFactory">
+            <summary>
+            实体工厂
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.DbHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.CreateEntityInstance``1">
+            <summary>
+            创建实体对象实例
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.CreateDriveTable(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            创建表格操作驱动对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.CreateDriveTable(Protein.Enzyme.DAL.IEntityBase,Protein.Enzyme.DAL.IDalSql)">
+            <summary>
+            创建表格操作驱动对象
+            </summary>
+            <param name="Entity"></param>
+            <param name="DalSql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.CreateDriveTableBatch">
+            <summary>
+            创建表格批量操作驱动对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.EntityFactory.CreateDALmanager">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Entity.EntityTypeAdapterLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Entity.ProteinLog">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Entity.ProteinLog._LOGCODE">
+            日志编号
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.ProteinLog.LOGCODE">
+            <summary>
+            日志编号
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Entity.ProteinLog._CONTENT">
+            内容
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.ProteinLog.CONTENT">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Entity.ProteinLog._LOGTIME">
+            时间
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.ProteinLog.LOGTIME">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Entity.ProteinLog._LOGTYPE">
+            日志类型
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.ProteinLog.LOGTYPE">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger">
+            <summary>
+            oracle中的日志记录
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger.entityfactory">
+            <summary>
+            实体对象创建者
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger.EntityFactory">
+            <summary>
+            获取和设置数据实体操作对象工厂对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger.#ctor">
+            <summary>
+            oracle中的日志记录
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger.Info(System.Object)">
+            <summary>
+            保存消息
+            </summary>
+            <param name="Message"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Entity.ProteinLogger.SaveLog(System.Object,Protein.Enzyme.Log.LogType)">
+            <summary>
+            保存日志对象实例
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.MDB.Filter">
+            <summary>
+            过滤器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Filter.SetFilter(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.Operator)">
+            <summary>
+            设置过滤
+            </summary>
+            <param name="Field"></param>
+            <param name="Oprt"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.MDB.Filter.SetOutChar">
+            <summary>
+            设置输出字符串
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Filter.Usefield">
+            <summary>
+            筛选的字段
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Filter.OperatorSign">
+            <summary>
+            操作符号
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.Filter.OutPutFieldChar">
+            <summary>
+            输出字段字符
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.MDB.JoinEntity.Entitys">
+            <summary>
+            用于联立的实体类对象
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Protein.Enzyme.DAL.MDB.JoinEntity.JoinField(Protein.Enzyme.DAL.IEntityBase,Protein.Enzyme.DAL.IEntityBase)" -->
+        <member name="M:Protein.Enzyme.DAL.MDB.JoinEntity.JoinFieldType(System.String,System.Reflection.PropertyInfo,System.String,System.Reflection.PropertyInfo)">
+            <summary>
+            设置类型转换
+            </summary>
+            <param name="CmdChar1"></param>
+            <param name="Property1"></param>
+            <param name="CmdChar2"></param>
+            <param name="Property2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

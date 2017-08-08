@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Lemonade.Frame.UI;
+
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 状态盒子
+    /// </summary>
+    public class ControlStatusBox
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public ControlStatusBox()
+        { 
+            
+        }
+        #region IUIElement
+        /// <summary>
+        /// 执行操作
+        /// </summary>
+        public void Executive()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public bool IsActive()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public bool IsEnabled()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public bool IsVisible()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public System.Windows.Forms.Form ParentForm
+        {
+            get;
+            set;
+        }
+
+        #endregion
+
+
+
+    }
+}

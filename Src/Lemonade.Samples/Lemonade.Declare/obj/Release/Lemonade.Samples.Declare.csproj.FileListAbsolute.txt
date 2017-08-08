@@ -1,0 +1,12 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\SampleConfig.xml
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.Declare.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.Declare.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\Lemonade.Samples.Declare.SampleExConfig.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\Lemonade.Samples.Declare.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Declare\obj\Release\Lemonade.Samples.Declare.pdb
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Declare\SampleConfig.xml
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Declare\Lemonade.Samples.Declare.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Declare\Lemonade.Samples.Declare.pdb

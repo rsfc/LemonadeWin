@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7848308-5FC3-4A14-AC57-6661314DD6CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lemonade.Samples.NewModuleMutual</RootNamespace>
+    <AssemblyName>Lemonade.Samples.NewModuleMutual</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Debug64\Module\Lemonade.Samples.NewModuleMutual\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\Module\Lemonade.Samples.NewModuleMutual\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lemonade.Frame">
+      <HintPath>..\..\..\Debug64\Lemonade.Frame.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMutualB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMutualB.Designer.cs">
+      <DependentUpon>FrmMutualB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmStyleTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStyleTest1.Designer.cs">
+      <DependentUpon>FrmStyleTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStyleTest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStyleTest2.Designer.cs">
+      <DependentUpon>FrmStyleTest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStyleTest3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStyleTest3.Designer.cs">
+      <DependentUpon>FrmStyleTest3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStyleTest4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStyleTest4.Designer.cs">
+      <DependentUpon>FrmStyleTest4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStyleTest11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStyleTest11.Designer.cs">
+      <DependentUpon>FrmStyleTest11.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMutualB.resx">
+      <DependentUpon>FrmMutualB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStyleTest1.resx">
+      <DependentUpon>FrmStyleTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStyleTest2.resx">
+      <DependentUpon>FrmStyleTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStyleTest3.resx">
+      <DependentUpon>FrmStyleTest3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStyleTest4.resx">
+      <DependentUpon>FrmStyleTest4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStyleTest11.resx">
+      <DependentUpon>FrmStyleTest11.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,2511 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Protein.Enzyme</name>
+    </assembly>
+    <members>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.#ctor(System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="generator"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.AddStatement(Protein.Enzyme.DynamicProxy.Statement)">
+            <summary>
+            
+            </summary>
+            <param name="stmt"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.CreateLabel">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.DeclareLocal(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.Generate(Protein.Enzyme.DynamicProxy.IEasyMember,System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <param name="il"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.SetNonEmpty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.Generator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DynamicProxy.AbstractCodeBuilder.IsEmpty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.NopStatement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.NopStatement.Emit(Protein.Enzyme.DynamicProxy.IEasyMember,System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <param name="gen"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.Reference">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ReferenceExpression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ReferencesToObjectArrayExpression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ReturnReferenceExpression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ReturnStatement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.SelfReference">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DynamicProxy.SelfReference.Self">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.SelfReference.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.SelfReference.LoadAddressOfReference(System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="gen"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.SelfReference.LoadReference(System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="gen"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.SelfReference.StoreReference(System.Reflection.Emit.ILGenerator)">
+            <summary>
+            
+            </summary>
+            <param name="gen"></param>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.VirtualMethodInvocationExpression">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ClassProxyGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.#ctor(Protein.Enzyme.DynamicProxy.ModuleScope)">
+            <summary>
+            
+            </summary>
+            <param name="scope"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.#ctor(Protein.Enzyme.DynamicProxy.ModuleScope,Protein.Enzyme.DynamicProxy.GeneratorContext)">
+            <summary>
+            
+            </summary>
+            <param name="scope"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.CustomizeGetObjectData(Protein.Enzyme.DynamicProxy.AbstractCodeBuilder,Protein.Enzyme.DynamicProxy.ArgumentReference,Protein.Enzyme.DynamicProxy.ArgumentReference)">
+            <summary>
+            
+            </summary>
+            <param name="codebuilder"></param>
+            <param name="arg1"></param>
+            <param name="arg2"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateCode(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="baseClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateCode(System.Type,System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="baseClass"></param>
+            <param name="interfaces"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateConstructor(System.Reflection.ConstructorInfo)">
+            <summary>
+            
+            </summary>
+            <param name="baseConstructor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateConstructors(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="baseClass"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateCustomCode(System.Type,System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="baseClass"></param>
+            <param name="interfaces"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateSerializationConstructor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.GenerateTypeName(System.Type,System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="interfaces"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.Join(System.Type[],System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="interfaces"></param>
+            <param name="mixinInterfaces"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.SkipDefaultInterfaceImplementation(System.Type[])">
+            <summary>
+            
+            </summary>
+            <param name="interfaces"></param>
+        </member>
+        <member name="P:Protein.Enzyme.DynamicProxy.ClassProxyGenerator.InvocationType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ProxyGenerationException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.GeneratorContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ICallable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.AbstractInvocation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.InterfaceInvocation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.SameClassInvocation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.ProxyGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DynamicProxy.StandardInterceptor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.StandardInterceptor.Intercept(Protein.Enzyme.DynamicProxy.IInvocation,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="invocation"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.StandardInterceptor.PostProceed(Protein.Enzyme.DynamicProxy.IInvocation,System.Object@,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="invocation"></param>
+            <param name="returnValue"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DynamicProxy.StandardInterceptor.PreProceed(Protein.Enzyme.DynamicProxy.IInvocation,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="invocation"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:Protein.Enzyme.IO.ProcessKeyHandle">
+            <summary>
+            
+            </summary>
+            <param name="param"></param>
+            <param name="handle"></param>
+        </member>
+        <member name="T:Protein.Enzyme.IO.KeyHook">
+            <summary>
+            热键注册
+            </summary>  
+        </member>
+        <member name="F:Protein.Enzyme.IO.KeyHook.hHookValue">
+            <summary>
+            钩子句柄
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.IO.KeyHook.HookHandler">
+            <summary>
+            键盘钩子句柄
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.IO.KeyHook.keyBoardHookProcedure">
+            <summary>
+            勾子程序处理事件
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.IO.KeyHook.handles">
+            <summary>
+            外部调用的键盘处理事件
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.#ctor">
+            <summary>
+             
+            </summary>
+            <param name="hookWindowPtr"></param>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.GetHook">
+            <summary>
+            
+            </summary>
+            <param name="hookWindowPtr"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.IO.KeyHook.HokWindowPtr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.GetWindowPtr">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.RegistHook">
+            <summary>
+            注册钩子
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.InstallHook(Protein.Enzyme.IO.ProcessKeyHandle)">
+            <summary>
+            安装钩子处理方法
+            </summary>
+            <param name="keyhandle"></param>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.UninstallHook(Protein.Enzyme.IO.ProcessKeyHandle)">
+            <summary>
+            卸载钩子
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.EscHook">
+            <summary>
+            卸载钩子
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.IO.KeyHook.OnHookProc(System.Int32,System.Int32,System.IntPtr)">
+            <summary>
+            钩子事件内部调用,调用_clientMethod方法转发到客户端应用。
+            </summary>
+            <param name="nCode"></param>
+            <param name="wParam"></param>
+            <param name="lParam"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.LogOrgan">
+            <summary>
+             日志配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.LogOrgan.RecordLevel">
+            <summary>
+            处理消息的类型登记 按照枚举的值大小判断
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.ExConfigCollection">
+            <summary>
+            扩展配置的系统配置节点集合
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Configuration.ExConfigCollection.CreateNewElement">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Configuration.ExConfigCollection.CreateNewElement(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="elementName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Configuration.ExConfigCollection.GetElementKey(System.Configuration.ConfigurationElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.Msg">
+            <summary>
+            message配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.Msg.MessageLevel">
+            <summary>
+            处理消息的类型登记 按照枚举的值大小判断
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.Msg.UseHistory">
+            <summary>
+            是否使用历史记录
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.Msg.HistoryMaxCount">
+            <summary>
+            历史记录最大数
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.ExConfig">
+            <summary>
+             扩展配置节点要素
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ExConfig.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ExConfig.TypeFlag">
+            <summary>
+            TypeFlag
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ExConfig.ConfigXML">
+            <summary>
+            ConfigXML
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ExConfig.ConfigXMLPath">
+            <summary>
+            ConfigXMLPath
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ExConfig.TypeFlagPath">
+            <summary>
+            TypeFlagPath
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.DAlEntity">
+            <summary>
+            DAL实体对象配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.DAlEntity.AssemblyName">
+            <summary>
+            程序集名称
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.DAlEntity.ProteinLog">
+            <summary>
+            程序日志类名
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.DAlEntity.EntityFactory">
+            <summary>
+            实体工厂类名
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.DataBase">
+            <summary>
+            数据库
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.DataBase.ConnectionStr">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.DataBase.Secrecy">
+            <summary>
+            是否加密
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.ProteinConfig">
+            <summary>
+            支撑类库配置管理器
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.CustomConfig">
+            <summary>
+            配置节
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Configuration.ProteinConfig.GetInstance">
+            <summary>
+            获取配置类实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.DAlEntityConfig">
+            <summary>
+            映射操作配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.DataBaseConfig">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.MsgConfig">
+            <summary>
+            消息总线配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.LogConfig">
+            <summary>
+            日志配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinConfig.ExConfigs">
+            <summary>
+            扩展配置对象的配置
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Configuration.ProteinCustomSection">
+            <summary>
+            项目通用配置对象
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinCustomSection.DAlEntity">
+            <summary>
+            实体对象实体配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinCustomSection.DataBase">
+            <summary>
+            数据库对象实体配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinCustomSection.Msg">
+            <summary>
+            消息对象实体配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinCustomSection.LogOrgan">
+            <summary>
+            消息对象实体配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Configuration.ProteinCustomSection.ExConfigCollection">
+            <summary>
+            扩展配置集合
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Mechanisms.MachineDBInfo">
+            <summary>
+            数据库信息
+            目前包含不属于该实体的类型信息
+            这里的职责不单一
+            先这么写吧偷个懒
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineDBInfo.OutputDecryptString(System.String)">
+            <summary>
+             自动数据加密连接字符串
+            </summary>
+            <param name="EncryptString"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Mechanisms.MachineEntityHandler">
+            <summary>
+            支撑机制的实体功能
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineEntityHandler.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineEntityHandler.CreateEntityFactory">
+            <summary>
+            创建实体工厂
+            数据库连接字符串
+            实体类适配器
+            IDvTable 
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Mechanisms.MachineEntityHandler.EntityFactory">
+            <summary>
+            实体工厂
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineEntityHandler.GetEntityFactory">
+            <summary>
+            获取实体工厂的实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Mechanisms.MachineExConfig">
+            <summary>
+            初始化扩展配置内容
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Mechanisms.MachineExConfig.ExtendConfig">
+            <summary>
+            扩展配置
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineExConfig.#ctor">
+            <summary>
+            初始化扩展配置内容
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineExConfig.GetExtendConfig">
+            <summary>
+            获取实体工厂的实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineExConfig.InisExConfig">
+            <summary>
+            初始化扩展配置
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.Mechanisms.MachineLog">
+            <summary>
+            功能日志
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Layout.Mechanisms.MachineLog.ProteinLogger">
+            <summary>
+            类库日志记录器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineLog.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineLog.CreateLogger">
+            <summary>
+            创建日志记录器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.Mechanisms.MachineLog.GetLogger">
+            <summary>
+            获取配置类实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.ProxyAdapter.ProxyDefaul">
+            <summary>
+            代理的默认初始化机制
+            1、	异常处理机制不变，默认通过消息总线来处理，但是可以通过配置文件扩展处理的事件
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.ProxyAdapter.ProxyDefaul.SetProxy(Protein.Enzyme.Design.ProxyInterceptor)">
+            <summary>
+            设置代理拦截器
+            </summary>
+            <param name="ProxyInter"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.ProxyAdapter.ProxyDefaul.ExceptionProxy(System.Exception)">
+            <summary>
+            异常代理
+            </summary>
+            <param name="Ex"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Layout.ProxyAdapter.ProxyDefaul.ProxyInter_InvokeAfter(Protein.Enzyme.DynamicProxy.IInvocation)">
+            <summary>
+            
+            </summary>
+            <param name="Invocation"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Layout.ProxyAntipod">
+            <summary>
+            代理结构体
+            1、异常处理机制不变，通过消息总线来处理
+            2、拦截方法的前后记录入口，也就是运行日志记录的入口
+            这些入口的处理都是通过配置文件来修改
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Message.IMessageHistoryContainer">
+            <summary>
+            消息总线历史接口
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageHistory">
+            <summary>
+            历史
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistory.MsgObject">
+            <summary>
+            消息对象
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistory.RecordTime">
+            <summary>
+            记录时间
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageHistoryContainer">
+            <summary>
+            消息存储
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistoryContainer.historyList">
+            <summary>
+            历史列表
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistoryContainer.msgconfig">
+            <summary>
+            消息总线配置
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistoryContainer.HistoryCount">
+            <summary>
+            当前历史记录数量
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.#ctor">
+            <summary>
+            消息存储
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.GetInstance">
+            <summary>
+            获取消息历史容器实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.RecordMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            记录消息
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.ClearHistory">
+            <summary>
+            清空所有历史和记录
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageHistoryContainer.Item(System.Int32)">
+            <summary>
+            获取历史消息
+            </summary>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageHistoryContainer.FindHistory(Protein.Enzyme.Message.MessageType)">
+            <summary>
+            根据消息类型查找历史消息
+            </summary>
+            <param name="MsgType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Message.Processors.ProcessInnerExceptionLog">
+            <summary>
+            支撑类库内部异常消息处理器 记录日志
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessInnerExceptionLog.#ctor(Protein.Enzyme.Log.ILogger)">
+            <summary>
+            内部异常消息处理器
+            </summary>
+            <param name="Logger"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessInnerExceptionLog.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.Processors.ProcessDebugLog">
+            <summary>
+            调试消息处理 
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessDebugLog.#ctor(Protein.Enzyme.Log.ILogger)">
+            <summary>
+            
+            </summary>
+            <param name="Logger"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessDebugLog.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.Processors.ProcessExceptionLog">
+            <summary>
+            异常处理器 记录日志
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessExceptionLog.#ctor(Protein.Enzyme.Log.ILogger)">
+            <summary>
+            日志处理器
+            </summary>
+            <param name="Logger"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessExceptionLog.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.Processors.ProcessSysInfo">
+            <summary> 
+            系统内部消息处理
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessSysInfo.#ctor(Protein.Enzyme.Log.ILogger)">
+            <summary>
+            系统内部消息处理
+            </summary>
+            <param name="Logger"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.Processors.ProcessSysInfo.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.IMessageBus">
+            <summary>
+            消息总线接口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IMessageBus.AddProcessor(Protein.Enzyme.Message.IProcessor)">
+            <summary>
+            添加消息处理器
+            </summary>
+            <param name="Processor"></param>
+        </member>
+        <member name="P:Protein.Enzyme.Message.IMessageBus.Pcslist">
+            <summary>
+            消息处理器集合
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IMessageBus.RemoveProcessor(Protein.Enzyme.Message.IProcessor)">
+            <summary>
+            移除消息处理器
+            </summary>
+            <param name="Processor"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IMessageBus.RemoveProcessorByType(System.Type)">
+            <summary>
+            移除消息处理器根据类型
+            </summary>
+            <param name="ProcessorType"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IMessageBus.Send(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            发送消息
+            </summary>
+            <param name="Msg"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IMessageBus.Contains(System.Type)">
+            <summary>
+            判断在消息总线的处理器集合中是否存在指定类型的处理器
+            </summary>
+            <param name="ProcessorType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Message.ProteinMessageProcessor">
+            <summary>
+            消息处理过程委托
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.IProcessor">
+            <summary>
+            消息处理器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.IProcessor.ProcessMessage(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+             处理消息
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageBus">
+            <summary>
+            消息总线
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.#ctor">
+            <summary>
+            消息总线
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.GetInstance">
+            <summary>
+            获取消息总线实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.SetMessageBus">
+            <summary>
+            初始化消息处理机构 添加支撑类库内置的日志系统消息处理器
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageBus.Pcslist">
+            <summary>
+            消息处理器列表
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.Send(Protein.Enzyme.Message.MessageObject)">
+            <summary>
+            发送消息 
+            这里需要将消息和日志的级别处理区分开
+            日志记录级别来源于消息
+            消息提示可以通过内置界面和可扩展的自定义界面来显示，显示也区分级别，目前消息提示是框架中的功能
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.AddProcessor(Protein.Enzyme.Message.IProcessor)">
+            <summary>
+            添加消息处理器
+            </summary>
+            <param name="Processor"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.RemoveProcessor(Protein.Enzyme.Message.IProcessor)">
+            <summary>
+            移除消息处理器
+            </summary>
+            <param name="Processor"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.Contains(System.Type)">
+            <summary>
+            判断在消息总线的处理器集合中是否存在指定类型的处理器
+            </summary>
+            <param name="ProcessorType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageBus.RemoveProcessorByType(System.Type)">
+            <summary>
+            移除消息处理器根据类型
+            </summary>
+            <param name="ProcessorType"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageFactory">
+            <summary>
+            消息创建工厂
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.GetMegBus">
+            <summary>
+            获取消息总线对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.History">
+            <summary>
+            消息历史
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.CreateMessage(System.Exception)">
+            <summary>
+            创建异常类消息
+            </summary>
+            <param name="Ex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.CreateMessage(System.String)">
+            <summary>
+            创建信息类消息
+            </summary>
+            <param name="MsgString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.CreateMessageDebug(System.String)">
+            <summary>
+            创建调试类消息
+            </summary>
+            <param name="Debug"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageFactory.CreateMessagePtDebug(System.String)">
+            <summary>
+            创建调试类消息
+            </summary>
+            <param name="Debug"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageObject">
+            <summary>
+            消息对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Message.MessageObject.#ctor(Protein.Enzyme.Message.MessageType)">
+            <summary>
+            消息对象
+            </summary>
+            <param name="MsgType"></param>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageObject.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Message.MessageObject.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Message.MessageType">
+            <summary>
+            消息类型
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.PtDebug">
+            <summary>
+            支持平台调试信息，用于丰富消息层次
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.Debug">
+            <summary>
+            调试信息,调试程序信号量
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.InsideInfo">
+            <summary>
+            系统内部消息
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.Note">
+            <summary>
+            提示 普通提示消息
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.Warning">
+            <summary>
+            警告消息
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Message.MessageType.Error">
+            <summary>
+            异常
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.ProteinErrorType">
+            <summary>
+            支撑类库异常类型1
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.ProteinErrorType.e0">
+            <summary>
+            类工厂程序集文件路径错误
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.ProteinErrorType.e1">
+            <summary>
+            在从指定的路径中加载程序集时发生异常，可能是dll文件不是.net程序集
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.ClauseElement">
+            <summary>
+            条件子语句要素类
+            临时的 这里考虑在IDvTable接口中做类似功能的抽象
+            联立查询还是在客户端直接做
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.ClauseElement.EntityType">
+            <summary>
+            实体类类型
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.ClauseElement.FieldName">
+            <summary>
+            条件子语句的字段名称
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.ClauseElement.Opr">
+            <summary>
+            操作符
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.ClauseElement.LinkOpr">
+            <summary>
+            连接操作符
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IGroupBy">
+            <summary>
+            分组聚合接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IGroupBy.UseField">
+            <summary>
+            聚合的字段
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IGroupBy.OutPutFieldChar">
+            <summary>
+            字段输出
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IGroupBy.SetField(System.String)">
+            <summary>
+            设置过滤 操作符号 操作字段
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.InClauseOperator">
+            <summary>
+            处理in子语句
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.InClauseOperator.ClauseValues">
+            <summary>
+            子语句值
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.InClauseOperator.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.InClauseOperator.AddObjectValue(System.Reflection.PropertyInfo,System.Object)">
+            <summary>
+            添加值
+            </summary>
+            <param name="PInfo"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.InClauseOperator.SetAndObjectValue(System.Collections.Generic.List{System.Object},System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Value"></param>
+            <param name="SList"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.InClauseOperator.GetClause(System.Reflection.PropertyInfo)">
+            <summary>
+            子句
+            </summary>
+            <param name="PInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.JoinElement">
+            <summary>
+            封装调用者的联合查询要素
+            每个查询要素的实体对象和它的ClauseElement
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.EntityTypeAdapter">
+            <summary>
+            实体对象类型适配器
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.EntityTypeAdapter.nextEntityType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityTypeAdapter.SetNextEntityType(Protein.Enzyme.DAL.EntityTypeAdapter)">
+            <summary>
+            设置下一个字段处理方式
+            </summary>
+            <param name="EntityType"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityTypeAdapter.Definition``1(System.Type,System.Object[])">
+            <summary>
+            定义实体类对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityTypeAdapter.CreateInstance``1(System.Object[])">
+            <summary>
+            创建实例
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityTypeAdapter.IsType(System.Type)">
+            <summary>
+            判断处理类型
+            </summary>
+            <param name="EntityType"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.EntityTypeAdapter.TargetType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.DataHelper">
+            <summary>
+            数据操作通用方法类
+            只包含抽象到接口层面的操作方法的实现
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.GetMaxField(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.IEntityFactory)">
+            <summary>
+            获取指定对象字段的最大值
+            </summary>
+            <param name="Entity">实体</param>
+            <param name="FieldName">字段名</param>
+            <param name="Entityfactory">字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.Convert(System.Type,System.Data.DataSet)">
+            <summary>
+            转换DataSet到实体
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.Convert``1(System.Collections.Generic.List{System.Object})">
+            <summary>
+            转换对象列表到其他类型
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="List"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.Convert``1(System.Type,System.Data.DataSet)">
+            <summary>
+            根据指定的类型转换对象到泛型类型
+            </summary>
+            <param name="InsType"></param>
+            <param name="Ds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.Convert``1(System.Type,System.Data.DataSet,System.Int32)">
+            <summary>
+            根据指定类型转换到泛型类型后获取指定索引的值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="InsType"></param>
+            <param name="Ds"></param>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.ConvertToEntity``1(System.Data.DataSet)">
+            <summary>
+            转换实体类
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="ds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.ConvertToEntity(System.Type,System.Data.DataSet)">
+            <summary>
+            拆分dataset对象 填充对象值
+            </summary>
+            <param name="ObjType"></param>
+            <param name="Ds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.InitializeObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.SplitDataRow(System.Object,System.Data.DataRow)">
+            <summary>
+            拆分dataset对象 填充对象值
+            </summary>
+            <param name="TemplateObj"></param>
+            <param name="dr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.SetValueIns(System.Reflection.PropertyInfo,System.Object,System.Data.DataRow,System.String)">
+            <summary>
+            设置实体值
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.ConvertToTable``1(System.Collections.Generic.IList{``0})">
+            <summary> 
+            将实体类转换成DataTable 
+            </summary> 
+            <typeparam name="T"></typeparam> 
+            <param name="objlist"></param> 
+            <returns></returns> 
+        </member>
+        <member name="M:Protein.Enzyme.DAL.DataHelper.ConvertToSet``1(System.Collections.Generic.List{``0})">
+            <summary>
+            转换到数据集
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="ObjectList"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.EntityBase">
+            <summary>
+            实体类基类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityBase.GetStrFields">
+            <summary>
+            获取字符串类型的字段列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityBase.GetFields">
+            <summary>
+            获取字段属性集合集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityBase.GetField(System.String)">
+            <summary>
+            获取一个字段属性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityBase.PrimaryKey">
+            <summary>
+            实体的主键
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.EntityTypeAdapterGenerics`2">
+            <summary>
+            实体类型泛型适配器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.EntityTypeAdapterGenerics`2.IsType(System.Type)">
+            <summary>
+            判断类型
+            </summary>
+            <param name="EntityType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.ICreateTable">
+            <summary>
+            创建表接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.ICreateTable.Entity">
+            <summary>
+            实体
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.ICreateTable.ExecuteScript">
+            <summary>
+            执行脚本
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDALManager">
+            <summary>
+            数据层管理接口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDALManager.IsEntityExist(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            实体是否存在
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDALManager.CreateEntity(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            创建实体
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDalSql">
+            <summary>
+            数据库表格操作接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDalSql.DbHelper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.Insert(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            将表对象插入数据库
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.SelectSingle(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            根据表对象数据查询数据
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.Delete(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            删除表中的该对象
+            </summary>
+            <param name="Table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.Update(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            修改表中的对象数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.InsertTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量插入数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.UpdateTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量更新数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDalSql.DeleteTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            批量删除数据库记录
+            </summary>
+            <param name="Tables"></param>
+            <param name="IsRollBack">是否允许在操作异常时回滚，true为发生异常是回滚所有操作，false忽略异常记录</param>
+            <returns>影响的记录数量</returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDBInfo">
+            <summary>
+            数据库操信息接口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDBInfo.GetConnectString">
+            <summary>
+            获取连接字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDvTable">
+            <summary>
+            驱动表格接口，抽象表格对象的操作
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.Entity">
+            <summary>
+            操作的实体对象
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.Join">
+            <summary> 
+            联立实体类包装对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.WhereClause(System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            创建条件子语句，只用于主实体对象
+            </summary>
+            <param name="FieldName">字段名</param>
+            <param name="OperatorType">运算符</param>
+            <param name="LinkNextOperator">其后的逻辑操作符，当存在多个条件时，确定他们之间的关系</param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.WhereClause(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            创建条件子语句，指定要作为条件子语句的实体对象
+            </summary>
+            <param name="JoinEntity">在联立的实体对象中查找</param>
+            <param name="FieldName">字段名</param>
+            <param name="OperatorType">运算符</param>
+            <param name="LinkNextOperator">其后的逻辑操作符，当存在多个条件时，确定他们之间的关系</param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.Insert">
+            <summary>
+            将该表格对象插入数据库中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.Select">
+            <summary>
+            根据存在的条件子语句查询该单位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.Wherelist">
+            <summary>
+            条件子语句
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.Delete">
+            <summary>
+            根据条件语句删除数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.Update">
+            <summary>
+            根据条件语句更新对象的所有值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.Filterlist">
+            <summary>
+            筛选过滤器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.SetFilter(Protein.Enzyme.DAL.Operator,System.String)">
+            <summary>
+            查询过滤器
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.GetGroupBy">
+            <summary>
+            分组对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTable.SetGroupBy(System.String)">
+            <summary>
+            设置分组字段
+            </summary>
+            <param name="FieldName"></param>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTable.InClause">
+            <summary>
+            in子语句设置 该方法欠考虑 暂时用
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.DlgCreateDvTableIns">
+            <summary>
+            创建表格操作驱动对象委托
+            </summary>
+            <param name="Entity"></param>
+            <param name="DalSql"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDvTableBatch">
+            <summary>
+            驱动表格批量操作接口，批量添加、更新、删除纪录
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTableBatch.DalSql">
+            <summary>
+            数据库操作
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvTableBatch.DlgCreateDriveTableIns">
+            <summary>
+            创建表格操作驱动实例的委托实例
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.CreateDriveTable(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            根据批量操作的IDalSql对象和参数传入的实体对象创建表格操作驱动对象实例 
+            </summary>
+            <param name="Entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.AddInsert(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            添加插入操作,以备批量执行
+            </summary>
+            <param name="Entity"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.AddUpdate(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            添加更新操作,以备批量执行
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.AddDelete(Protein.Enzyme.DAL.IDvTable)">
+            <summary>
+            添加删除操作,以备批量执行
+            </summary>
+            <param name="Table"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.Execute">
+            <summary>
+            执行操作 批量执行所有的插入、更新、删除操作，暂时不做细化的操作结果 只返回影响的数量
+            不支持回滚操作
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.ExecuteUpdate(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            执行操作 批量执行 更新 操作 
+            <param name="TableList">表格列表</param>
+            <param name="IsRollBack">是否回滚，如果发生回滚，返回值为-1</param>
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.ExecuteInsert(System.Collections.Generic.List{Protein.Enzyme.DAL.IEntityBase},System.Boolean)">
+            <summary>
+            执行操作 批量执行 更新 操作 
+            <param name="Entity">实体</param>
+            <param name="IsRollBack">是否回滚，如果发生回滚，返回值为-1</param>
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvTableBatch.ExecuteDelete(System.Collections.Generic.List{Protein.Enzyme.DAL.IDvTable},System.Boolean)">
+            <summary>
+            执行操作 批量执行 更新 操作 
+            <param name="TableList">表格列表</param>
+            <param name="IsRollBack">是否回滚，如果发生回滚，返回值为-1</param>
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IDvWhere">
+            <summary>
+            查询条件，条件子语句的查询条件对象
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvWhere.Entity">
+            <summary>
+            实体实例
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvWhere.Clause">
+            <summary>
+            条件子语句字符
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvWhere.OperatorItem">
+            <summary>
+            操作条件
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IDvWhere.ClauseItem(Protein.Enzyme.DAL.IEntityBase,System.Reflection.PropertyInfo,System.String,System.String)">
+            <summary>
+            创建对象实体数据项  这个方法的参数有问题 需要使用Operator
+            </summary>
+            <param name="Entity">条件字段</param>
+            <param name="Field">条件字段</param>
+            <param name="Operator">操作符</param>
+            <param name="LinkNextOperator">子语句连接操作符</param>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvWhere.LinknextOperator">
+            <summary>
+            连接下一个条件子语句的运算操作符
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IDvWhere.Usefield">
+            <summary>
+            该条件子语句使用的字段
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IEntityBase">
+            <summary>
+            实体基本操作接口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityBase.GetField(System.String)">
+            <summary>
+            获取类属性字段
+            </summary>
+            <param name="FieldName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityBase.GetFields">
+            <summary>
+            获取类所有的属性字段
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityBase.GetStrFields">
+            <summary>
+            获取类属性所有字段的名称字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityBase.PrimaryKey">
+            <summary>
+            获取实体主键 所有主外键都用方法获取 这个主键应该换成一个接口 下面的外联键也应该是一个接口 两者组合使用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IEntityFactory">
+            <summary>
+            数据操作实体工厂
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.CreateEntityInstance``1">
+            <summary>
+            创建实体对象实例
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IEntityFactory.DbHelper">
+            <summary>
+            数据库信息
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.CreateDriveTable(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            创建表格操作驱动对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.CreateDriveTableBatch">
+            <summary>
+            创建表格批量操作驱动对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.CreateDALmanager">
+            <summary>
+            管理接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IEntityFactory.TypeAdapter">
+            <summary>
+            实体类型适配器
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.AddAdapter(Protein.Enzyme.DAL.EntityTypeAdapter)">
+            <summary>
+             添加新的实体类型处理适配器
+            </summary>
+            <param name="NewAdapter"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IEntityFactory.CloseFactory">
+            <summary>
+            关闭工厂
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IFilter">
+            <summary>
+            查询过滤语句 包含聚合函数
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IFilter.Usefield">
+            <summary>
+            筛选的字段
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IFilter.OutPutFieldChar">
+            <summary>
+            字段输出
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IFilter.OperatorSign">
+            <summary>
+            操作符号
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IFilter.SetFilter(System.Reflection.PropertyInfo,Protein.Enzyme.DAL.Operator)">
+            <summary>
+            设置过滤 操作符号 操作字段
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.IJoinEntity">
+            <summary>
+            联立的实体类包装接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.DAL.IJoinEntity.Entitys">
+            <summary>
+            联立的实体类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.IJoinEntity.JoinField(Protein.Enzyme.DAL.IEntityBase,Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            传入要联合的实体 在调用的实体内记录可联合的字段组合
+            所有外键关系都用方法表示 
+            <param name="JionEntity">联立的实体类对象</param>
+            <param name="SourceEntity">联立的实体类对象</param>
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.LinkOperator">
+            <summary>
+            子语句逻辑运算法
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.LinkOperator.and">
+            <summary>
+            and
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.LinkOperator.or">
+            <summary>
+            or
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.LinkOperator.nul">
+            <summary>
+            null
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.DAL.Operator">
+            <summary>
+            操作符
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Deng">
+            <summary>
+            Deng
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Da">
+            <summary>
+            Deng
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Xiao">
+            <summary>
+            Deng
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.BuDeng">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Da_Deng">
+            <summary>
+            Deng
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Xiao_Deng">
+            <summary>
+            Deng
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Fun_All">
+            <summary>
+            全部字段
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Fun_Max">
+            <summary>
+            最大
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.In">
+            <summary>
+            in
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.Count">
+            <summary>
+            Count
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.LikeStart">
+            <summary>
+            LikeStart
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.LikeEnd">
+            <summary>
+            LikeEnd
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.DAL.Operator.LikeAll">
+            <summary>
+            LikeAll
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.ExtendConfig.ExtendConfigFactory">
+            <summary>
+            配置工厂
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.ExtendConfig.ECC">
+            <summary>
+             扩展配置类接口
+            </summary> 
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.ECC.GetExtendConfig``1">
+            <summary>
+            扩展配置对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.ECC.AddExtendConfig(System.Object)">
+            <summary>
+            
+            </summary> 
+            <param name="NewObject"></param>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.ECC.SaveConfig``1(System.String,``0)">
+            <summary>
+            保存配置
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="XmlFile"></param>
+            <param name="Obj"></param>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.ECC.Deserialize(System.String,System.String,Protein.Enzyme.Layout.Configuration.ExConfig)">
+            <summary>
+            反序列化
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.ECC.GetTypeFromFlag(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="AssemblyPath"></param>
+            <param name="FullClassName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.ExtendConfig.IECContainer">
+            <summary>
+            扩展配置容积接口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.IECContainer.GetExtendConfig``1">
+            <summary>
+            扩展配置对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.IECContainer.AddExtendConfig(System.Object)">
+            <summary>
+            添加扩展配置对象到容器
+            </summary> 
+            <param name="NewObject"></param>
+        </member>
+        <member name="T:Protein.Enzyme.ExtendConfig.IExtendConfigFactory">
+            <summary>
+            扩展配置工厂接口 创建扩展配置对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.ExtendConfig.IExtendConfigFactory.CreateConfigFormXML``1">
+            <summary>
+            从xml文件创建扩展配置
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.ClassDesignsHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ClassDesignsHandler.GetObjTypeFromProxy(System.Object)">
+            <summary>
+            从代理对象获取对象的类型
+            </summary>
+            <param name="Obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.DalHandler">
+            <summary>
+            数据操作入口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.#ctor">
+            <summary>
+            数据操作入口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.DalCreateEntityInstance``1">
+            <summary>
+            创建实体类对象实例
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.DalCreateDriveTable(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            创建实体表格驱动对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.QueryAll``1(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            查询指定实体对象的所有值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="EntityInstance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.QueryEntity``1(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            根据条件查询指定实体对象的所有值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="EntityInstance"></param>
+            <param name="Field"></param>
+            <param name="Opr"></param>
+            <param name="LinkOpr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.QueryEntityList``1(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            根据条件查询指定实体对象的所有值
+            </summary>
+            <typeparam name="T"></typeparam> 
+            <param name="Field"></param>
+            <param name="EntityInstance"></param>
+            <param name="LinkOpr"></param>
+            <param name="Opr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.QueryEntityList``1(Protein.Enzyme.DAL.IEntityBase,System.Collections.Generic.List{Protein.Enzyme.DAL.ClauseElement})">
+            <summary>
+            根据多个条件子语句查询指定实体对象的所有值 当条件子语句数量为0时返回值为空列表 此方法不考虑联立表查询情况
+            </summary>
+            <typeparam name="T"></typeparam> 
+            <param name="EntityInstance"></param>
+            <param name="Clauses"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.QueryEntityJoin``1(System.Collections.Generic.List{Protein.Enzyme.DAL.ClauseElement})">
+            <summary>
+            联立查询获取实体对象列表
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.GetNewCode(Protein.Enzyme.DAL.IEntityBase,System.String)">
+            <summary>
+            获取可用的新编号 流水最大值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.AddEntityData(Protein.Enzyme.DAL.IEntityBase)">
+            <summary>
+            添加实体记录
+            </summary>
+            <param name="Entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.RemoveEntityData(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            移除实体数据
+            </summary>
+            <param name="Entity"></param>
+            <param name="Field"></param>
+            <param name="LinkOpr"></param>
+            <param name="Opr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.RemoveEntityData(Protein.Enzyme.DAL.IEntityBase,System.Collections.Generic.List{Protein.Enzyme.DAL.ClauseElement})">
+            <summary>
+            移除实体数据
+            </summary> 
+            <param name="Entity"></param>
+            <param name="Clauses"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.UpdateEntityData(Protein.Enzyme.DAL.IEntityBase,System.String,Protein.Enzyme.DAL.Operator,Protein.Enzyme.DAL.LinkOperator)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="Entity"></param>
+            <param name="Field"></param>
+            <param name="Opr"></param>
+            <param name="LinkOpr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.UpdateEntityData(Protein.Enzyme.DAL.IEntityBase,System.Collections.Generic.List{Protein.Enzyme.DAL.ClauseElement})">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="Entity"></param>
+            <param name="Clauses"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.UpdateEntityDataTran``1(System.Collections.Generic.Dictionary{``0,System.Collections.Generic.List{Protein.Enzyme.DAL.ClauseElement}},System.Boolean)">
+            <summary>
+            批量更新实体
+            </summary>
+            <param name="EntityClause">实体列表</param>
+            <param name="IsRollBack">是否回滚</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.AddEntityDataTran``1(System.Collections.Generic.List{``0},System.Boolean)">
+            <summary>
+            批量添加实体记录
+            </summary>
+            <param name="EntityList"></param>
+            <param name="IsRollBack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DalHandler.AddEntityDataTran(System.Collections.Generic.List{Protein.Enzyme.DAL.IEntityBase},System.Boolean)">
+            <summary>
+            批量添加实体记录
+            </summary>
+            <param name="ListCell"></param>
+            <param name="IsRollBack"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.DescriptionExtensions">
+            <summary>
+             获取说明的扩展工具类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DescriptionExtensions.GetEnumDescription(System.Object)">
+            <summary>  
+            获取枚举变量值的 Description 属性  
+            </summary>  
+            <param name="obj">枚举变量</param>  
+            <returns>如果包含 Description 属性，则返回 Description 属性的值，否则返回枚举变量值的名称</returns>  
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DescriptionExtensions.GetEnumDescription(System.Object,System.Boolean)">
+            <summary>  
+            获取枚举变量值的 Description 属性  
+            </summary>  
+            <param name="obj">枚举变量</param>  
+            <param name="isTop">是否改变为返回该类、枚举类型的头 Description 属性，而不是当前的属性或枚举变量值的 Description 属性</param>  
+            <returns>如果包含 Description 属性，则返回 Description 属性的值，否则返回枚举变量值的名称</returns> 
+        </member>
+        <member name="M:Protein.Enzyme.Repository.DescriptionExtensions.GetListItemFormEnum(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.Encrypt">
+            <summary>
+            字符串编码加密
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.Encrypt.CipherEncryptDES(System.String)">
+            <summary>
+            DES加密字符串
+            </summary>
+            <param name="EncryptString">待加密的字符串</param> 
+            <returns>加密成功返回加密后的字符串，失败返回源串 </returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.Encrypt.CipherDecryptDES(System.String)">
+            <summary>
+            DES解密字符串
+            </summary>
+            <param name="DecryptString">待解密的字符串</param> 
+            <returns>解密成功返回解密后的字符串，失败返源串</returns>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.ProteinHandler">
+            <summary>
+            支撑功能类库使用入口
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.GetProteinConfig">
+            <summary>
+            支撑类库配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.GetEntityFactory">
+            <summary>
+            获取数据库操作的实体类工厂对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.SetEntityTypeAdapter``2">
+            <summary>
+            设置实体类型适配器
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TC"></typeparam>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.GetExtendConfig``1">
+            <summary>
+            获取扩展配置对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.SetExtendConfig``1(``0)">
+            <summary>
+            设置扩展配置
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Obj"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.ProteinHandler.AddExtendConfig(System.Object)">
+            <summary>
+            添加扩展配置对象
+            </summary> 
+            <param name="NewObject"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Repository.NormalIO">
+            <summary>
+            标准的处理函数 通用与类库功能
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.NormalIO.ExtComposeAssemblyFullName(System.String)">
+            <summary>
+            将程序集名称扩展到完全路径名 同一级目录
+            </summary>
+            <param name="AssemblyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.NormalIO.GetAssemblyPath(System.Reflection.Assembly)">
+             <summary>
+             获取程序集的运行路径
+             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.NormalIO.GetTypePropertyValue``1(System.Type,System.String)">
+            <summary>
+            获取指定类型的属性的默认值
+            自动根据类型初始化实例对象获取值，如果没有默认值可能是null
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="TypeObj"></param>
+            <param name="PropertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.NormalIO.XmlSerialize``1(System.String,System.Text.Encoding,``0)">
+            <summary> 
+            对象序列化成 XML String  
+            </summary> 
+        </member>
+        <member name="T:Protein.Enzyme.Repository.XmlHelper">
+            <summary>
+            XmlFiles 的摘要说明。
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.XmlHelper.FindNode(System.String)">
+            <summary>
+            给定一个节点的xPath表达式并返回一个节点
+            </summary>
+            <param name="xPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.XmlHelper.GetNodeListTable(System.String,System.Xml.XmlNodeList)">
+            <summary>
+            从给定的列表中返回一个节点列表
+            </summary>
+            <param name="nodeName"></param>
+            <param name="nodeList"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.XmlHelper.GetNodeValue(System.String)">
+            <summary>
+            给定一个节点的xPath表达式返回其值
+            </summary>
+            <param name="xPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.XmlHelper.GetNodeList(System.String)">
+            <summary>
+            给定一个节点的表达式返回此节点下的孩子节点列表
+            </summary>
+            <param name="xPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Repository.XmlHelper.DeleteNodeValue(System.String,System.String,System.String)">
+            <summary>
+            删除一个节点
+            </summary>
+            <param name="xPath">xPath表达式</param>
+            <param name="nodeColumn">节点的匹配字段</param>
+            <param name="nodeValue">匹配字段是直</param>
+        </member>
+        <member name="T:Protein.Enzyme.ExceptionHandler">
+            <summary>
+            以系统异常为参数的异常处理委托
+            </summary>
+            <param name="Ex"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Design.ClassDrive">
+            <summary>
+            类实例操作驱动类
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.MethodDelegate(System.Object,System.String,System.Object,System.String)">
+            <summary>
+            设置指定对象事件方法委托
+            </summary>
+            <param name="DlgtObj">委托对象</param>
+            <param name="DlgtEvent">委托对象事件</param>
+            <param name="InvokeObj">调用对象</param>
+            <param name="InvokeMethod">调用对象方法</param>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.ProxyInstance``1(System.Type,System.Object[])">
+            <summary>
+            通过代理实例化指定类型
+            </summary>
+            <param name="ClassType">要实例化的类的类型</param>
+            <param name="Parameters">实例化类型构造函数的参数</param> 
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.ProxyInstance``1(System.String,System.String,System.Object[])">
+            <summary>
+            通过代理实例化程序集
+            </summary>
+            <param name="FullClassName">要实例化的，包括命名空间的类名</param>
+            <param name="AssemblyPath">程序集绝对路径</param> 
+            <param name="Parameters">参数</param> 
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.InstanceFromPath``1(System.String,System.String,System.Object[])">
+            <summary>
+            (过时的)创建对象实例，不使用动态代理
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="AssemblyPath"></param>
+            <param name="FullClassName"></param>
+            <param name="Parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.Instance``1(System.String,System.String,System.Object[])">
+            <summary>
+            创建对象实例，不使用动态代理
+            </summary>
+            <param name="AssemblyPath">程序集全路径 带扩展名</param>
+            <param name="FullClassName">要实例化类名称</param>
+            <param name="Parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.Instance``1(System.Type,System.Object[])">
+            <summary>
+            创建对象实例
+            </summary>
+            <param name="ClassType">类型</param> 
+            <param name="Parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.GetInterfaceListFormAssemblys``1(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            加载程序集
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ClassDrive.GetTypeListForInterface``1(System.String)">
+            <summary>
+            搜索指定路径下指定接口类型的Type对象，不是实例
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Design.InvokeHandler">
+            <summary>
+            拦截方法句柄
+            </summary>
+            <param name="invocation"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Design.ProxyInterceptor">
+            <summary>
+            代理拦截器
+            </summary>
+        </member>
+        <member name="E:Protein.Enzyme.Design.ProxyInterceptor.InvokeBefore">
+            <summary>
+            拦截方法运行前事件
+            </summary>
+        </member>
+        <member name="E:Protein.Enzyme.Design.ProxyInterceptor.InvokeAfter">
+            <summary>
+            拦截方法运行后事件
+            </summary>
+        </member>
+        <member name="E:Protein.Enzyme.Design.ProxyInterceptor.InvokeException">
+            <summary>
+            拦截方法异常处理事件
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ProxyInterceptor.Intercept(Protein.Enzyme.DynamicProxy.IInvocation,System.Object[])">
+            <summary>
+            重写拦截器方法
+            </summary>
+            <param name="invocation"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ProxyInterceptor.WelcomeToHell(System.Exception)">
+            <summary>
+             无法处理的异常在程序集所在目录生成Log文件
+            </summary>
+            <param name="se"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ProxyInterceptor.BeforeInvoke(Protein.Enzyme.DynamicProxy.IInvocation)">
+            <summary>
+            截断方法的代理前置方法
+            </summary>
+            <param name="Invocation"></param>
+        </member>
+        <member name="M:Protein.Enzyme.Design.ProxyInterceptor.AfterInvoke(Protein.Enzyme.DynamicProxy.IInvocation)">
+            <summary>
+            截断方法的代理后置方法
+            </summary>
+            <param name="Invocation"></param>
+        </member>
+        <member name="T:Protein.Enzyme.Log.ILog">
+            <summary>
+            日志对象接口
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Log.ILog.CONTENT">
+            <summary>
+            日志内容
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Log.ILog.LOGCODE">
+            <summary>
+            日志编码
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Log.ILog.LOGTIME">
+            <summary>
+            日志时间
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.Log.ILog.LOGTYPE">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Log.ILogger">
+            <summary>
+            日志记录器接口
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.Log.LoggerManager">
+            <summary>
+            记录器管理
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.Log.LoggerManager.CreateLogger(System.String,System.String)">
+            <summary>
+            创建日志记录器对象
+            </summary>
+            <param name="AssemblyPath">程序集全路径 带扩展名</param>
+            <param name="FullClassName">要实例化类名称</param>
+            <returns></returns>
+        </member>
+        <member name="T:Protein.Enzyme.Log.LogType">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Log.LogType.All">
+            <summary>
+            all
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Log.LogType.info">
+            <summary>
+            info
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Log.LogType.debug">
+            <summary>
+            debug
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Log.LogType.error">
+            <summary>
+            error
+            </summary>
+        </member>
+        <member name="F:Protein.Enzyme.Log.LogType.nothing">
+            <summary>
+            nothing
+            </summary>
+        </member>
+        <member name="T:Protein.Enzyme.UI.Captcha">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.UI.Captcha.#ctor(System.Int32)">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.UI.Captcha.CaptchaValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.UI.Captcha.MakeCode(System.Int32)">
+            <summary> 
+            生成验证码字符串 
+            </summary> 
+            <param name="codeLen">验证码字符长度</param> 
+            <returns>返回验证码字符串</returns> 
+        </member>
+        <member name="M:Protein.Enzyme.UI.Captcha.CreateCodeImg">
+            <summary> 
+             获取验证码图片流 
+             </summary> 
+             <param name="checkCode">验证码字符串</param> 
+             <returns>返回验证码图片流</returns> 
+        </member>
+        <member name="T:Protein.Enzyme.UI.ListItem">
+            <summary>
+            选择项类，用于ComboBox或者ListBox添加项
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.UI.ListItem.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.UI.ListItem.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="sid"></param>
+            <param name="sname"></param>
+        </member>
+        <member name="M:Protein.Enzyme.UI.ListItem.ToString">
+            <summary>
+            显示在控件上的值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Protein.Enzyme.UI.ListItem.ID">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.UI.ListItem.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Protein.Enzyme.UI.ListItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+    </members>
+</doc>

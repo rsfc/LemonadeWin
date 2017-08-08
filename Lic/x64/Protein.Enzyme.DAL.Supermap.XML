@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Protein.Enzyme.DAL.Supermap</name>
+    </assembly>
+    <members>
+        <member name="T:Protein.Enzyme.DAL.Supermap.GeneralExtensions">
+            <summary>
+            通用功能方法
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetLayerNamebyCaption(SuperMap.Mapping.Map,System.String)">
+            <summary>
+            通过图层的Caption获得名称
+            </summary>
+            <param name="map"></param>
+            <param name="caption"></param>
+            <returns></returns> 
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.ConvertGeoPrj(SuperMap.Data.Geometry)">
+            <summary>
+            将几何对象投影到目标投影类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.ConvertGeoPrjToEarth(SuperMap.Data.Geometry)">
+            <summary>
+            将几何对象从投影转换到84
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.findPointOnExtensionLinesByDistance(SuperMap.Data.Point2D,SuperMap.Data.Point2D,System.Double)">
+            <summary>
+            按距离求线段延长线上的点
+            </summary>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <param name="distance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.findPointOnWholeLinesByDistance(SuperMap.Data.GeoLine,System.Double)">
+            <summary>
+            按距离求线段及延长线上的点
+            </summary> 
+            <param name="distance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetPropertyName``1(System.Type,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            获取属性名称
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Obj"></param>
+            <param name="expr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.QueryGeometry(SuperMap.Mapping.Map,System.String,System.Int32)">
+            <summary>
+            查询几何对象
+            </summary>
+            <param name="MapObj">地图对象</param>
+            <param name="LayerName">图层名称</param>
+            <param name="SMID">编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.HighLightLine(SuperMap.Mapping.Map,System.String,System.Int32,SuperMap.Data.GeoStyle)">
+            <summary>
+            高亮线对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.HighLightGeometry(SuperMap.Mapping.Map,System.String,System.Int32,SuperMap.Data.GeoStyle)">
+            <summary>
+            高亮对象
+            </summary>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.Positioning(SuperMap.Mapping.Map,SuperMap.Data.Geometry,System.Boolean)">
+            <summary>
+            定位
+            </summary>
+            <param name="TargetGeometry"></param>
+            <param name="MapObj"></param>
+            <param name="IsPrj">是否投影</param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.Positioning(SuperMap.Mapping.Map,System.String,System.Int32,System.Boolean,SuperMap.Data.GeoStyle)">
+            <summary>
+            定位
+            </summary>
+            <param name="SMID"></param>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetRecordset(SuperMap.Mapping.Map,System.String,System.String,System.Boolean,SuperMap.Data.CursorType)">
+            <summary>
+            从图层名称根据属性条件查询记录集
+            </summary>
+            <param name="MapObj">地图控件</param>
+            <param name="LayerName">图层名称</param>
+            <param name="Attribute">查询属性</param>
+            <param name="HasGeometry">是否包含几何对象</param>
+            <param name="Cursor">游标模式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetRecordset(SuperMap.Mapping.Map,System.String,System.String,System.String[],System.Boolean,SuperMap.Data.CursorType)">
+            <summary>
+            从图层名称根据属性条件查询记录集
+            </summary>
+            <param name="MapObj">地图控件</param>
+            <param name="LayerName">图层名称</param>
+            <param name="Attribute">查询属性</param>
+            <param name="HasGeometry">是否包含几何对象</param>
+            <param name="Cursor">游标模式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetRecordsetByIntersect(SuperMap.Mapping.Map,System.String,SuperMap.Data.Geometry,System.String,System.Boolean,SuperMap.Data.CursorType)">
+            <summary>
+            从图层名称根据属性条件查询记录集
+            </summary>
+            <param name="MapObj">地图控件</param>
+            <param name="LayerName">图层名称</param>
+            <param name="Attribute">查询属性</param>
+            <param name="HasGeometry">是否包含几何对象</param>
+            <param name="Cursor">游标模式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Protein.Enzyme.DAL.Supermap.GeneralExtensions.GetRecordsetByDatasource(SuperMap.Data.DatasetVector,System.String,System.Boolean,SuperMap.Data.CursorType)">
+            <summary>
+            从图层名称根据属性条件查询记录集
+            </summary>
+            <param name="MapObj">地图控件</param>
+            <param name="LayerName">图层名称</param>
+            <param name="Attribute">查询属性</param>
+            <param name="HasGeometry">是否包含几何对象</param>
+            <param name="Cursor">游标模式</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CBFCE6D-A013-4965-9B44-015192150BAE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lemonade.Samples.NewModule</RootNamespace>
+    <AssemblyName>Lemonade.Samples.NewModule</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Debug64\Module\Lemonade.Samples.NewModule\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\Module\Lemonade.Samples.NewModule\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lemonade.Frame">
+      <HintPath>..\..\..\Debug64\Lemonade.Frame.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMutualA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMutualA.Designer.cs">
+      <DependentUpon>FrmMutualA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleFunction.cs" />
+    <Compile Include="SampleWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SampleWindow.Designer.cs">
+      <DependentUpon>SampleWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wins\Frm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wins\Frm1.Designer.cs">
+      <DependentUpon>Frm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wins\Samplebase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wins\Samplebase.designer.cs">
+      <DependentUpon>Samplebase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LemonNewModule.cs" />
+    <Compile Include="LemonNewModuleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LemonNewModuleForm.Designer.cs">
+      <DependentUpon>LemonNewModuleForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMutualA.resx">
+      <DependentUpon>FrmMutualA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SampleWindow.resx">
+      <DependentUpon>SampleWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wins\Frm1.resx">
+      <DependentUpon>Frm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wins\Samplebase.resx">
+      <DependentUpon>Samplebase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LemonNewModuleForm.resx">
+      <DependentUpon>LemonNewModuleForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

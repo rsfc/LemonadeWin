@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Protein.Peptide</name>
+    </assembly>
+    <members>
+        <member name="T:Protein.Peptide.UI.Captcha">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="M:Protein.Peptide.UI.Captcha.#ctor(System.Int32)">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="M:Protein.Peptide.UI.Captcha.MakeCode(System.Int32)">
+            <summary> 
+            生成验证码字符串 
+            </summary> 
+            <param name="codeLen">验证码字符长度</param> 
+            <returns>返回验证码字符串</returns> 
+        </member>
+        <member name="M:Protein.Peptide.UI.Captcha.CreateCodeImg">
+            <summary> 
+             获取验证码图片流 
+             </summary> 
+             <param name="checkCode">验证码字符串</param> 
+             <returns>返回验证码图片流</returns> 
+        </member>
+    </members>
+</doc>

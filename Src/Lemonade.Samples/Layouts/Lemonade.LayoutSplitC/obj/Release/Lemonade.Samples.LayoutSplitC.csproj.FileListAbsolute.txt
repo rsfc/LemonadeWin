@@ -1,0 +1,4 @@
+F:\SourceCode\Application\Lemonade\Release\Styles\LayoutSplitCConfig.xml
+F:\SourceCode\Application\Lemonade\Release\Styles\Lemonade.Samples.LayoutSplitC.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitC\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitC\obj\Release\Lemonade.Samples.LayoutSplitC.dll

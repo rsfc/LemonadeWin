@@ -1,0 +1,9 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\CSF.Nazgul.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\CSF.Nazgul.General.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.Nazgul.General\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.Nazgul.General\obj\Debug\CSF.Nazgul.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.Nazgul.General\obj\Debug\CSF.Nazgul.General.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Skills\CSF.Nazgul.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Skills\CSF.Nazgul.General.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Skills\CSF.Nazgul.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Skills\CSF.Nazgul.General.pdb

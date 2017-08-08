@@ -1,0 +1,7 @@
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\bin\x64\Debug\Lemonade.Nazgul.General.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\bin\x64\Debug\Lemonade.Nazgul.General.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\x64\Debug\Lemonade.Nazgul.General.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\x64\Debug\Lemonade.Nazgul.General.pdb
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.General.XML
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.General.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.General.pdb

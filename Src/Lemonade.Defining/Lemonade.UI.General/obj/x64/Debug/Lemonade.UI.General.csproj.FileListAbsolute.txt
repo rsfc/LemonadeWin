@@ -1,0 +1,5 @@
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\Lemonade.UI.General.XML
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\Lemonade.UI.General.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\Lemonade.UI.General.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\x64\Debug\Lemonade.UI.General.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\x64\Debug\Lemonade.UI.General.pdb

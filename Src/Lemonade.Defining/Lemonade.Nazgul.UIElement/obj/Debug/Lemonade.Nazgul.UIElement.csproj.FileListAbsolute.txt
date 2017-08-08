@@ -1,0 +1,9 @@
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.UIElement.dll
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.UIElement.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\Debug\Lemonade.Nazgul.UIElement.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\Debug\Lemonade.Nazgul.UIElement.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.UIElement.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.UIElement.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\Debug\Lemonade.Nazgul.UIElement.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\Debug\Lemonade.Nazgul.UIElement.pdb

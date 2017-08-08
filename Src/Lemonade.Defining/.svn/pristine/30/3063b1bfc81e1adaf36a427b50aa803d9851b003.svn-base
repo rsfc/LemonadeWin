@@ -1,0 +1,184 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Lemonade.Frame;
+using Lemonade.Frame.Message;
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 状态盒子
+    /// </summary>
+    public partial class FrmStatusBox : Form, IModule
+    {
+        delegate void ShowData(FrmStatusBox Frm, object Msg);
+
+        MsgProcessError perror =null;
+        MsgProcessNote penote = null;
+        MsgProcessWarning pewarning = null;
+        MsgProcessInsideInfo peininfo = null;
+        MsgProcessPtDebug peptdub = null;
+        MsgProcessDebug pedebug = null;
+
+
+        /// <summary>
+        /// 状态盒子
+        /// </summary>
+        public FrmStatusBox()
+        {
+            InitializeComponent();
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected virtual void FrmStatusBox_Load(object sender, EventArgs e)
+        {
+            this.perror = new MsgProcessError(this);
+            this.penote = new MsgProcessNote(this);
+            this.pewarning = new MsgProcessWarning(this);
+            this.peininfo = new MsgProcessInsideInfo(this);
+            this.peptdub = new MsgProcessPtDebug(this);
+            this.pedebug = new MsgProcessDebug(this);
+            this.comboBox1.SelectedIndex = 0; 
+            
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Initialize()
+        { 
+            this.Show(); 
+             
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public IMainForm MainForm
+        {
+            get;
+            set;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ModuleAlias
+        {
+            get { return "消息"; ; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ModuleName
+        {
+            get;
+            set;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public void RunCache()
+        {
+            
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Type"></param>
+        /// <returns></returns>
+        public bool IsUse(MsgType Type)
+        { 
+            return true;
+        }
+
+        ///// <summary>
+        ///// 
+        ///// </summary>
+        ///// <param name="Msg"></param>
+        //public void Process(object Msg)
+        //{
+        //    this.Invoke(new ShowData(Show), this, Msg); 
+        //}
+
+        ///// <summary>
+        ///// 只能在创建线程的控件上操作控件，所以这里没有直接调用，而是使用一个委托
+        ///// </summary>
+        ///// <param name="Frm"></param>
+        ///// <param name="Msg"></param>
+        //protected virtual void Show(FrmStatusBox Frm, object Msg)
+        //{
+        //    Frm.ShowMsg(Msg);
+        //}
+  
+      
+        /// <summary>
+        /// 
+        /// </summary>
+        protected virtual void Clear()
+        {
+            Lemon.RemoveMsgProcess(perror);
+            Lemon.RemoveMsgProcess(penote);
+            Lemon.RemoveMsgProcess(pewarning);
+            Lemon.RemoveMsgProcess(peininfo);
+            Lemon.RemoveMsgProcess(peptdub);
+            Lemon.RemoveMsgProcess(pedebug);
+        }
+        protected virtual  void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        { 
+            Clear();
+            if (this.comboBox1.Text == "全部")
+            {
+                Lemon.AddMsgProcess(perror);    
+                Lemon.AddMsgProcess(penote);
+                Lemon.AddMsgProcess(pewarning);
+                Lemon.AddMsgProcess(peininfo);
+                Lemon.AddMsgProcess(peptdub);
+                Lemon.AddMsgProcess(pedebug);
+            }
+            else if(this.comboBox1.Text == "消息") {
+                Lemon.AddMsgProcess(penote); 
+            }
+            else if (this.comboBox1.Text == "内部消息")
+            {
+                Lemon.AddMsgProcess(peininfo);
+            }
+            else if (this.comboBox1.Text == "平台调试")
+            {
+                Lemon.AddMsgProcess(peptdub);
+            }
+            else if (this.comboBox1.Text == "调试")
+            {
+                Lemon.AddMsgProcess(pedebug);
+            }
+            else if (this.comboBox1.Text == "警告")
+            {
+                Lemon.AddMsgProcess(pewarning);
+            }
+            else if (this.comboBox1.Text == "异常")
+            {
+                Lemon.AddMsgProcess(perror);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected virtual  void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            
+             
+        }
+         
+
+    }
+}

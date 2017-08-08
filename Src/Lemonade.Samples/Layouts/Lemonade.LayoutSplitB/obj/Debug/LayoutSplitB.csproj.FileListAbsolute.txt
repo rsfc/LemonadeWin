@@ -1,0 +1,12 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutSplitB\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\LayoutSplitBConfig.xml
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\LayoutSplitB.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\LayoutSplitB.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutSplitB\obj\Debug\LayoutSplitB.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutSplitB\obj\Debug\LayoutSplitB.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\LayoutSplitB\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\LayoutSplitB\obj\Debug\LayoutSplitB.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\LayoutSplitB\obj\Debug\LayoutSplitB.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\Bin\Styles\LayoutSplitBConfig.xml
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\Bin\Styles\LayoutSplitB.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Layouts\Bin\Styles\LayoutSplitB.pdb

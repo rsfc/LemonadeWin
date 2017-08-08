@@ -1,0 +1,9 @@
+F:\SourceCode\Application\Lemonade\Debug\Actions\Lemonade.Action.GeneralContext.dll
+F:\SourceCode\Application\Lemonade\Debug\Actions\Lemonade.Action.GeneralContext.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\Debug\Lemonade.Action.GeneralContext.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\Debug\Lemonade.Action.GeneralContext.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Actions\Lemonade.Action.GeneralContext.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Actions\Lemonade.Action.GeneralContext.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\Debug\Lemonade.Action.GeneralContext.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\Debug\Lemonade.Action.GeneralContext.pdb

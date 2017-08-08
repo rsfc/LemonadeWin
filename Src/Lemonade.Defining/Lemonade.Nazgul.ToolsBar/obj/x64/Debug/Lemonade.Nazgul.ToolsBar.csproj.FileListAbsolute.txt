@@ -1,0 +1,7 @@
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.ToolsBar.XML
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.ToolsBar.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.ToolsBar.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x64\Debug\Lemonade.Nazgul.ToolsBar.Properties.Resources.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x64\Debug\Lemonade.Nazgul.ToolsBar.csproj.GenerateResource.Cache
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x64\Debug\Lemonade.Nazgul.ToolsBar.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x64\Debug\Lemonade.Nazgul.ToolsBar.pdb

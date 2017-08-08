@@ -1,0 +1,12 @@
+F:\SourceCode\Application\Exgis\SSMTool\CSFv0.2\SSMTools.UIDesign\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Exgis\SSMTool\CSFv0.2\SSMTools.UIDesign\obj\Debug\SSMTools.UIDesign.dll
+F:\SourceCode\Application\Exgis\SSMTool\CSFv0.2\SSMTools.UIDesign\obj\Debug\SSMTools.UIDesign.pdb
+F:\SourceCode\Application\Exgis\SSMTool\SSMToolsV0.2\SSMTools.UIDesign\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Exgis\SSMTool\编译输出位置\x86\Module\SSMTools.UIDesign\LayoutSplitAConfig.xml
+F:\SourceCode\Application\Exgis\SSMTool\编译输出位置\x86\Module\SSMTools.UIDesign\SSMTools.UIDesign.dll
+F:\SourceCode\Application\Exgis\SSMTool\编译输出位置\x86\Module\SSMTools.UIDesign\SSMTools.UIDesign.pdb
+F:\SourceCode\Application\Exgis\SSMTool\SSMToolsV0.2\SSMTools.UIDesign\obj\Debug\SSMTools.UIDesign.dll
+F:\SourceCode\Application\Exgis\SSMTool\SSMToolsV0.2\SSMTools.UIDesign\obj\Debug\SSMTools.UIDesign.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Styles\LayoutSplitAConfig.xml
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Styles\SSMTools.UIDesign.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Styles\SSMTools.UIDesign.pdb

@@ -1,0 +1,8 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.AutoStart\Lemonade.Samples.AutoStart.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.AutoStart\Lemonade.Samples.AutoStart.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\Lemonade.Samples.AutoStart.AutoStartWindow.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\Lemonade.Samples.AutoStart.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.AutoStart\obj\Release\Lemonade.Samples.AutoStart.pdb

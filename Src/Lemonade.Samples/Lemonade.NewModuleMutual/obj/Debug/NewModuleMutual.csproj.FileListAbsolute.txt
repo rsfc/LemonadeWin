@@ -1,0 +1,15 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\NewModuleMutual\NewModuleMutual.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\NewModuleMutual\NewModuleMutual.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmMutualB.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\NewModuleMutual\NewModuleMutual.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\NewModuleMutual\NewModuleMutual.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmStyleTest1.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmStyleTest2.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmStyleTest3.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmStyleTest4.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SwapMutual\obj\Debug\NewModuleMutual.FrmStyleTest11.resources

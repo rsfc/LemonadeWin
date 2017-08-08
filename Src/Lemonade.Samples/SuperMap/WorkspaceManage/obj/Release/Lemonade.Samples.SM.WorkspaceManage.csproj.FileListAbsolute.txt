@@ -1,0 +1,11 @@
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Lemonade.Samples.SM.WorkspaceManage.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Lemonade.Samples.SM.WorkspaceManage.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\Lemonade.Samples.SM.WorkspaceManage.FormMain.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\Lemonade.Samples.SM.WorkspaceManage.Properties.Resources.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\Lemonade.Samples.SM.WorkspaceManage.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\obj\Release\Lemonade.Samples.SM.WorkspaceManage.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\bin\Lemonade.Samples.SM.WorkspaceManage.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\WorkspaceManage\bin\Lemonade.Samples.SM.WorkspaceManage.pdb

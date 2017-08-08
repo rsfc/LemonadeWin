@@ -1,0 +1,10 @@
+F:\SourceCode\Application\Lemonade\Debug\Module\BootModule\Lemonade.BootModule.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\BootModule\Lemonade.BootModule.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\Lemonade.BootModule.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\Lemonade.BootModule.pdb
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.BootModule\Lemonade.BootModule.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.BootModule\Lemonade.BootModule.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.BootModule\obj\Debug\Lemonade.Samples.BootModule.FrmLogin.resources

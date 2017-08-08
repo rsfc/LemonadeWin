@@ -1,0 +1,10 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\BootModule\BootModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\BootModule\BootModule.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\BootModule.FrmLogin.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\BootModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\BootModule\obj\Debug\BootModule.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\BootModule\BootModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\BootModule\BootModule.pdb

@@ -1,0 +1,5 @@
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.UIElement.XML
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.UIElement.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Skills\Lemonade.Nazgul.UIElement.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\x64\Debug\Lemonade.Nazgul.UIElement.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.UIElement\obj\x64\Debug\Lemonade.Nazgul.UIElement.pdb

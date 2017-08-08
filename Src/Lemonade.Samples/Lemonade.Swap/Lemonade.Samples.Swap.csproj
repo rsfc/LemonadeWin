@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{652DC75E-4222-4742-88D7-BC797B66699E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lemonade.Samples.Swap</RootNamespace>
+    <AssemblyName>Lemonade.Samples.Swap</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Debug64\Module\Lemonade.Samples.Swap\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\Module\Lemonade.Samples.Swap\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Lemonade.Frame">
+      <HintPath>..\..\..\Debug64\Lemonade.Frame.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmComplex .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmComplex .Designer.cs">
+      <DependentUpon>FrmComplex .cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSample.Designer.cs">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Samplebase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Samplebase.Designer.cs">
+      <DependentUpon>Samplebase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmKeys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKeys.Designer.cs">
+      <DependentUpon>FrmKeys.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmComplex .resx">
+      <DependentUpon>FrmComplex .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSample.resx">
+      <DependentUpon>FrmSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKeys.resx">
+      <DependentUpon>FrmKeys.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lemonade.SampleEntity\Lemonade.Samples.SampleEntity.csproj">
+      <Project>{539E35B6-3FE8-4981-85E7-248C88FCD449}</Project>
+      <Name>Lemonade.Samples.SampleEntity</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

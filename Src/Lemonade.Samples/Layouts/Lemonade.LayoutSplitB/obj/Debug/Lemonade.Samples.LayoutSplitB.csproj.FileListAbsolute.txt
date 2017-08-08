@@ -1,0 +1,17 @@
+F:\SourceCode\Application\Lemonade\Debug\Styles\LayoutSplitBConfig.xml
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.Samples.LayoutSplitB.dll
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.Samples.LayoutSplitB.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\LayoutSplitBConfig.xml
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\Lemonade.Samples.LayoutSplitB.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\Lemonade.Samples.LayoutSplitB.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.pdb
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\LayoutSplitBConfig.xml
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\Lemonade.Samples.LayoutSplitB.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Styles\Lemonade.Samples.LayoutSplitB.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitB\obj\Debug\Lemonade.Samples.LayoutSplitB.pdb

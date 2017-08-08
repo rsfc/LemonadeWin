@@ -1,0 +1,5 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\LayoutDefault.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Styles\LayoutDefault.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutDefault\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutDefault\obj\Debug\LayoutDefault.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\LayoutDefault\obj\Debug\LayoutDefault.pdb

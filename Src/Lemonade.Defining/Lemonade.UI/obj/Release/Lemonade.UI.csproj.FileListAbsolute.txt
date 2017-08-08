@@ -1,0 +1,5 @@
+F:\SourceCode\Application\Lemonade\Release\Styles\Data\data.txt
+F:\SourceCode\Application\Lemonade\Release\Styles\style.txt
+F:\SourceCode\Application\Lemonade\Release\Lemonade.UI.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.UI\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.UI\obj\Release\Lemonade.UI.dll

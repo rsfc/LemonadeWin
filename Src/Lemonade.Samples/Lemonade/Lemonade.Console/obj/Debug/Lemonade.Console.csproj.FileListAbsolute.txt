@@ -1,0 +1,10 @@
+F:\SourceCode\Application\Lemonade\Debug\Module\CSF.Console\Lemonade.Console.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\CSF.Console\Lemonade.Console.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\Lemonade.Console.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\Lemonade.Console.pdb
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Console\Lemonade.Console.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Console\Lemonade.Console.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Debug\Lemonade.Samples.Console.FrmStrEncrypt.resources

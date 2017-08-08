@@ -1,0 +1,5 @@
+F:\SourceCode\Application\Lemonade\Debug\Lemonade.SampleEntity.dll
+F:\SourceCode\Application\Lemonade\Debug\Lemonade.SampleEntity.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.SampleEntity.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.SampleEntity.pdb

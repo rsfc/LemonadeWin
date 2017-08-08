@@ -1,0 +1,13 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\NewModule\NewModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\NewModule\NewModule.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\NewModule\NewModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\NewModule\NewModule.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.Wins.Frm1.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.FrmMutualA.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.SampleWindow.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\NewModule\obj\Debug\NewModule.Wins.Samplebase.resources

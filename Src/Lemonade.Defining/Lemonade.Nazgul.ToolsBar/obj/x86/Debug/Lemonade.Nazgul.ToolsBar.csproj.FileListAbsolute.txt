@@ -1,0 +1,14 @@
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.ToolsBar.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.Properties.Resources.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.ToolsBar.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.ToolsBar.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.Properties.Resources.resources
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.ToolsBar\obj\x86\Debug\Lemonade.Nazgul.ToolsBar.csproj.GenerateResource.Cache

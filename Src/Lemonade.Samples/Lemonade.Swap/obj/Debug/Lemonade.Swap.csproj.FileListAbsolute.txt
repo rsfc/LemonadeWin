@@ -1,0 +1,12 @@
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Module\Swap\Lemonade.Swap.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Module\Swap\Lemonade.Swap.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\Lemonade.Swap.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\Lemonade.Swap.pdb
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Swap\Lemonade.Swap.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Swap\Lemonade.Swap.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\Lemonade.Samples.Swap.FrmComplex.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\Lemonade.Samples.Swap.FrmSample.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Debug\Lemonade.Samples.Swap.FrmKeys.resources

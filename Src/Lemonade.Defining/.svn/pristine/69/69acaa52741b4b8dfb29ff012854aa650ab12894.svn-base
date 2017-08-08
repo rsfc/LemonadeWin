@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Lemonade.Frame;
+using System.Windows.Forms;
+using Lemonade.Frame.Message;
+namespace Lemonade.SystemException
+{
+    /// <summary>
+    /// 自动记录
+    /// </summary>
+    public class AutomaticRecording : IMsgProcess
+    { 
+        public bool IsUse(MsgType Type)
+        {
+            if (Type == MsgType.Error)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            } 
+        }
+        /// <summary>
+        /// 记录
+        /// </summary>
+        /// <param name="Msg"></param>
+        public void Process(object Msg)
+        {
+            //throw new NotImplementedException();
+        }
+    }
+}

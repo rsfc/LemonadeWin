@@ -1,0 +1,9 @@
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\bin\x64\Debug\Lemonade.Action.GeneralContext.XML
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\bin\x64\Debug\Lemonade.Action.GeneralContext.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\bin\x64\Debug\Lemonade.Action.GeneralContext.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\x64\Debug\Lemonade.Action.GeneralContext.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\x64\Debug\Lemonade.Action.GeneralContext.pdb
+I:\Application\BuildingBlocks\Lemonade\Debug64\Actions\Lemonade.Action.GeneralContext.XML
+I:\Application\BuildingBlocks\Lemonade\Debug64\Actions\Lemonade.Action.GeneralContext.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Actions\Lemonade.Action.GeneralContext.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Action.MapCtrlContext\obj\x64\Debug\Lemonade.Action.GeneralContext.csprojResolveAssemblyReference.cache

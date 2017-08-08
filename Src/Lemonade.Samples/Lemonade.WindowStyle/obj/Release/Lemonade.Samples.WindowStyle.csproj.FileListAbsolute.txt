@@ -1,0 +1,11 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.WindowStyle\Lemonade.Samples.WindowStyle.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.WindowStyle\Lemonade.Samples.WindowStyle.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.SampleWindowNoneStyle.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.SampleWindowStyle.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.SampleWindowStyleFrame.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.SampleWindowGLobalStyel.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.WindowStyle\obj\Release\Lemonade.Samples.WindowStyle.pdb

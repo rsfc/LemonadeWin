@@ -1,0 +1,9 @@
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.SystemException\Lemonade.SystemException.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.SystemException\Lemonade.SystemException.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.Properties.Resources.resources
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.SystemException\ExceptionDefine.xml

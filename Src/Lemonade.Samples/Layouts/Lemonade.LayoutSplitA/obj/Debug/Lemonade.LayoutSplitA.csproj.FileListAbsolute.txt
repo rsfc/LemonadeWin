@@ -1,0 +1,6 @@
+F:\SourceCode\Application\Lemonade\Debug\Styles\LayoutSplitAConfig.xml
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.LayoutSplitA.dll
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.LayoutSplitA.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitA\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitA\obj\Debug\Lemonade.LayoutSplitA.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutSplitA\obj\Debug\Lemonade.LayoutSplitA.pdb

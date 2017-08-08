@@ -1,0 +1,12 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\Declare\Declare.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\Declare\Declare.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\Declare.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\Declare.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\Declare.SampleExConfig.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Declare\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\Declare\SampleConfig.xml
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Declare\SampleConfig.xml
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Declare\Declare.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Declare\Declare.pdb

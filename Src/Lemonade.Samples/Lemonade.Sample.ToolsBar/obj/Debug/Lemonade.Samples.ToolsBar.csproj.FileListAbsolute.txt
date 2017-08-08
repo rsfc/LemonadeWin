@@ -1,0 +1,14 @@
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.pdb
+I:\Application\BuildingBlocks\Lemonade\Debug64\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Samples.ToolsBar.pdb

@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Lemonade.Frame;
+using Lemonade.Frame.Running;
+
+namespace Lemonade.SystemException
+{
+    /// <summary>
+    /// 异常记录
+    /// </summary>
+    public class SystemExceptionDefine : ISystemExceptionDefine
+    {
+        public SystemExceptionDefine()
+        {
+            Initialize();
+        }
+        /// <summary>
+        /// 初始化，加载已经有的自定义异常定义数据列表
+        /// </summary>
+        public void Initialize()
+        { 
+            object tbs = Lemon.Deserialize(typeof(ExceptionDefine), Lemon.GetCSFRootDirectory() + @"\SystemException\ExceptionDefine.xml");
+            if (tbs != null)
+            {
+
+            }
+        }
+ 
+
+
+    }
+}

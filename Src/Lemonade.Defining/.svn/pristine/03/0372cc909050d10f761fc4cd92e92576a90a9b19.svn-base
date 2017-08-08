@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Lemonade.Frame;
+using Lemonade.Frame.Message;
+
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 消息处理基类
+    /// </summary>
+    public abstract  class MsgProcess : IMsgProcess
+    {
+        public FrmStatusBox TargetFrom { get; set; }
+
+        protected int rowindex { get; set; }
+        public MsgProcess(FrmStatusBox StatusFrame)
+        {
+            this.TargetFrom = StatusFrame;
+        }
+        protected abstract MsgType ProType();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Type"></param>
+        /// <returns></returns>
+        public bool IsUse(MsgType Type)
+        {
+            if (Type == ProType())
+            {
+                if (this.TargetFrom != null)
+                {
+                    if (!this.TargetFrom.IsDisposed)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        protected abstract void ShowMsg(object Msg);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Msg"></param>
+        public void Process(object Msg)
+        {  
+             ShowMsg(Msg); 
+        }
+
+        /// <summary>
+        /// 设置颜色
+        /// </summary>
+        /// <param name="Row"></param>
+        /// <param name="C"></param>
+        public void SetCellFontColor(Color C)
+        {
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[0].Style.ForeColor = C;
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[0].Style.SelectionForeColor = C;
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[1].Style.ForeColor = C;
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[1].Style.SelectionForeColor = C;
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[2].Style.ForeColor = C;
+            this.TargetFrom.dataGridView1.Rows[rowindex].Cells[2].Style.SelectionForeColor = C;
+        }
+        /// <summary>
+        /// 插入数据行
+        /// </summary>
+        /// <param name="Ico"></param>
+        /// <param name="Msg"></param>
+        protected virtual void InsertRow(Bitmap Ico,string Msg)
+        {
+            this.TargetFrom.dataGridView1.Rows.Insert(0, 1);
+            DataGridViewRow dgvr = this.TargetFrom.dataGridView1.Rows[0];
+            DataGridViewCell cell0 = dgvr.Cells[0];
+            cell0.Value = Ico;
+            DataGridViewCell cell1 = dgvr.Cells[1];
+            cell1.Value = DateTime.Now.ToString("MM-dd hh:mm:ss").ToString();
+            DataGridViewCell cell2 = dgvr.Cells[2];
+            cell2.Value = Msg;
+            //this.TargetFrom.dataGridView1.Rows.Insert(0, dgvr);
+            this.rowindex = 0;
+        }
+    }
+
+
+}

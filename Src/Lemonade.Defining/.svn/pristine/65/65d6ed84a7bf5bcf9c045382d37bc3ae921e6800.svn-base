@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExceptionDefine>
+  <ExList>
+    <CustomException>
+      <Title>未知的错误</Title>
+      <Value>随碟附送东方闪电</Value>
+    </CustomException> 
+  </ExList> 
+</ExceptionDefine>

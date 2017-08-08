@@ -1,0 +1,5 @@
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Sample.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Debug\Module\Lemonade.Samples.ToolsBar\Lemonade.Sample.ToolsBar.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Sample.ToolsBar.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Sample.ToolsBar\obj\Debug\Lemonade.Sample.ToolsBar.pdb

@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Lemonade.Frame;
+using Lemonade.Frame.Message;
+
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class MsgProcessDebug : MsgProcess
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="StatusFrame"></param>
+        public MsgProcessDebug(FrmStatusBox StatusFrame)
+            :base(StatusFrame)
+        { 
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        protected override MsgType ProType()
+        {
+            return MsgType.Debug;
+        }
+
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Msg"></param>
+        protected override void ShowMsg(object Msg)
+        { 
+            if (Msg.GetType() == typeof(string))
+            {
+                System.IO.Stream streamSmall = Lemon.GetObjType(this).Assembly.GetManifestResourceStream("Lemonade.StatusBox.img.pinion.ico");
+                Bitmap BackgroundImg = new Bitmap(streamSmall);
+                this.InsertRow(BackgroundImg, Msg.ToString());
+                //rowindex = this.TargetFrom.dataGridView1.Rows.Insert(0,.Add(BackgroundImg,DateTime.Now.ToString("MM-dd hh:mm:ss"),Msg.ToString()); 
+            }
+            this.SetCellFontColor(Color.Black);
+        }
+    }
+
+
+}

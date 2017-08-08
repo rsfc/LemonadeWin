@@ -1,0 +1,5 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\x86\Styles\CSF.UI.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Release\CSF.UI.General.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\x86\Styles\CSF.UI.General.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Samples\CSF.UI.General\obj\Release\CSF.UI.General.pdb

@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Lemonade.Frame;
+using Lemonade.Frame.Message;
+
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class MsgProcessNote : MsgProcess
+    {
+
+        public MsgProcessNote(FrmStatusBox StatusFrame)
+            :base(StatusFrame)
+        { 
+
+        }
+
+
+        protected override MsgType ProType()
+        {
+            return MsgType.Note;
+        }
+
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Msg"></param>
+        protected override void ShowMsg(object Msg)
+        { 
+            if (Msg.GetType() == typeof(string))
+            {
+                System.IO.Stream streamSmall = Lemon.GetObjType(this).Assembly.GetManifestResourceStream("Lemonade.StatusBox.img.apply.ico");
+                Bitmap BackgroundImg = new Bitmap(streamSmall);
+                //rowindex = this.TargetFrom.dataGridView1.Rows.Add(
+                //   BackgroundImg,
+                //   DateTime.Now.ToString("MM-dd hh:mm:ss"),
+                //   Msg.ToString()
+                //   );
+                this.InsertRow(BackgroundImg, Msg.ToString());
+            }
+            this.SetCellFontColor(Color.Black);
+        }
+    }
+
+
+}

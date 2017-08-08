@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--扩展配置文件示例，文件通过框架读取-->
+<SampleConfig>
+  <!--字符串类型，节点名称与类属性名称严格相同-->
+  <FieldString>sdfsdf</FieldString>
+  <!--整形类型，节点名称与类属性名称严格相同-->
+  <FieldInt>2</FieldInt>
+  <!--事件类型，节点名称与类属性名称严格相同-->
+  <FieldDate>2014-01-01</FieldDate>
+  <!--浮点类型，节点名称与类属性名称严格相同-->
+  <FieldDouble>23.023</FieldDouble>
+  <!--一个叫做咖啡的自定义类型-->
+  <CoffeeSet>
+    <!--咖啡的属性值-->
+    <Smell>100</Smell>
+    <Sour>90</Sour>
+    <Bitter>80</Bitter>
+    <Puckery>70</Puckery>
+  </CoffeeSet>
+  <!--配置中一个List列表，其中存放的是咖啡对象，扩展文件可以自定义任意多个子节点-->
+  <CoffeeSetList>
+    <Coffee>
+      <Smell>100</Smell>
+      <Sour>90</Sour>
+      <Bitter>80</Bitter>
+      <Puckery>70</Puckery>
+    </Coffee>
+    <Coffee>
+      <Smell>100</Smell>
+      <Sour>90</Sour>
+      <Bitter>80</Bitter>
+      <Puckery>70</Puckery>
+    </Coffee>
+    <Coffee>
+      <Smell>100</Smell>
+      <Sour>90</Sour>
+      <Bitter>80</Bitter>
+      <Puckery>70</Puckery>
+    </Coffee>
+    <Coffee>
+      <Smell>100</Smell>
+      <Sour>90</Sour>
+      <Bitter>80</Bitter>
+      <Puckery>70</Puckery>
+    </Coffee>
+    <Coffee>
+      <Smell>100</Smell>
+      <Sour>90</Sour>
+      <Bitter>80</Bitter>
+      <Puckery>70</Puckery>
+    </Coffee>
+  </CoffeeSetList>
+</SampleConfig>

@@ -1,0 +1,13 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.NewModule.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.NewModule.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.FrmMutualA.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.SampleWindow.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.Wins.Frm1.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.Wins.Samplebase.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.NewModule\obj\Release\Lemonade.Samples.NewModule.pdb
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.NewModule\Lemonade.Samples.NewModule.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.NewModule\Lemonade.Samples.NewModule.pdb

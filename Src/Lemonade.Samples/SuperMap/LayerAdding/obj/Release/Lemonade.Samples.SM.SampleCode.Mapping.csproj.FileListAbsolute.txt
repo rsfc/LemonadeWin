@@ -1,0 +1,11 @@
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Lemonade.Samples.SM.SampleCode.Mapping.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Bin\Lemonade.Samples.SM.SampleCode.Mapping.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\Lemonade.Samples.SM.SampleCode.Mapping.FormMain.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\Lemonade.Samples.SM.SampleCode.Mapping.Properties.Resources.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\Lemonade.Samples.SM.SampleCode.Mapping.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\obj\Release\Lemonade.Samples.SM.SampleCode.Mapping.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\bin\Lemonade.Samples.SM.SampleCode.Mapping.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\SuperMap\LayerAdding\bin\Lemonade.Samples.SM.SampleCode.Mapping.pdb

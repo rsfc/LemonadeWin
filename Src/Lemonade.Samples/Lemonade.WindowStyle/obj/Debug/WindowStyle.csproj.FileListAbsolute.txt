@@ -1,0 +1,13 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\WindowStyle\WindowStyle.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\WindowStyle\WindowStyle.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.SampleWindowStyle.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.SampleWindowStyleFrame.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.SampleWindowNoneStyle.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\WindowStyle\obj\Debug\WindowStyle.SampleWindowGLobalStyel.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\WindowStyle\WindowStyle.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\WindowStyle\WindowStyle.pdb

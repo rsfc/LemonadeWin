@@ -1,0 +1,14 @@
+F:\SourceCode\Application\Lemonade\Debug\Lemonade.Samples.SampleEntity.dll
+F:\SourceCode\Application\Lemonade\Debug\Lemonade.Samples.SampleEntity.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Lemonade.Samples.SampleEntity.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Lemonade.Samples.SampleEntity.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.pdb
+I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Samples.SampleEntity.dll
+I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Samples.SampleEntity.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.dll
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Samples\Lemonade.SampleEntity\obj\Debug\Lemonade.Samples.SampleEntity.pdb

@@ -1,0 +1,10 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.Swap.dll
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Swap\Lemonade.Samples.Swap.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\Lemonade.Samples.Swap.FrmComplex.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\Lemonade.Samples.Swap.FrmSample.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\Lemonade.Samples.Swap.FrmKeys.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\Lemonade.Samples.Swap.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade.Swap\obj\Release\Lemonade.Samples.Swap.pdb

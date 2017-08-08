@@ -1,0 +1,11 @@
+F:\SourceCode\Application\Lemonade\Src\Release\Samples\Bin\Skills\Lemonade.Nazgul.General.dll
+F:\SourceCode\Application\Lemonade\Src\Release\Samples\Bin\Skills\Lemonade.Nazgul.General.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\Debug\Lemonade.Nazgul.General.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\Debug\Lemonade.Nazgul.General.pdb
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.General.dll
+F:\SourceCode\Application\Lemonade\Debug\Skills\Lemonade.Nazgul.General.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.General.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\Lemonade.Nazgul.General.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\Debug\Lemonade.Nazgul.General.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.Nazgul.General\obj\Debug\Lemonade.Nazgul.General.pdb

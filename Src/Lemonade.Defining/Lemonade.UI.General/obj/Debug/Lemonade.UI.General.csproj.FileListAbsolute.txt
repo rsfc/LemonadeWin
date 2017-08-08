@@ -1,0 +1,11 @@
+F:\SourceCode\Application\Lemonade\Src\Release\Samples\Bin\Styles\Lemonade.UI.General.dll
+F:\SourceCode\Application\Lemonade\Src\Release\Samples\Bin\Styles\Lemonade.UI.General.pdb
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.UI.General.dll
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.UI.General.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\Debug\Lemonade.UI.General.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\Debug\Lemonade.UI.General.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\Lemonade.UI.General.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\Lemonade.UI.General.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\Debug\Lemonade.UI.General.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.UI.General\obj\Debug\Lemonade.UI.General.pdb

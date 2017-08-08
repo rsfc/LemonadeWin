@@ -1,0 +1,6 @@
+F:\SourceCode\Application\Lemonade\Release\Module\Lemonade.Samples.Console\Lemonade.Samples.Console.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Release\Lemonade.Samples.Console.FrmStrEncrypt.resources
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Release\GenerateResource.read.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Release\GenerateResource.write.1.tlog
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Lemonade\Lemonade.Console\obj\Release\Lemonade.Samples.Console.dll

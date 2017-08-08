@@ -1,0 +1,10 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\AutoStart\AutoStart.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\AutoStart\AutoStart.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\AutoStart.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\AutoStart.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\AutoStart\AutoStart.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\AutoStart\AutoStart.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\AutoStart.AutoStartWindow.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\AutoStart\obj\Debug\GenerateResource.write.1.tlog

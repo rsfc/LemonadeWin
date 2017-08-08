@@ -1,0 +1,10 @@
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\SystemException\ExceptionDefine.xml
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Actions\action.txt
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Menus\Menu.xml
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Skills\skill.txt
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Styles\Data\data.txt
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\ToolBar\ToolsBarData.xml
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Lemonade.Soda.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Lemonade.Soda.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade\obj\Debug\Lemonade.Soda.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade\obj\Debug\Lemonade.Soda.pdb

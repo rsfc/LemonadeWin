@@ -1,0 +1,236 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Lemonade.Frame;
+using Lemonade.Frame.Message; 
+//using Protein.Enzyme.d
+namespace Lemonade.StatusBox
+{
+    /// <summary>
+    /// 状态盒子
+    /// </summary>
+    public partial class FrmStatusBox : Form, IModule
+    {
+        #region 属性
+        delegate void ShowData(FrmStatusBox Frm, object Msg);
+
+        MsgProcessError perror =null;
+        MsgProcessNote penote = null; 
+        MsgProcessDebug pedebug = null;
+
+
+        /// <summary>
+        /// 状态盒子
+        /// </summary>
+        public FrmStatusBox()
+        {
+            InitializeComponent();
+        }
+        #endregion
+
+        #region 插件接口
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected virtual void FrmStatusBox_Load(object sender, EventArgs e)
+        {
+            this.perror = new MsgProcessError(this);
+            this.penote = new MsgProcessNote(this);
+            this.pedebug = new MsgProcessDebug(this); 
+            this.comboBox1.SelectedIndex = 0; 
+            
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Initialize()
+        { 
+            this.Show(); 
+             
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public IMainForm MainForm
+        {
+            get;
+            set;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ModuleAlias
+        {
+            get { return "消息"; ; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ModuleName
+        {
+            get;
+            set;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        public void RunCache()
+        {
+            
+        }
+        #endregion 
+
+        #region 实时消息
+
+        /// <summary>
+        /// 插入数据行
+        /// </summary>
+        /// <param name="Ico"></param>
+        /// <param name="Msg"></param>
+        public  virtual void InsertRow(MsgType Type, string Msg)
+        {
+            Bitmap BackgroundImg = null;
+            if (Type == MsgType.Debug)
+            { 
+                System.IO.Stream streamSmall = Lemon.GetObjType(this).Assembly.GetManifestResourceStream("Lemonade.StatusBox.img.pinion.ico");
+                BackgroundImg = new Bitmap(streamSmall); 
+            }
+            else if (Type == MsgType.Error)
+            { 
+                System.IO.Stream streamSmall = Lemon.GetObjType(this).Assembly.GetManifestResourceStream("Lemonade.StatusBox.img.error.ico");
+                BackgroundImg = new Bitmap(streamSmall); 
+            }
+            else if (Type == MsgType.Note)
+            {
+                System.IO.Stream streamSmall = Lemon.GetObjType(this).Assembly.GetManifestResourceStream("Lemonade.StatusBox.img.about.ico");
+                BackgroundImg = new Bitmap(streamSmall); 
+            }
+            this.dataGridView1.Rows.Insert(0, 1);
+            DataGridViewRow dgvr = this.dataGridView1.Rows[0];
+            DataGridViewCell cell0 = dgvr.Cells[0];
+            cell0.Value = BackgroundImg;
+            DataGridViewCell cell1 = dgvr.Cells[1];
+            cell1.Value = DateTime.Now.ToString("MM-dd hh:mm:ss").ToString();
+            DataGridViewCell cell2 = dgvr.Cells[2];
+            cell2.Value = Msg; 
+        }
+        
+        /// <summary>
+        /// 读取提示类型的历史消息
+        /// </summary>
+        protected virtual void ReadHistoryNote()
+        {
+            List<LemonMessage> objlist= Lemon.GetMsgHistory(MsgType.Note);
+            foreach (LemonMessage obj in objlist)
+            {
+                if (obj.MsgObject.GetType() == typeof(string))
+                {
+                    this.InsertRow(obj.Type, obj.MsgObject.ToString());
+                }
+            } 
+        }
+
+        /// <summary>
+        /// 读取调试类型的历史消息
+        /// </summary>
+        protected virtual void ReadHistoryDebug()
+        {
+            List<LemonMessage> objlist = Lemon.GetMsgHistory(MsgType.Debug);
+            foreach (LemonMessage obj in objlist)
+            {
+                if (obj.MsgObject.GetType() == typeof(string))
+                {
+                    this.InsertRow(obj.Type, obj.MsgObject.ToString());
+                }
+            }
+        }
+
+        /// <summary>
+        /// 读取异常类型的历史消息
+        /// </summary>
+        protected virtual void ReadHistoryError()
+        {
+            List<LemonMessage> objlist = Lemon.GetMsgHistory(MsgType.Error);
+            foreach (LemonMessage obj in objlist)
+            {
+                
+                if (obj.MsgObject.GetType() == typeof(Exception))
+                {
+                    this.InsertRow(obj.Type, ((Exception)obj.MsgObject).Message.ToString() + Environment.NewLine + ((Exception)obj.MsgObject).StackTrace.ToString());
+                }
+            }
+        }
+
+        /// <summary>
+        /// 清除所有的处理器
+        /// </summary>
+        protected virtual void ClearProcess()
+        {
+            Lemon.RemoveMsgProcess(perror);
+            Lemon.RemoveMsgProcess(penote); 
+            Lemon.RemoveMsgProcess(pedebug);
+        }
+        /// <summary>
+        /// 切换后读取历史消息然后重新绑定处理器
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected virtual  void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ClearProcess();
+            this.dataGridView1.Rows.Clear();
+            if (this.comboBox1.Text.Trim() == "全部")
+            {
+                Lemon.AddMsgProcess(perror);    
+                Lemon.AddMsgProcess(penote); 
+                Lemon.AddMsgProcess(pedebug);
+                ReadHistoryDebug();
+                this.ReadHistoryNote();
+                this.ReadHistoryError();
+            }
+            else if (this.comboBox1.Text.Trim() == "提示")
+            {
+                Lemon.AddMsgProcess(penote);
+                this.ReadHistoryNote();
+            }
+            else if (this.comboBox1.Text.Trim() == "调试")
+            {
+                Lemon.AddMsgProcess(pedebug);
+                this.ReadHistoryDebug();
+            }
+            else if (this.comboBox1.Text.Trim() == "异常")
+            {
+                Lemon.AddMsgProcess(perror);
+                this.ReadHistoryError();
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected virtual  void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+
+
+        }
+
+        #endregion
+
+        #region 日志
+
+
+        #endregion
+
+    }
+}

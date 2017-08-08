@@ -1,0 +1,8 @@
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.StatusBox\Lemonade.StatusBox.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.StatusBox\Lemonade.StatusBox.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.FrmStatusBox.resources
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.Properties.Resources.resources
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.dll
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.pdb
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.csprojResolveAssemblyReference.cache
+F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.StatusBox\obj\x86\Debug\Lemonade.StatusBox.csproj.GenerateResource.Cache

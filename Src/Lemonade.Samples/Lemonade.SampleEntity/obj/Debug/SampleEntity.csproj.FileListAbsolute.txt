@@ -1,0 +1,9 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SampleEntity\bin\Debug\SampleEntity.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SampleEntity\bin\Debug\SampleEntity.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SampleEntity\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SampleEntity\obj\Debug\SampleEntity.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\SampleEntity\obj\Debug\SampleEntity.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\SampleEntity.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\SampleEntity.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\SampleEntity.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\SampleEntity.pdb

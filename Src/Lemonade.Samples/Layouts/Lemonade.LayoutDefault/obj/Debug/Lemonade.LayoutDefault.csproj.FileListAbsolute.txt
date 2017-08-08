@@ -1,0 +1,5 @@
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.LayoutDefault.dll
+F:\SourceCode\Application\Lemonade\Debug\Styles\Lemonade.LayoutDefault.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutDefault\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutDefault\obj\Debug\Lemonade.LayoutDefault.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Samples\Layouts\Lemonade.LayoutDefault\obj\Debug\Lemonade.LayoutDefault.pdb

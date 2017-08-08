@@ -1,0 +1,10 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\Action.FrmActionText.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\Action.FrmAction1.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Action\Action.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Action\Action.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\Action.FrmAction2.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\Action.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Action\obj\Debug\Action.pdb

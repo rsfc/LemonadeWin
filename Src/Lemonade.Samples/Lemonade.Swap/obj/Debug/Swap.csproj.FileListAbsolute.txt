@@ -1,0 +1,14 @@
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\ResolveAssemblyReference.cache
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\Swap.FrmSample.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\GenerateResource.read.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\GenerateResource.write.1.tlog
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\Swap.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\Swap.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Swap.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Swap.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\Swap\Swap.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\编译输出位置\x86\Module\Swap\Swap.pdb
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\Swap.FrmComplex.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Swap\obj\Debug\Swap.FrmKeys.resources
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Swap\Swap.dll
+F:\SourceCode\Application\DotNet快速开发\CSF\Release\Samples\Bin\Module\Swap\Swap.pdb
