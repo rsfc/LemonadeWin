@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--实体类工厂配置-->
+<configuration> 
+  <AssemblyPath>F:\SourceCode\Application\CSF\编译输出位置\x86\CSF.DAL.Entity.Oracle</AssemblyPath>
+</configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CSF">
+</Property><Property Name="解决方案文件" Value="F:\SourceCode\Application\CSF\CSF.sln">
+</Property><Property Name="Date" Value="2012年6月21日">
+</Property><Property Name="Time" Value="0:50:56">
+</Property></Properties><Event ErrorLevel="0" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT.DataBase.csproj" Description="项目文件已成功备份为 F:\SourceCode\Application\CSF\Backup\SDPT.DataBase.csproj">
+</Event><Event ErrorLevel="0" Project="SDPT.DataBase" Source="CSF.DataBase\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\SourceCode\Application\CSF\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT_Users.cs" Description="文件已成功备份为 F:\SourceCode\Application\CSF\Backup\SDPT_Users.cs">
+</Event><Event ErrorLevel="1" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT.DataBase.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT.DataBase.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT.DataBase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SDPT.DataBase" Source="CSF.DataBase\SDPT.DataBase.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

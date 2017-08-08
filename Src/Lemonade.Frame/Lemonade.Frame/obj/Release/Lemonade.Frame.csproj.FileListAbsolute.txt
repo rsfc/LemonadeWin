@@ -1,0 +1,9 @@
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Lemonade.Frame.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.DAL.MDB.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.dll
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.xml
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.DAL.MDB.pdb
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\bin\Release\Protein.Enzyme.DAL.MDB.xml
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\obj\Release\ResolveAssemblyReference.cache
+F:\SourceCode\Application\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\obj\Release\Lemonade.Frame.dll

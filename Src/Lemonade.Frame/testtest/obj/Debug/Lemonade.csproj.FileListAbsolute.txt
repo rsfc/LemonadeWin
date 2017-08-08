@@ -1,0 +1,14 @@
+I:\Application\BuildingBlocks\Lemonade\Debug64\config\Setting.xml
+I:\Application\BuildingBlocks\Lemonade\Debug64\Module\模块文件夹.txt
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.csprojResolveAssemblyReference.cache
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.Daemon.FrmMain.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.Daemon.FrmWaiting.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.Daemon.Frm_Welcome.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.Daemon.MsgBuss.FrmMessagePanel.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.Daemon.Properties.Resources.resources
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade.csproj.GenerateResource.Cache
+I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade1.exe.config
+I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade1.exe
+I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade1.pdb
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade1.exe
+I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\testtest\obj\Debug\Lemonade1.pdb

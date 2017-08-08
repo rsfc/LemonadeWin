@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F17937C4-1952-4273-B60B-CE2CF2965A15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lemonade.Frame</RootNamespace>
+    <AssemblyName>Lemonade.Frame</AssemblyName>
+    <SccProjectName></SccProjectName>
+    <SccLocalPath></SccLocalPath>
+    <SccAuxPath></SccAuxPath>
+    <SccProvider></SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>..\..\..\Debug64\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>..\..\..\Debug64\Lemonade.Frame.XML</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\x86\Debug\Lemonade.Frame.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for SDPT.Frame.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <DocumentationFile>bin\x86\Release\Lemonade.Frame.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Protein.Enzyme, Version=1.0.5302.31914, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lic\x64\Protein.Enzyme.dll</HintPath>
+    </Reference>
+    <Reference Include="Protein.Enzyme.DAL.MDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lic\x64\Protein.Enzyme.DAL.MDB.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Design\CustomPermissionAttribute.cs" />
+    <Compile Include="Design\CustomPermission.cs" />
+    <Compile Include="GlobalFunction\Module.cs" />
+    <Compile Include="GlobalFunction\IO.cs" />
+    <Compile Include="GlobalFunction\Msg.cs" />
+    <Compile Include="GlobalFunction\Safety.cs" />
+    <Compile Include="GlobalFunction\Swap.cs" />
+    <Compile Include="GlobalFunction\Sys.cs" />
+    <Compile Include="GlobalFunction\UI.cs" />
+    <Compile Include="GlobalFunction\Action.cs" />
+    <Compile Include="GlobalFunction\Nazgul.cs" />
+    <Compile Include="Message\IMsgProcess.cs" />
+    <Compile Include="Message\LemonMessage.cs" />
+    <Compile Include="Message\MsgType.cs" />
+    <Compile Include="Message\ProcessFactory.cs" />
+    <Compile Include="Message\LemnadeProcessorTemplate.cs" />
+    <Compile Include="Module\InvokeResult.cs" />
+    <Compile Include="Module\ModuleInfo.cs" />
+    <Compile Include="Module\StateType.cs" />
+    <Compile Include="Running\IRoundOff.cs" />
+    <Compile Include="Running\ISystemExceptionDefine.cs" />
+    <Compile Include="Tools\IControlToolsComoBoxItem.cs" />
+    <Compile Include="Tools\IControlToolsComoBox.cs" />
+    <Compile Include="UI\HotKeyHandler.cs" />
+    <Compile Include="UI\ISkin.cs" />
+    <Compile Include="UI\IUIElement.cs" />
+    <Compile Include="Module\IModuleManager.cs" />
+    <Compile Include="Running\ActionType.cs" />
+    <Compile Include="Running\IAction.cs" />
+    <Compile Include="Running\IActionManager.cs" />
+    <Compile Include="Running\IActionContext.cs" />
+    <Compile Include="Solon\INazgul.cs" />
+    <Compile Include="Solon\INazgulSkill.cs" />
+    <Compile Include="Solon\ISummon.cs" />
+    <Compile Include="Running\LemonEnvironment.cs" />
+    <Compile Include="BLL\ConfigFactory.cs" />
+    <Compile Include="BLL\ConfigPart.cs" />
+    <Compile Include="BLL\IConfigFactory.cs" />
+    <Compile Include="BLL\Setting.cs" />
+    <Compile Include="GlobalFunction\Design.cs" />
+    <Compile Include="Design\CreateDALFactory.cs" />
+    <Compile Include="Design\IObserver.cs" />
+    <Compile Include="Design\ISubject.cs" />
+    <Compile Include="Design\SubjectHandle.cs" />
+    <Compile Include="Manage\Base\AuthType.cs" />
+    <Compile Include="Manage\Base\IAuthControl.cs" />
+    <Compile Include="Manage\Base\IAuthItem.cs" />
+    <Compile Include="Manage\Base\IManager.cs" />
+    <Compile Include="Manage\Base\IMenu.cs" />
+    <Compile Include="Manage\Base\IRole.cs" />
+    <Compile Include="Manage\Base\IUnits.cs" />
+    <Compile Include="Manage\Base\IUser.cs" />
+    <Compile Include="Manage\Base\MenuLevel.cs" />
+    <Compile Include="Manage\Base\MenuType.cs" />
+    <Compile Include="Manage\Manager.cs" />
+    <Compile Include="Menu\IMenuItem.cs" />
+    <Compile Include="Menu\IPtMenuItem.cs" />
+    <Compile Include="Module\ModuleInstantiationHandle.cs" />
+    <Compile Include="Module\ModuleSpanEventArgs.cs" />
+    <Compile Include="Running\BLLAdapter.cs" />
+    <Compile Include="Running\IRunningRules.cs" />
+    <Compile Include="Running\ILemonEnvironment.cs" />
+    <Compile Include="Running\IExtendApp.cs" />
+    <Compile Include="Tools\IToolsBarManager.cs" />
+    <Compile Include="Tools\IToolsItemCollection.cs" />
+    <Compile Include="Tools\IControlToolsButton.cs" />
+    <Compile Include="Tools\ToolsDelg.cs" />
+    <Compile Include="UI\ILoadDisplay.cs" />
+    <Compile Include="UI\ILoadSystem.cs" />
+    <Compile Include="UI\StylePar.cs" />
+    <Compile Include="UI\IWindowStyle.cs" />
+    <Compile Include="UI\ILayoutManager.cs" />
+    <Compile Include="UI\IWaiting.cs" />
+    <Compile Include="UI\IWaitionForm.cs" />
+    <Compile Include="Swapping\ISwapMatch.cs" />
+    <Compile Include="Swapping\ISwapPool.cs" />
+    <Compile Include="Tools\IToolsBar.cs" />
+    <Compile Include="Tools\IToolsItem.cs" />
+    <Compile Include="UI\ILayout.cs" />
+    <Compile Include="UI\IFrameWindow.cs" />
+    <Compile Include="UI\WindowStyle.cs" />
+    <Compile Include="Menu\EventBinderToModule.cs" />
+    <Compile Include="Menu\IEventBinder.cs" />
+    <Compile Include="IMainForm.cs" />
+    <Compile Include="Menu\IMenuItemFactory.cs" />
+    <Compile Include="IModule.cs" />
+    <Compile Include="Module\PtModuleHandler.cs" />
+    <Compile Include="Swapping\ISwap.cs" />
+    <Compile Include="Menu\MenuFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Menu\PtMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Win32\WindowH.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Design\EntityFactory.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

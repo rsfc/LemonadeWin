@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3E6A991-59D8-4B68-9DBC-ED7F485A1AF5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lemonade.Daemon</RootNamespace>
+    <AssemblyName>Lemonade</AssemblyName>
+    <SccProjectName></SccProjectName>
+    <SccLocalPath></SccLocalPath>
+    <SccAuxPath></SccAuxPath>
+    <SccProvider></SccProvider>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>..\..\..\Debug64\Lemonade.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>..\..\..\Debug64\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>..\..\..\Debug64\Lemonade.XML</DocumentationFile>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Release\Samples\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\Release\x86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for SDPT.Daemon.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualC">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Protein.Enzyme, Version=1.0.6062.21510, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lic\x64\Protein.Enzyme.dll</HintPath>
+    </Reference>
+    <Reference Include="Protein.Enzyme.DAL.MDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lic\x64\Protein.Enzyme.DAL.MDB.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWelcome.Designer.cs">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoundOff.cs" />
+    <Compile Include="MsgBuss\FrmMessagePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgBuss\FrmMessagePanel.Designer.cs">
+      <DependentUpon>FrmMessagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsgBuss\ProcessorCloseWaitWindow.cs" />
+    <Compile Include="MsgBuss\ProcessorShow.cs" />
+    <Compile Include="MsgBuss\ProcessorWelcome.cs" />
+    <Compile Include="Skins\Skin.cs" />
+    <Compile Include="Turbo\IStartUp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Turbo\ToolStripBoot.cs" />
+    <Compile Include="FrmWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWaiting.Designer.cs">
+      <DependentUpon>FrmWaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitingProgram.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWelcome.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgBuss\FrmMessagePanel.resx">
+      <DependentUpon>FrmMessagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FrmWaiting.resx">
+      <DependentUpon>FrmWaiting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Turbo\PreposeBoot.cs" />
+    <Compile Include="Turbo\StartUp.cs" />
+    <None Include="Skins\Addy Blue Razor-BLUE.skn" />
+    <None Include="Skins\Ancient-ANCIENT.skn" />
+    <None Include="Skins\Ancient-ANCIENTC.skn" />
+    <None Include="Skins\Aquanox-DEEP.skn" />
+    <None Include="Skins\Aquanox-SHALLOW2.skn" />
+    <None Include="Skins\BL-WINSEVEN.skn" />
+    <None Include="Skins\black-BLACK.skn" />
+    <None Include="Skins\BlackMesa-NORMAL.skn" />
+    <None Include="Skins\ClearLook-SYSTEM.skn" />
+    <None Include="Skins\ClearLooks-BLUE.skn" />
+    <None Include="Skins\ClearLooks-HUMAN.skn" />
+    <None Include="Skins\corona-CORONA12.skn" />
+    <None Include="Skins\Duo-PRO.skn" />
+    <None Include="Skins\Earth-EARTH.skn" />
+    <None Include="Skins\Element-CLASSIC.skn" />
+    <None Include="Skins\Element-ROYAL.skn" />
+    <None Include="Skins\Extensis-COPPERL.skn" />
+    <None Include="Skins\Extensis-EXTENSIS.skn" />
+    <None Include="Skins\GUIRelax-CUT.skn" />
+    <None Include="Skins\GUIRelax-SKYMAN.skn" />
+    <None Include="Skins\GUIRelax-SUBTLE.skn" />
+    <None Include="Skins\Jade Style-JADEC.skn" />
+    <None Include="Skins\Klarheit-ERGOCOM.skn" />
+    <None Include="Skins\LE4-BLACK.skn" />
+    <None Include="Skins\LE4-DEFAULT.skn" />
+    <None Include="Skins\luna-BLUE.skn" />
+    <None Include="Skins\luna-HOMESTEAD.skn" />
+    <None Include="Skins\luna-METALLIC.skn" />
+    <None Include="Skins\Mac OS X-BLUE.skn" />
+    <None Include="Skins\MediaC-MEDIA1024.skn" />
+    <None Include="Skins\MNS-STANDART.skn" />
+    <None Include="Skins\No File" />
+    <None Include="Skins\Office 2007-OFFICE07.skn" />
+    <None Include="Skins\Plex Style-M6SVRBAR.skn" />
+    <None Include="Skins\Plex Style-PLEXM6BAR.skn" />
+    <None Include="Skins\Pro Genius-BLUE.skn" />
+    <None Include="Skins\ProLCD-PROLCDAC.skn" />
+    <None Include="Skins\pwrmetalX-PWRMX.skn" />
+    <None Include="Skins\Royale Glass-GRAPHITET.skn" />
+    <None Include="Skins\Royale Glass-INDIGOT.skn" />
+    <None Include="Skins\Sand-SAND.skn" />
+    <None Include="Skins\Sea-SEA.skn" />
+    <None Include="Skins\SimpleXp-DARKBC.skn" />
+    <None Include="Skins\SimpleXp-LIGHTBC.skn" />
+    <None Include="Skins\SimpleXp-OLIVE.skn" />
+    <None Include="Skins\SimpleXp-REBLUE.skn" />
+    <None Include="Skins\Sky-SKY.skn" />
+    <None Include="Skins\Slate PDC-SLATEC.skn" />
+    <None Include="Skins\Slate PDC-SLATECBT.skn" />
+    <None Include="Skins\Slate XP-SLATE.skn" />
+    <None Include="Skins\Slate XP-SLATEBT.skn" />
+    <None Include="Skins\Souluna Remix Final-NORMAL.skn" />
+    <None Include="Skins\TangoXP-BLUE.skn" />
+    <None Include="Skins\TangoXP-OLIVE.skn" />
+    <None Include="Skins\TangoXP-SILVER.skn" />
+    <None Include="Skins\Tiger-TGR.skn" />
+    <None Include="Skins\Tiger-TGRB2.skn" />
+    <None Include="Skins\Tiger-TGRP.skn" />
+    <None Include="Skins\VistaVG Blue Refresh-BLUE32.skn" />
+    <None Include="Skins\VistaXP-VISTAXPB2.skn" />
+    <None Include="Skins\VistaXP-VISTAXPS2.skn" />
+    <None Include="Skins\Watercolor-BLUE.skn" />
+    <None Include="Skins\Watercolor-ERGONOMIC.skn" />
+    <None Include="Skins\Watercolor-OLIVE.skn" />
+    <None Include="Skins\Watercolor-SILVER.skn" />
+    <None Include="Skins\WE Ergo-BLUEC.skn" />
+    <None Include="Skins\wmpx-XMP2.skn" />
+    <None Include="Skins\wmpx-XMPX3.skn" />
+    <None Include="Skins\zune-DEFAULT.skn" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\Setting.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Module\模块文件夹.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Skins\more skin files.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lemonade.Frame\Lemonade.Frame.csproj">
+      <Project>{f17937c4-1952-4273-b60b-ce2cf2965a15}</Project>
+      <Name>Lemonade.Frame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

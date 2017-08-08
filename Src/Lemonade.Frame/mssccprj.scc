@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[SSMTools.sln]
+SCC_Aux_Path = "F:\SourceSafe\SSMTools"
+SCC_Project_Name = "$/SSMTools.root/SSMTools", PVAAAAAA
+
+[CSF.sln]
+SCC_Aux_Path = "F:\SourceSafe\CSF"
+SCC_Project_Name = "$/CSF.root/CSF", UDAAAAAA
+
+[Lemonade.sln]
+SCC_Aux_Path = "F:\SourceSafe\Lemonade"
+SCC_Project_Name = "$/Lemonade.root/Lemonade", CAAAAAAA

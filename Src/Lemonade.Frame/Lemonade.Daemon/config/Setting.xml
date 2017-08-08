@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--CSF系统环境配置 -->
+<configuration>
+  <LabelText>
+    <WelcomeTitle>Lemonade.Samples</WelcomeTitle>
+    <WelcomeHalfTitle>Lemon</WelcomeHalfTitle>
+  </LabelText>
+  <!--模块配置-->
+  <Module>
+    <!--系统启动后首先加载的模块--> 
+    <BeginModules>
+      <FullClassName>Lemonade.Samples.AutoStart.AutoStartFunction</FullClassName>
+    </BeginModules>
+    <ShowdownModules>
+      <FullClassName>Lemonade.Samples.AutoStart.AutoStartFunction</FullClassName>
+    </ShowdownModules>
+  </Module>
+  <!--系统启动前置处理程序,在主窗体启动前运行的程序 -->
+  <Prepose>
+    <!--<App AppName="CSFSampleUserLogin">
+      <FullClassName>BootModule.UserLogin</FullClassName>
+    </App>-->
+    <!--系统初始化-->
+    <!--<App AppName="SSMSystemIniti"> 
+      <FullClassName>SSMTools.Console.GISIniti</FullClassName> 
+    </App>
+    <App AppName="MappingIniti">
+      <FullClassName>SSMTools.Console.MappingIniti</FullClassName>
+    </App>-->
+  </Prepose> 
+</configuration>
