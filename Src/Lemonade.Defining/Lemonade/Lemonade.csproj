@@ -83,7 +83,6 @@
   <ItemGroup>
     <Compile Include="Actions\Action.cs" />
     <Compile Include="Actions\ActionManager.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Menus\FramDbInfo.cs" />
     <Compile Include="Menus\MenuItemsForDataBase.cs" />
     <Compile Include="Menus\MenuItemsForXml.cs" />
