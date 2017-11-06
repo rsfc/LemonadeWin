@@ -223,7 +223,7 @@ namespace Lemonade.Frame
         /// <returns></returns>
         public static IMainForm GetMainForm()
         {
-            return LemonEnvironment.GetInstance().CSFMain;
+            return LemonEnvironment.GetInstance().SysMainWindow;
         }
 
         /// <summary>

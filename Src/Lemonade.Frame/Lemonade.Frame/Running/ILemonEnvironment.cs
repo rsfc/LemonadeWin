@@ -15,7 +15,7 @@ namespace Lemonade.Frame.Running
         /// <summary>
         /// 框架主窗体
         /// </summary>
-        IMainForm CSFMain { get; set; }
+        IMainForm SysMainWindow { get; set; }
         /// <summary>
         /// 前置程序列表
         /// </summary>

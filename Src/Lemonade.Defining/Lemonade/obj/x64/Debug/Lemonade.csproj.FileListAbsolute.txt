@@ -19,3 +19,15 @@ I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Soda.XML
 I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Soda.dll
 I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Soda.pdb
 I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.csprojResolveAssemblyReference.cache
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\SystemException\ExceptionDefine.xml
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Actions\action.txt
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Menus\Menu.xml
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Skills\skill.txt
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Styles\Data\data.txt
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\ToolBar\ToolsBarData.xml
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.XML
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.pdb
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.csprojResolveAssemblyReference.cache
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.Soda.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.Soda.pdb

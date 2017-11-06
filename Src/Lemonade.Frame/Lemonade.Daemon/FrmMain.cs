@@ -47,7 +47,9 @@ namespace Lemonade.Daemon
         #endregion
 
         #region 窗体事件方法
-
+        /// <summary>
+        /// 
+        /// </summary>
         public FrmMain()
         {
             InitializeComponent();
@@ -128,7 +130,7 @@ namespace Lemonade.Daemon
             itemfac.Eventbinder = binder;
             itemfac.Mainform = this; 
             //itemfac.Regidit(this);
-            MenuFactory menuFac = new MenuFactory(this, itemfac);   
+            IMenuFactory menuFac = new MenuFactory(this, itemfac);   
             menuFac.SetMenuStrip(); 
             Thread newThrd = null;
             ThreadStart thrdStart = delegate { AddMenuControl(menuFac); };
@@ -141,9 +143,9 @@ namespace Lemonade.Daemon
         /// 菜单添加到窗体
         /// </summary>
         /// <param name="Fac"></param>
-        protected virtual void AddMenuControl(MenuFactory Fac)
+        protected virtual void AddMenuControl(IMenuFactory Fac)
         {
-            Debug.WriteLine("添加菜单 " + Thread.CurrentThread.ManagedThreadId.ToString());
+            //Debug.WriteLine("添加菜单 " + Thread.CurrentThread.ManagedThreadId.ToString());
             SetActive menu = new SetActive(Fac.AddMenuControl);
             while (!this.IsHandleCreated); 
             this.Invoke(menu); 
@@ -287,7 +289,7 @@ namespace Lemonade.Daemon
         /// </summary>
         public  void Finish()
         {
-            Debug.WriteLine("mainComplate " + Thread.CurrentThread.ManagedThreadId.ToString());
+            //Debug.WriteLine("mainComplate " + Thread.CurrentThread.ManagedThreadId.ToString());
             this.loadMsgerTable.Complete(); 
         }
        
@@ -310,7 +312,9 @@ namespace Lemonade.Daemon
         #endregion  
     
       
-     
+        /// <summary>
+        /// 
+        /// </summary>
         public ISwapPool SwpsPool
         {
             get;

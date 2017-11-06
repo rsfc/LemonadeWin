@@ -19,11 +19,12 @@ namespace Lemonade.Daemon
         static void Main()
         {
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false); 
-            StartUp startup = Lemon.GetInstance<StartUp>(typeof(StartUp));  
+            Application.SetCompatibleTextRenderingDefault(false);
+            StartUp startup = Lemon.GetInstance<StartUp>(typeof(StartUp));
+            //Class1 c1 = new Class1();
             Application.Run(startup);
- 
-           
+
+
         }
 
         

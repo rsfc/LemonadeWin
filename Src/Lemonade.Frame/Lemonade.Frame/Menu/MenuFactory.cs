@@ -14,7 +14,7 @@ namespace Lemonade.Frame.Menu
     /// <summary>
     /// 菜单工厂
     /// </summary>
-    public class MenuFactory
+    public class MenuFactory : IMenuFactory
     {
         /// <summary>
         /// 主窗体

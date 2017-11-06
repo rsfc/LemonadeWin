@@ -13,7 +13,13 @@ namespace Lemonade.Daemon.Turbo
         /// 
         /// </summary>
         ILoadDisplay DisplayFrm { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         ILoadSystem SystemFrm { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         ILemonEnvironment SysConfig { get;set;}
         /// <summary>
         /// 实例化并注册对象

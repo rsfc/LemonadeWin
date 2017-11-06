@@ -55,9 +55,9 @@
             this.label2.Font = new System.Drawing.Font("微软雅黑", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(101, 117);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 39);
+            this.label2.Size = new System.Drawing.Size(128, 39);
             this.label2.TabIndex = 1;
-            this.label2.Text = "csf";
+            this.label2.Text = "Heaven";
             // 
             // label3
             // 
@@ -94,6 +94,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;

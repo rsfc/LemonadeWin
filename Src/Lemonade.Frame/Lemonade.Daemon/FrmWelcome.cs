@@ -65,7 +65,6 @@ namespace Lemonade.Daemon
         protected virtual void ShowMainActive()
         {
             ((Form)this.starup.SystemFrm).Show();
- 
         }
         /// <summary>
         /// 关闭欢迎窗体动作
@@ -112,16 +111,23 @@ namespace Lemonade.Daemon
             this.label3.Text = Halftitle;
             xfile = null;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected virtual void Frm_Welcome_Shown(object sender, EventArgs e)
         {  
-         
+            
         }
 
         #endregion
 
         #region 业务方法
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="Content"></param>
         protected virtual void LabText(object Content)
         {
             if (!this.IsDisposed)
@@ -129,7 +135,7 @@ namespace Lemonade.Daemon
                 if (!this.label1.IsDisposed)
                 {
                     this.label1.Text = Content.ToString();
-                    Debug.WriteLine("线程" + Thread.CurrentThread.ManagedThreadId.ToString());
+                    //Debug.WriteLine("线程" + Thread.CurrentThread.ManagedThreadId.ToString());
                 }
             }
         }

@@ -7,3 +7,10 @@ F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade
 F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.dll
 F:\SourceCode\Application\BuildingBlocks\Lemonade\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.pdb
 F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Module\Lemonade.SystemException\ExceptionDefine.xml
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Module\Lemonade.SystemException\Lemonade.SystemException.XML
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Module\Lemonade.SystemException\Lemonade.SystemException.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Module\Lemonade.SystemException\Lemonade.SystemException.pdb
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.Properties.Resources.resources
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.csproj.GenerateResource.Cache
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade.SystemException\obj\x86\Debug\Lemonade.SystemException.pdb

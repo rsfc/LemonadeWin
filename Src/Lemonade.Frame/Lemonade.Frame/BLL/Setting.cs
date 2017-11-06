@@ -141,8 +141,8 @@ namespace Lemonade.Frame.BLL
             this.NotifyObsers("加载完成启动后运行模块");
             this.Envir.ShowdownModules = ReadShowdownModules();
             //
-            this.NotifyObsers("界面风格设计");
-            this.Envir.UIManager = LoadUI();
+            this.NotifyObsers("界面风格设计-------暂时取消，未更新到当前状态");
+            //this.Envir.UIManager = LoadUI();
             //
             this.NotifyObsers("加载动作控制器");
             this.Envir.ActionsManager = LoadActionManager();

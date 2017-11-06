@@ -20,7 +20,7 @@ namespace Lemonade.Frame.Running
         /// <summary>
         /// ¿ò¼ÜÖ÷´°Ìå
         /// </summary>
-        public IMainForm CSFMain { get; set; }
+        public IMainForm SysMainWindow { get; set; }
         /// <summary>
         /// 
         /// </summary>

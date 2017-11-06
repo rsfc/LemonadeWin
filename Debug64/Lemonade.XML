@@ -24,6 +24,11 @@
             
             </summary>
         </member>
+        <member name="M:Lemonade.Daemon.FrmMain.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_Load(System.Object,System.EventArgs)">
             <summary>
             
@@ -60,7 +65,7 @@
             加载菜单
             </summary>
         </member>
-        <member name="M:Lemonade.Daemon.FrmMain.AddMenuControl(Lemonade.Frame.Menu.MenuFactory)">
+        <member name="M:Lemonade.Daemon.FrmMain.AddMenuControl(Lemonade.Frame.Menu.IMenuFactory)">
             <summary>
             菜单添加到窗体
             </summary>
@@ -110,6 +115,11 @@
             </summary>
             <param name="Content"></param>
         </member>
+        <member name="P:Lemonade.Daemon.FrmMain.SwpsPool">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="F:Lemonade.Daemon.FrmMain.components">
             <summary>
             必需的设计器变量。
@@ -125,6 +135,125 @@
             <summary>
             设计器支持所需的方法 - 不要
             使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain2.waitingobj">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain2.loadMsgerTable">
+            <summary>
+            加载模块消息处理对象表
+            </summary>
+        </member>
+        <member name="E:Lemonade.Daemon.FrmMain2.Prepose">
+            <summary>
+            前置处理事件
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.SetActive">
+            <summary>
+            设置前置后置动作
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.LoadToolStrip">
+            <summary>
+            添加工具栏   
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.LoadMenu">
+            <summary>
+            加载菜单
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.AddMenuControl(Lemonade.Frame.Menu.IMenuFactory)">
+            <summary>
+            菜单添加到窗体
+            </summary>
+            <param name="Fac"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.BeginModule">
+            <summary>
+            开始的模块
+            这里需要重写
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.Thread1(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.ShowdownModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.SkinManager">
+            <summary>
+            皮肤管理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Lemonade.Daemon.FrmMain2.Envir">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.FrmMain2.WatingProgram">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.StartProcess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.Finish">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.Notify(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Content"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.Regidit(Lemonade.Frame.Design.IObserver)">
+            <summary>
+            
+            </summary>
+            <param name="Obser"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.UnRegidit(Lemonade.Frame.Design.IObserver)">
+            <summary>
+            
+            </summary>
+            <param name="Obser"></param>
+        </member>
+        <member name="F:Lemonade.Daemon.FrmMain2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Lemonade.Daemon.FrmMain2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
             </summary>
         </member>
         <member name="T:Lemonade.Daemon.Frm_Welcome">
@@ -175,6 +304,19 @@
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.Frm_Welcome_Shown(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Lemonade.Daemon.Frm_Welcome.LabText(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Content"></param>
         </member>
         <member name="F:Lemonade.Daemon.Frm_Welcome.components">
             <summary>
@@ -371,6 +513,16 @@
             
             </summary>
         </member>
+        <member name="P:Lemonade.Daemon.Turbo.IStartUp.SystemFrm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.IStartUp.SysConfig">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:Lemonade.Daemon.Turbo.IStartUp.Regedit">
             <summary>
             实例化并注册对象
@@ -431,6 +583,26 @@
         <member name="T:Lemonade.Daemon.Turbo.StartUp">
             <summary>
             系统启动入口,该类应该在Frame中，自动创建相关对象
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.Turbo.StartUp.p1">
+            <summary>
+            初始化是系统内置欢迎和异常消息总线处理器
+            </summary>
+        </member>
+        <member name="F:Lemonade.Daemon.Turbo.StartUp.p2">
+            <summary>
+            初始化是系统内置欢迎和异常消息总线处理器
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.StartUp.SystemFrm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Daemon.Turbo.StartUp.DisplayFrm">
+            <summary>
+            
             </summary>
         </member>
         <member name="P:Lemonade.Daemon.Turbo.StartUp.SysConfig">

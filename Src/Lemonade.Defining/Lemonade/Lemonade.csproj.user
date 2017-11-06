@@ -5,7 +5,7 @@
     <StartProgram>F:\SourceCode\Application\BuildingBlocks\Lemonade\Debug\Lemonade.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <StartProgram>I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.exe</StartProgram>
+    <StartProgram>I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.exe</StartProgram>
     <StartAction>Program</StartAction>
   </PropertyGroup>
 </Project>

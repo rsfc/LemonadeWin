@@ -26,3 +26,8 @@ I:\Application\BuildingBlocks\Lemonade\Debug64\Lemonade.Frame.pdb
 I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.dll
 I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.pdb
 I:\Application\BuildingBlocks\Lemonade\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.csprojResolveAssemblyReference.cache
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Frame.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Frame.pdb
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.dll
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.pdb
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Frame\Lemonade.Frame\obj\Debug\Lemonade.Frame.csprojResolveAssemblyReference.cache

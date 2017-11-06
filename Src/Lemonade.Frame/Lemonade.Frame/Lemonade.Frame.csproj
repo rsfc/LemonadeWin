@@ -120,7 +120,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1fffff.cs" />
     <Compile Include="Design\CustomPermissionAttribute.cs" />
     <Compile Include="Design\CustomPermission.cs" />
     <Compile Include="GlobalFunction\Module.cs" />
@@ -132,6 +131,7 @@
     <Compile Include="GlobalFunction\UI.cs" />
     <Compile Include="GlobalFunction\Action.cs" />
     <Compile Include="GlobalFunction\Nazgul.cs" />
+    <Compile Include="Menu\IMenuFactory.cs" />
     <Compile Include="Message\IMsgProcess.cs" />
     <Compile Include="Message\LemonMessage.cs" />
     <Compile Include="Message\MsgType.cs" />

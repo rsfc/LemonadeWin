@@ -22,14 +22,23 @@ namespace Lemonade.Daemon.Turbo
     /// </summary>
     public class StartUp : System.Windows.Forms.ApplicationContext, Lemonade.Daemon.Turbo.IStartUp
     {
-        private ILoadSystem systemFrm = null; 
+        private ILoadSystem systemFrm = null;
+        /// <summary>
+        /// 初始化是系统内置欢迎和异常消息总线处理器
+        /// </summary>
+        IProcessor p1, p2;
+        /// <summary>
+        /// 
+        /// </summary>
         public  ILoadSystem SystemFrm
         {
             get { return systemFrm; }
             set { systemFrm = value; }
         }
         private ILoadDisplay displayFrm = null;
-
+        /// <summary>
+        /// 
+        /// </summary>
         public  ILoadDisplay DisplayFrm
         {
             get { return displayFrm; }
@@ -60,7 +69,11 @@ namespace Lemonade.Daemon.Turbo
         /// </summary>
         public virtual void ShowDisplay()
         {
+            //((Form)this.displayFrm).Show();
+            //((Form)this.systemFrm).Show();
             ((Form)this.displayFrm).Show();
+            //Form1 frm1 = new Form1();
+            //frm1.Show();
         }
 
         /// <summary>
@@ -68,7 +81,7 @@ namespace Lemonade.Daemon.Turbo
         /// </summary>
         public virtual void Regedit()
         {  
-            this.systemFrm = Lemon.GetInstance<ILoadSystem>(typeof(FrmMain));
+            this.systemFrm = Lemon.GetInstance<ILoadSystem>(typeof(FrmMain2)); 
             this.displayFrm = Lemon.GetInstance<ILoadDisplay>(typeof(Frm_Welcome), this);
             this.systemFrm.Regidit(this.displayFrm);
             
@@ -79,16 +92,16 @@ namespace Lemonade.Daemon.Turbo
         public virtual void Processing()
         {
             AddMessageBus();
-            Debug.WriteLine("启动处理过程 " + Thread.CurrentThread.ManagedThreadId.ToString()); 
+            //Debug.WriteLine("启动处理过程 " + Thread.CurrentThread.ManagedThreadId.ToString()); 
             this.SysConfig = DeployConfig();
-            this.SysConfig.CSFMain = (IMainForm)this.systemFrm;
-            ((Lemonade.Frame.IMainForm)this.systemFrm).Envir = this.SysConfig;  
+            this.SysConfig.SysMainWindow = (IMainForm)this.systemFrm;
+            ((Lemonade.Frame.IMainForm)this.systemFrm).Envir = this.SysConfig;
             Prepose();
             this.systemFrm.StartProcess();
             this.systemFrm.Finish();
             this.RemoveMessageBus();
         }
-        IProcessor p1, p2;
+        
         /// <summary>
         /// 设置框架内置消息总线，目前暂时不分离出去
         /// </summary>
