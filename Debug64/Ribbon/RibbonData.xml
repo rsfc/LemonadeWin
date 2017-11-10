@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RibbonData>
+  <Pages>
+    <RPage>
+      <RibbonPageCode>10100</RibbonPageCode>
+      <RibbonPageName>测试功能区</RibbonPageName>
+      <Index>1</Index>
+      <Groups>
+        <string>30100</string>
+      </Groups>
+    </RPage>
+  </Pages>
+  <Buttons>
+    <RBarButton>
+      <ButtonCode>20100</ButtonCode>
+      <ButtonImage>img\Tools.png</ButtonImage>
+      <Index>1</Index>
+      <ButtonTitle>测试按钮1</ButtonTitle> 
+      <Assembly>\Lemonade.Samples.Ribbon.dll</Assembly>
+      <FullClassName>Lemonade.Samples.Ribbon.Btn</FullClassName>
+      <RibbonStyle>Large</RibbonStyle>
+    </RBarButton>
+    <RBarButton>
+      <ButtonCode>20101</ButtonCode>
+      <ButtonImage>img\Display.png</ButtonImage>
+      <Index>1</Index>
+      <ButtonTitle>测试按钮2</ButtonTitle>
+      <Assembly>\Module\Lemonade.Samples.ToolsBar\Lemonade.Samples.ToolsBar.dll</Assembly>
+      <FullClassName>Lemonade.Samples.ToolsBar.Btn1</FullClassName>
+      <RibbonStyle>Large</RibbonStyle>
+    </RBarButton>
+  </Buttons>
+  <Groups>
+    <RPageGroup>
+      <GroupCode>30100</GroupCode>
+      <Image>img\Tools.png</Image>
+      <Index>1</Index>
+      <Title>测试分组</Title> 
+      <Buttons>
+        <string>20100</string>
+        <string>20101</string>
+      </Buttons> 
+    </RPageGroup> 
+  </Groups>
+</RibbonData>

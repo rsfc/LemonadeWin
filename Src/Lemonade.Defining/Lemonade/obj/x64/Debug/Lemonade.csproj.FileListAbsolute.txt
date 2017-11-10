@@ -28,6 +28,6 @@ I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\ToolBar\ToolsBarData.
 I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.XML
 I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.dll
 I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Lemonade.Soda.pdb
-I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.csprojResolveAssemblyReference.cache
 I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.Soda.dll
 I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Src\Lemonade.Defining\Lemonade\obj\x64\Debug\Lemonade.Soda.pdb
+I:\Application\BuildingBlocks\Lemonade\LemonadeWin\Debug64\Ribbon\RibbonData.xml

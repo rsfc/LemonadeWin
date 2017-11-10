@@ -185,7 +185,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="T:Lemonade.Menus.MenuItemsForXml">
+        <member name="T:Lemonade.Menus.BackstageViewButtonForXml">
             <summary>
             从xml创建菜单,直接从xml创建菜单
             (该类直接从固定路径的xml读取菜单，绕过了框架IManager接口的各项操作。
@@ -193,54 +193,54 @@
             但是该类能够快速的实现无关数据库的菜单存取功能)
             </summary>
         </member>
-        <member name="F:Lemonade.Menus.MenuItemsForXml.xmlfilepath">
+        <member name="F:Lemonade.Menus.BackstageViewButtonForXml.xmlfilepath">
             <summary>
             
             </summary>
         </member>
-        <member name="F:Lemonade.Menus.MenuItemsForXml.items">
+        <member name="F:Lemonade.Menus.BackstageViewButtonForXml.items">
             <summary>
             菜单项
             </summary>
         </member>
-        <member name="P:Lemonade.Menus.MenuItemsForXml.Eventbinder">
+        <member name="P:Lemonade.Menus.BackstageViewButtonForXml.Eventbinder">
             <summary>
             事件绑定
             </summary>
         </member>
-        <member name="P:Lemonade.Menus.MenuItemsForXml.Mainform">
+        <member name="P:Lemonade.Menus.BackstageViewButtonForXml.Mainform">
             <summary>
             主窗体
             </summary>
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.#ctor">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.#ctor">
             <summary>
             
             </summary>
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.#ctor(Lemonade.Frame.Menu.IEventBinder,Lemonade.Frame.IMainForm)">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.#ctor(Lemonade.Frame.Menu.IEventBinder,Lemonade.Frame.IMainForm)">
             <summary>
             从xml创建菜单
             </summary>
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateMenuItems">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.CreateMenuItems">
             <summary>
             创建菜单项目集合
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateItem(System.Data.DataRowView)">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.CreateItem(System.Data.DataRowView)">
             <summary>
             创建菜单项
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateMenu">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.CreateMenu">
             <summary>  
             动态创建菜单  
             </summary>  
         </member>
-        <member name="M:Lemonade.Menus.MenuItemsForXml.CreateSubMenu(Lemonade.Frame.Menu.PtMenuItem,System.Data.DataTable)">
+        <member name="M:Lemonade.Menus.BackstageViewButtonForXml.CreateSubMenu(Lemonade.Frame.Menu.PtMenuItem,System.Data.DataTable)">
             <summary>  
             创建子菜单  
             </summary>  
@@ -413,6 +413,359 @@
         <member name="P:Lemonade.ModuleHandle.ModuleManager.ModuleInfos">
             <summary>
             所有的插件信息
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Data.RBarButton">
+            <summary>
+            功能区按钮数据对象
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.ButtonImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.ButtonTitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.Assembly">
+            <summary>
+            按钮事件程序集路径
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.FullClassName">
+            <summary>
+            按钮事件执行类全名
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.ButtonCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RBarButton.Index">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Data.RPageGroup">
+            <summary>
+            分页中的功能区分组
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPageGroup.GroupCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPageGroup.Buttons">
+            <summary>
+            按钮集合
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPageGroup.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPageGroup.Index">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPageGroup.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Data.RPage">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPage.RibbonPageCode">
+            <summary>
+            功能分页编码
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPage.RibbonPageName">
+            <summary>
+            功能分页名称
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Data.RPage.Index">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Items.FunGroup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.ContentCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.ContentIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.UIElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.Buttons">
+            <summary>
+            按钮集合
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.Index">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunGroup.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Items.IRibbonFunction">
+            <summary>
+            功能区内容接口
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.IRibbonFunction.ContentCode">
+            <summary>
+            内容编码
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.IRibbonFunction.ContentIndex">
+            <summary>
+            内容索引
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Items.FunButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.ContentCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.ContentIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.UIElement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.ButtonImage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.ButtonTitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.Assembly">
+            <summary>
+            按钮事件程序集路径
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunButton.FullClassName">
+            <summary>
+            按钮事件执行类全名
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Items.FunPage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.Items.FunPage.RibbonPageName">
+            <summary>
+            功能分页名称
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.Items.RibbonProcessButton">
+            <summary>
+            功能分区
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.Items.RibbonProcessButton.CreateItem(DevExpress.XtraBars.Ribbon.RibbonForm,Lemonade.Ribbon.Items.FunButton)">
+            <summary>
+             这里判断是否为ui元素 不是则不予创建
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="Tb"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Lemonade.Ribbon.RibbonManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonManager.RibbonPageNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.CreateRibbonPagesToForm(DevExpress.XtraBars.Ribbon.RibbonForm)">
+            <summary>
+            
+            </summary>
+            <param name="TargetForm"></param>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.CreateRibbonPage(DevExpress.XtraBars.Ribbon.RibbonForm)">
+            <summary>
+            创建功能区分页
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.CreateRibbonPageGroup(DevExpress.XtraBars.Ribbon.RibbonForm,Lemonade.Ribbon.Items.FunPage)">
+            <summary>
+            创建分组
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="pagedata"></param> 
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.CreateRibbonButton(DevExpress.XtraBars.Ribbon.RibbonForm,Lemonade.Ribbon.Items.FunGroup)">
+            <summary>
+            创建按钮
+            </summary>
+            <param name="TargetForm"></param>
+            <param name="group"></param> 
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.GetPages">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonManager.LoadRibbon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.RibbonData">
+            <summary>
+            功能区数据
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonData.Pages">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonData.Groups">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonData.Buttons">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.RibbonFactroy">
+            <summary>
+            工具栏工厂，用于处理创建工具栏、工具项、排序分组等逻辑，这里创建的业务上封装的对象
+            </summary>
+        </member>
+        <member name="T:Lemonade.Ribbon.RibbonFactroy.VarGroup`1">
+            <summary>
+            用于分组的匿名类型的实体便于编码
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonFactroy.VarGroup`1.key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonFactroy.VarGroup`1.lists">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonFactroy.BarSetting">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.#ctor(Lemonade.Ribbon.RibbonData)">
+            <summary>
+            
+            </summary>
+            <param name="Data"></param>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.DataConvterCtrl(Lemonade.Ribbon.RibbonData)">
+            <summary>
+            数据转换到控件
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.Build">
+            <summary>
+            构建功能区，按照分页构造功能区
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.SetToolsBarGroup">
+            <summary>
+            对按钮进行分栏分组，便于循环添加到对应的工具栏中
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.DismantledSettingToGroup``1(System.Collections.Generic.List{``0})">
+            <summary>
+            插接设置中的每个项列表到分组
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonFactroy.SetAddGroupItems``1(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Lemonade.Frame.Tools.IToolsItem}},System.Collections.Generic.List{Lemonade.Ribbon.RibbonFactroy.VarGroup{``0}})">
+            <summary>
+            设置添加分组项
+            </summary>
+            <param name="Dic"></param>
+            <param name="Group"></param>
+        </member>
+        <member name="T:Lemonade.Ribbon.RibbonSetting">
+            <summary>
+            功能区域设置
+            </summary>
+        </member>
+        <member name="M:Lemonade.Ribbon.RibbonSetting.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonSetting.Pages">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonSetting.Buttons">
+            <summary>
+            按钮
+            </summary>
+        </member>
+        <member name="P:Lemonade.Ribbon.RibbonSetting.Groups">
+            <summary>
+            分组
             </summary>
         </member>
         <member name="T:Lemonade.Skills.CheckSkill">

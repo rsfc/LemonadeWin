@@ -7,7 +7,9 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
-using System.IO; 
+using System.IO;
+using DevExpress.XtraBars.Ribbon;
+
 
 namespace Lemonade.Frame.Menu 
 {
@@ -25,9 +27,9 @@ namespace Lemonade.Frame.Menu
         /// </summary>
         protected IMenuItemFactory itemFac = null;
         /// <summary>
-        /// 系统菜单
+        /// ribbon分页项目
         /// </summary>
-        protected MenuStrip strip = null;
+        protected RibbonPage strip = null;
          
         /// <summary>
         /// 菜单工厂
@@ -48,7 +50,12 @@ namespace Lemonade.Frame.Menu
         {
             Dictionary<string, PtMenuItem> items = this.itemFac.CreateMenuItems(); 
             strip = CreateStrip(items);
-            strip.Dock = DockStyle.Top; 
+            //strip.ColorScheme = DevExpress.XtraBars.Ribbon.RibbonControlColorScheme.Yellow;
+            //strip.Name = "backstageViewControl1";
+            //strip.Ribbon = ((IMainForm)this.menuForm).getRibbon;
+            //strip.SelectedTab = null;
+            //strip.Text = "backstageViewControl1";
+            //strip.Dock = DockStyle.Top; 
            
         }
        
@@ -57,31 +64,52 @@ namespace Lemonade.Frame.Menu
         /// </summary>
         public void AddMenuControl()
         {
-            this.menuForm.MainMenuStrip = strip;
-            this.menuForm.Controls.Add(strip); 
+            //this.menuForm.Controls.Add( strip);
+            //this.menuForm.Controls.Add(strip); 
  
         }
+        ///// <summary>
+        ///// 创建菜单栏实例
+        ///// </summary>
+        ///// <param name="Items"></param>
+        ///// <returns></returns>
+        //protected virtual MenuStrip CreateStrip(Dictionary<string, PtMenuItem> Items)
+        //{
+        //    MenuStrip strip = new MenuStrip();
+        //    Lemonade.Frame.Running.IRunningRules rules = Lemonade.Frame.Running.LemonEnvironment.GetInstance().Rules;
+        //    foreach (PtMenuItem item in Items.Values)
+        //    {
+        //        if (rules.IsVisibleMenuItem(item))
+        //        {
+        //            strip.MdiWindowListItem = item;
+        //            strip.Items.Add(item);
+        //        }
+        //    } 
+        //    return strip;
+        //}
+
+
         /// <summary>
         /// 创建菜单栏实例
         /// </summary>
         /// <param name="Items"></param>
         /// <returns></returns>
-        protected virtual MenuStrip CreateStrip(Dictionary<string, PtMenuItem> Items)
+        protected virtual RibbonPage CreateStrip(Dictionary<string, PtMenuItem> Items)
         {
-            MenuStrip strip = new MenuStrip();
+            RibbonPage strip = new RibbonPage();
             Lemonade.Frame.Running.IRunningRules rules = Lemonade.Frame.Running.LemonEnvironment.GetInstance().Rules;
             foreach (PtMenuItem item in Items.Values)
             {
                 if (rules.IsVisibleMenuItem(item))
                 {
-                    strip.MdiWindowListItem = item;
-                    strip.Items.Add(item);
+                    //这里添加内容
+                    //strip.MdiWindowListItem = item;
+                    //strip.Items.Add(item);
                 }
-            } 
+            }
             return strip;
         }
 
 
- 
     }
 }

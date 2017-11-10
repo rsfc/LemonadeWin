@@ -4,139 +4,6 @@
         <name>Lemonade</name>
     </assembly>
     <members>
-        <member name="T:Lemonade.Daemon.FrmMain">
-            <summary>
-            主窗体
-            </summary>
-        </member>
-        <member name="F:Lemonade.Daemon.FrmMain.loadMsgerTable">
-            <summary>
-            加载模块消息处理对象表
-            </summary>
-        </member>
-        <member name="E:Lemonade.Daemon.FrmMain.Prepose">
-            <summary>
-            前置处理事件
-            </summary>
-        </member>
-        <member name="F:Lemonade.Daemon.FrmMain.waitingobj">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.#ctor">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_Load(System.Object,System.EventArgs)">
-            <summary>
-            
-            </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
-            <summary>
-            这里需要释放所有对象
-            </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Frm_Main_Shown(System.Object,System.EventArgs)">
-            <summary>
-            窗体打开后
-            </summary>
-            <param name="sender"></param>
-            <param name="e"></param>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.SetActive">
-            <summary>
-            设置前置后置动作
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.LoadToolStrip">
-            <summary>
-            添加工具栏   
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.LoadMenu">
-            <summary>
-            加载菜单
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.AddMenuControl(Lemonade.Frame.Menu.IMenuFactory)">
-            <summary>
-            菜单添加到窗体
-            </summary>
-            <param name="Fac"></param>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.BeginModule">
-            <summary>
-            开始的模块
-            这里需要重写
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.SkinManager">
-            <summary>
-            皮肤管理
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.AddToolStrip(System.Windows.Forms.ToolStrip)">
-            <summary>
-            
-            </summary>
-            <param name="NewToolStrip"></param>
-        </member>
-        <member name="P:Lemonade.Daemon.FrmMain.Envir">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:Lemonade.Daemon.FrmMain.WatingProgram">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.StartProcess">
-            <summary>
-            开始处理程序
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Finish">
-            <summary>
-            完成加载
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Notify(System.Object)">
-            <summary>
-            通知对象
-            </summary>
-            <param name="Content"></param>
-        </member>
-        <member name="P:Lemonade.Daemon.FrmMain.SwpsPool">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:Lemonade.Daemon.FrmMain.components">
-            <summary>
-            必需的设计器变量。
-            </summary>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.Dispose(System.Boolean)">
-            <summary>
-            清理所有正在使用的资源。
-            </summary>
-            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
-        </member>
-        <member name="M:Lemonade.Daemon.FrmMain.InitializeComponent">
-            <summary>
-            设计器支持所需的方法 - 不要
-            使用代码编辑器修改此方法的内容。
-            </summary>
-        </member>
         <member name="F:Lemonade.Daemon.FrmMain2.waitingobj">
             <summary>
             
@@ -162,7 +29,7 @@
             设置前置后置动作
             </summary>
         </member>
-        <member name="M:Lemonade.Daemon.FrmMain2.LoadToolStrip">
+        <member name="M:Lemonade.Daemon.FrmMain2.LoadRibbon">
             <summary>
             添加工具栏   
             </summary>
@@ -485,7 +352,7 @@
             
             </summary>
         </member>
-        <member name="M:Lemonade.Daemon.Skins.Skin.#ctor(Lemonade.Daemon.FrmMain)">
+        <member name="M:Lemonade.Daemon.Skins.Skin.#ctor(Lemonade.Frame.IMainForm)">
             <summary>
             
             </summary>

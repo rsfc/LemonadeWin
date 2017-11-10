@@ -20,7 +20,8 @@ namespace Lemonade.Frame.Menu
         /// </summary> 
         /// <returns></returns>
         Dictionary<string, PtMenuItem> CreateMenuItems();
-         
+        
+
         /// <summary>
         /// 主窗体
         /// </summary>

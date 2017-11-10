@@ -81,7 +81,10 @@ namespace Lemonade.Frame.Running
         /// 工具栏管理器
         /// </summary>
         Tools.IToolsBarManager ToolsBarManager { get; set; }
-
+        /// <summary>
+        /// 功能区管理器
+        /// </summary>
+        Lemonade.Frame.Ribbon.IRibbonManager RibbonManager { get; set; }
         /// <summary>
         ///  系统扫尾
         /// </summary>

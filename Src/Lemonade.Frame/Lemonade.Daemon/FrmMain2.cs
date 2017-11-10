@@ -15,6 +15,7 @@ using Lemonade.Frame;
 using Lemonade.Frame.Menu;
 using System.Threading;
 using System.Diagnostics;
+using DevExpress.XtraBars.Ribbon;
 
 namespace Lemonade.Daemon
 {
@@ -79,10 +80,11 @@ namespace Lemonade.Daemon
         /// 设置前置后置动作
         /// </summary>
         protected virtual void SetActive()
-        {
-            this.backstageViewControl1.
+        { 
             SetActive acMenu = new SetActive(LoadMenu);
             this.Prepose += acMenu;
+            SetActive acRibbon= new SetActive(LoadRibbon);
+            this.Prepose += acRibbon;
         }
 
         #endregion
@@ -93,9 +95,9 @@ namespace Lemonade.Daemon
         /// <summary>
         /// 添加工具栏   
         /// </summary>
-        protected virtual void LoadToolStrip()
+        protected virtual void LoadRibbon()
         {
-
+            LemonEnvironment.GetInstance().RibbonManager.CreateRibbonPagesToForm(this);
         }
 
         /// <summary>
@@ -213,7 +215,15 @@ namespace Lemonade.Daemon
                 return this.waitingobj;
             }
         }
-       
+
+        public RibbonControl getRibbon
+        {
+            get
+            {
+                return this.ribbon;
+            }
+        }
+
         #endregion
 
         #region ILoadSystem 成员

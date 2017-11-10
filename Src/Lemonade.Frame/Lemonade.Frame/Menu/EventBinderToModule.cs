@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Windows.Forms; 
+using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
 using Lemonade.Frame.Module;
 using Protein.Enzyme.Log;
 using Protein.Enzyme.Message;
+using DevExpress.XtraBars.Ribbon;
+
 namespace Lemonade.Frame.Menu
 {
     /// <summary>
@@ -36,7 +38,7 @@ namespace Lemonade.Frame.Menu
         {
             if (!Item.IsChild)
             {
-                Item.Click += new EventHandler(MenuItem_Click); 
+                Item.ItemClick += new BackstageViewItemEventHandler(MenuItem_Click); 
             }
         }
 

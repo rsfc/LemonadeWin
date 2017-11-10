@@ -218,7 +218,10 @@ namespace Lemonade.Frame.Running
         /// 
         /// </summary>
         public Tools.IToolsBarManager ToolsBarManager { get; set; }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        public Lemonade.Frame.Ribbon.IRibbonManager RibbonManager { get; set; }
         /// <summary>
         ///  ϵͳɨβ
         /// </summary>

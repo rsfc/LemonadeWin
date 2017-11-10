@@ -11,12 +11,12 @@ namespace Lemonade.Daemon.Skins
     /// </summary>
     public class Skin:ISkin
     {
-        private FrmMain mainf = null;
+        private Lemonade.Frame.IMainForm mainf = null;
         /// <summary>
         /// 
         /// </summary>
         /// <param name="FrmMain"></param>
-        public Skin(FrmMain FrmMain)
+        public Skin(Lemonade.Frame.IMainForm FrmMain)
         {
             this.mainf = FrmMain;
         }

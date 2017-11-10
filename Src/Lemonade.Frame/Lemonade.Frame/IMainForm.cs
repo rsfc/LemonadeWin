@@ -26,6 +26,7 @@ namespace Lemonade.Frame
         /// ∆§∑Ùπ‹¿Ì∆˜
         /// </summary> 
         ISkin SkinManager();
-       
+        DevExpress.XtraBars.Ribbon.RibbonControl getRibbon { get; }
+
     }
 }

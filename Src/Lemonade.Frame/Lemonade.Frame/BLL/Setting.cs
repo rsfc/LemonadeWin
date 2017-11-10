@@ -10,7 +10,7 @@ using Protein.Enzyme.Design;
 using Protein.Enzyme.Message;
 using System.Windows.Forms;
 using Lemonade.Frame.Solon;
-
+using Lemonade.Frame.Ribbon;
 
 namespace Lemonade.Frame.BLL
 {
@@ -148,7 +148,10 @@ namespace Lemonade.Frame.BLL
             this.Envir.ActionsManager = LoadActionManager();
             //
             this.NotifyObsers("加载工具栏控制器");
-            this.Envir.ToolsBarManager  = LoadToolsBarManager();  
+            this.Envir.ToolsBarManager  = LoadToolsBarManager();
+            //
+            this.NotifyObsers("加载功能区分页");
+            this.Envir.RibbonManager = LoadRibbonManager();
             //
             this.Envir.BllConfig.AddConfig(this.Envir);
         }
@@ -316,6 +319,19 @@ namespace Lemonade.Frame.BLL
             return result;
         }
 
+        protected virtual IRibbonManager LoadRibbonManager()
+        {
+            IRibbonManager result = null;
+            string s = Lemon.GetCSFRootDirectory();
+            result = Lemon.FindInstanceFromDirectory<IRibbonManager>(s);
+            if (result != null)
+            {
+                result.LoadRibbon();
+                //result.CreateRibbonPagesToForm
+            }
+            return result;
+        }
+
         ///// <summary>
         ///// 从框架根目录中加载工具栏管理器
         ///// </summary>
@@ -331,6 +347,6 @@ namespace Lemonade.Frame.BLL
         //    }
         //    return result;
         //}
-       
+
     }
 }

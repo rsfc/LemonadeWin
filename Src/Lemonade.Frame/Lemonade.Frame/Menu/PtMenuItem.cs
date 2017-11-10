@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
+using DevExpress.XtraBars.Ribbon;
+
+
 namespace Lemonade.Frame.Menu
 {
     /// <summary>
     /// 自定义菜单项
     /// </summary>
-    public class PtMenuItem : ToolStripMenuItem, Lemonade.Frame.Menu.IPtMenuItem
+    public class PtMenuItem : BackstageViewButtonItem, Lemonade.Frame.Menu.IPtMenuItem
     {
         /// <summary>
         /// 标题
